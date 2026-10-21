@@ -1,0 +1,23 @@
+Date_________________________
+Name_____________________________________________________________________________________________
+Member Number________________________________________
+Address___________________________________________________________________________________________
+City ____________________________________________________________State ___________ ZIP_______________
+Email___________________________________________________
+Phone___________________________________________________
+
+**Please enroll me in the following service:**
+
+o Family ID Restoration: $____________ per month
+I authorize Dupaco Community Credit Union to deduct the Family ID Restoration monthly service
+charge from:
+o  Checking Account Number__________________________
+
+**Please discontinue my participation in the following service:**
+
+o Family ID Restoration
+__________________________________________________________________________________________________
+Signature
+Date
+
+# Enrollment/Unenrollment Form

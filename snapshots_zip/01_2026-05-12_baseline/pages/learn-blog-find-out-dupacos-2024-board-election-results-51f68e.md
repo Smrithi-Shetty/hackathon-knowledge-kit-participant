@@ -1,0 +1,100 @@
+1 min read
+
+
+
+[Emily Kress](https://www.dupaco.com/learn/blog/author/emily-kress)
+March 20, 2024
+
+
+# Find out Dupaco’s 2024 board election results
+
+[Community](https://www.dupaco.com/learn/blog/tag/community)
+
+![Find out Dupaco’s 2024 board election results](https://www.dupaco.com/hubfs/wordpress-migration/Board-members-annual-meeting-2024-web-1.jpg)
+
+DUBUQUE, Iowa—During Dupaco Community Credit Union’s 75th Annual Membership meeting held Sunday, Feb. 25, 2024, Ellen Goodmann Miller, Jeff Gonner and Randy Skemp were re-elected to serve three-year terms on the credit union’s volunteer board of directors.
+
+## **About the directors**
+
+Goodmann Miller has served on the Dupaco board since 2021. She is the community resource development specialist with Gronen in Dubuque. She also provides resource development, grant writing, strategic planning and political consulting services through Hawks Goodmann & Associates.
+
+Gonner has been on the Dupaco board since 2009. He is the retired chief financial officer at Medical Associates Clinic and Health Plans in Dubuque.
+
+Skemp joined the Dupaco board in 2003. He recently retired as the vice president of sales at Active Network, Inc., based in Dallas, Texas.
+
+## **Officer appointments**
+
+Following the membership meeting, the board of directors held its re-organizational meeting, at which these officer appointments were made:
+
+- Ellen Goodmann Miller, chair of the board
+- Steve Chapman, vice chair
+- Denise Dolan, secretary
+- Andy Schroeder, treasurer
+- Joe Hearn, president/CEO
+
+## **Committee appointments**
+
+These directors were appointed to committee chair positions:
+
+- Denise Dolan, chair, Personnel committee
+- Steve Chapman, chair, Investment/Asset Liability Management committee
+- Randy Skemp, chair, Business Lending committee
+- Andy Schroeder, chair, CUSO Board of Managers and Salary Savings Plan Oversite committee
+- Jeff Gonner, chair, Audit committee
+- Bob Wethal, chair, Nomination committee
+- Renee Poppe, chair, Credit/Delinquent Loan committee
+- Ron Meyers, chair, Marketing committee
+
+[Meet our board members >](https://www.dupaco.com/about/dupaco-leadership/#board-directors)
+
+As a member-owned, democratically controlled [cooperative](https://www.dupaco.com/about), all Dupaco members have an equal say in their credit union. Each member has one vote, no matter how much money she or he has in deposits or loans at Dupaco.
+
+## Recent News
+
+[![Meet your #DupacoCrew: Finding joy through helping people](https://www.dupaco.com/hubfs/wordpress-migration/vanessa-walters-dupacocrew-web-676x338-1-1.jpg)](https://www.dupaco.com/learn/blog/meet-your-dupacocrew-finding-joy-through-helping-people)
+
+November 06, 2023
+
+#### [Meet your \#DupacoCrew: Finding joy through helping people](https://www.dupaco.com/learn/blog/meet-your-dupacocrew-finding-joy-through-helping-people)
+
+By Vanessa Walters \| Member service representative GALENA, Ill.—It’s interesting how life takes you in different directions.
+
+[Read More](https://www.dupaco.com/learn/blog/meet-your-dupacocrew-finding-joy-through-helping-people)
+
+[![Dupaco member helps fellow member with anonymous donation](https://www.dupaco.com/hubfs/wordpress-migration/tax-refund-email-graphic-scaled-Jan-24-2026-08-09-11-2855-PM.jpg)](https://www.dupaco.com/learn/blog/dupaco-member-helps-fellow-member-with-anonymous-donation)
+
+August 21, 2023
+
+#### [Dupaco member helps fellow member with anonymous donation](https://www.dupaco.com/learn/blog/dupaco-member-helps-fellow-member-with-anonymous-donation)
+
+Sometimes, it’s nice to be reminded that we’re member-owners of something special. Earlier this year, a Dupaco member felt called to help another...
+
+[Read More](https://www.dupaco.com/learn/blog/dupaco-member-helps-fellow-member-with-anonymous-donation)
+
+[![Meet your #DupacoCrew: Serving others with love and passion](https://www.dupaco.com/hubfs/wordpress-migration/DUP_4387-web-scaled-1.jpg)](https://www.dupaco.com/learn/blog/meet-your-dupacocrew-serving-others-with-love-and-passion)
+
+February 20, 2024
+
+#### [Meet your \#DupacoCrew: Serving others with love and passion](https://www.dupaco.com/learn/blog/meet-your-dupacocrew-serving-others-with-love-and-passion)
+
+By Camilo Ruiz \| Information security manager DUBUQUE, Iowa—I have many memories from growing up in Bogotá, Colombia—with my neighborhood friends...
+
+[Read More](https://www.dupaco.com/learn/blog/meet-your-dupacocrew-serving-others-with-love-and-passion)
+
+✕
+
+**Heads up! This link leads to a different website.**
+
+We only do this when it's helpful for you. But we must inform you that Dupaco isn't responsible for the site's content, products, services, policies or sponsors. Also, Dupaco's Privacy Policy does not apply to third-party sites. So, if you have concerns, please look at its privacy disclosures.
+
+[Continue](https://www.dupaco.com/learn/blog/find-out-dupacos-2024-board-election-results#) Cancel
+
+✕
+
+**Heads up! This link leads to a different website.**
+
+We only do this when it's helpful for you. But we must inform you that Dupaco isn't responsible for the site's content, products, services, policies or sponsors. Also, Dupaco's Privacy Policy does not apply to third-party sites. So, if you have concerns, please look at its privacy disclosures.
+
+[Continue](https://www.dupaco.com/learn/blog/find-out-dupacos-2024-board-election-results#) Cancel
+
+Twitter Widget Iframe

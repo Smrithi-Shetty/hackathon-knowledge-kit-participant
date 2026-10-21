@@ -1,0 +1,336 @@
+##### **Shine Online and Mobile Banking**
+
+# Do More With Your Money—Anytime, Anywhere
+
+Pay bills, save for goals, track your credit and spot sneaky subscriptions—all in Dupaco’s free Shine Online and Mobile Banking. With personalized insights from Bright Track Financial Wellness Hub built right in, it’s like having a money coach in your pocket—getting smarter every time you use your Dupaco accounts!
+
+[Sign up](https://shine.dupaco.com/sign-up)
+
+[Log in](https://shine.dupaco.com/)
+
+_Pro tip: Using a Dupaco [checking account](https://www.dupaco.com/personal/checking-accounts) unlocks the most personalized insights!_
+
+![BrightTrack_ShineHomescreen_LaptopMobile](https://www.dupaco.com/hubfs/BrightTrack_ShineHomescreen_LaptopMobile.svg)
+
+* * *
+
+[**Money   Snapshot**](https://www.dupaco.com/shine#money-snapshot)
+
+[**Pay Your   Bills**](https://www.dupaco.com/shine#pay-bills)
+
+[**Set Your   Goals**](https://www.dupaco.com/shine#set-goals)
+
+[**Access   Money**](https://www.dupaco.com/shine#access-money)
+
+##### Money snapshot
+
+## Easily Track Your Money, Accounts and Credit—All in One Place
+
+##### **Check balances and statements**
+
+See your account balances, view recent activity and download your statements anytime.
+
+##### **Track subscriptions easily**
+
+Spot forgotten subscriptions (like old free trials) linked to your Dupaco accounts and cancel them in a few easy taps.
+
+##### Understand your spending
+
+See your trends, get alerted when things change and get tips to help you spend even smarter with your Dupaco accounts.
+
+##### **Categorize your transactions**
+
+We’ll organize your spending—dining, groceries and more—so you see where your money goes.
+
+##### **Monitor your credit**
+
+Track your credit and get personalized tips to help build and protect your score over time.
+
+##### **See direct deposits**
+
+Easily check past and upcoming direct deposits so you know when money’s coming in.
+
+> “Such a convenient way to get the full picture of my spending habits. AWESOME!!!”
+
+Dupaco member and Shine user
+
+- 1
+
+### Want even smarter insights?
+
+[Sign up for Shine](https://shine.dupaco.com/sign-up)
+
+[Open a checking account](https://join.dupaco.com/?utm_source=Dupaco&utm_medium=referral&utm_campaign=BrightTrack&utm_content=Shine)
+
+##### **Pay bills**
+
+### Stay Ahead of What’s Due and When—So You’re Not Caught Off Guard
+
+- View upcoming bills: See upcoming bills, payments and paydays all in one easy calendar view.
+
+- Pay your way: Snap a photo of your bill, schedule it ahead or set up auto-pay straight from your [checking account](https://join.dupaco.com/?utm_source=Dupaco&utm_medium=referral&utm_campaign=BrightTrack&utm_content=Shine).
+
+- Get reminders: Get a heads-up when manual payments are coming due soon.
+
+- Spot changes: Get alerted when recurring bills are higher or lower than usual.
+
+
+[Sign up for Shine](https://shine.dupaco.com/sign-up)
+
+[Open my checking account](https://join.dupaco.com/?utm_source=Dupaco&utm_medium=referral&utm_campaign=BrightTrack&utm_content=Shine)
+
+![PNG_BrightTrack_ShineHomescreen_Laptop](https://www.dupaco.com/hs-fs/hubfs/PNG_BrightTrack_ShineHomescreen_Laptop.png?width=1952&height=1277&name=PNG_BrightTrack_ShineHomescreen_Laptop.png)
+
+> “I love the reminder that bills are due and I can see how much I paid this year vs. last year.”
+
+Dupaco member and Shine user
+
+- 1
+
+##### Set goals
+
+## Big or Small, Your Savings and Spending Goals Feel More Possible When You Can See Your Progress
+
+![100x100-03](https://www.dupaco.com/hs-fs/hubfs/100x100-03.png?width=101&height=100&name=100x100-03.png)
+
+#### Start a savings goal
+
+Set your target amount and date for your Savings Goal, and we’ll help you plan how to get there.
+
+![ChangeUp-Savings](https://www.dupaco.com/hs-fs/hubfs/ChangeUp-Savings.png?width=100&height=78&name=ChangeUp-Savings.png)
+
+#### Round up purchases
+
+Use ChangeUp Savings to round your [debit card](https://www.dupaco.com/personal/checking-accounts) purchases up to the next dollar and save your “change.”
+
+![Payments](https://www.dupaco.com/hs-fs/hubfs/Payments.png?width=100&height=100&name=Payments.png)
+
+#### Create custom accounts
+
+Open [You-Name-It Savings accounts](https://join.dupaco.com/?utm_source=Dupaco&utm_medium=referral&utm_campaign=BrightTrack&utm_content=Shine) to organize what you’re saving for—travel, holidays, you name it.
+
+![Certificates_Webpage_Renew_100x100](https://www.dupaco.com/hs-fs/hubfs/Certificates_Webpage_Renew_100x100.png?width=100&height=100&name=Certificates_Webpage_Renew_100x100.png)
+
+#### Automate your transfers
+
+Set up recurring transfers within Shine to grow your savings in the background, without extra effort.
+
+![evaluate-yourself-300x300-icon](https://www.dupaco.com/hs-fs/hubfs/evaluate-yourself-300x300-icon.jpg?width=100&height=100&name=evaluate-yourself-300x300-icon.jpg)
+
+#### Spot ways to save
+
+We’ll keep an eye on your Dupaco accounts to help you find opportunities to save more.
+
+![review-finances-300x300-icon](https://www.dupaco.com/hs-fs/hubfs/review-finances-300x300-icon.jpg?width=100&height=100&name=review-finances-300x300-icon.jpg)
+
+#### Track your budget
+
+Set monthly spending limits for your [Dupaco checking](https://join.dupaco.com/?utm_source=Dupaco&utm_medium=referral&utm_campaign=BrightTrack&utm_content=Shine), track your progress and celebrate your wins.
+
+> “I really want to save for a down payment and this gives me hope. Thank you for noticing.”
+
+Dupaco member and Shine user
+
+- 1
+
+##### Access money
+
+## Easily move your money, open accounts and personalize your digital banking
+
+- [Move money easily](https://www.dupaco.com/shine#)
+
+
+
+
+Transfer between Shine accounts, pay others and add funds from your other bank accounts.
+
+- [Deposit checks](https://www.dupaco.com/shine#)
+
+
+
+
+Skip a trip to the branch—just snap photos of your checks with mobile deposit.
+
+- [Open new accounts](https://www.dupaco.com/shine#)
+
+
+
+
+
+
+
+
+Add[checking](https://join.dupaco.com/?utm_source=Dupaco&utm_medium=referral&utm_campaign=BrightTrack&utm_content=Shine)or[savings](https://join.dupaco.com/?utm_source=Dupaco&utm_medium=referral&utm_campaign=BrightTrack&utm_content=Shine)accounts, apply for loans and more—anytime, right in Shine.
+
+- [Customize your experience](https://www.dupaco.com/shine#)
+
+
+
+
+Reorder your home screen to keep what you use most front and center. [See how](https://www.youtube.com/watch?v=oqek2uCbY9U&t=75s).
+
+- [Quick actions and tools](https://www.dupaco.com/shine#)
+
+
+
+
+Search features and actions, order checks or cancel one before it clears—all in Shine.
+
+- [Find and connect](https://www.dupaco.com/shine#)
+
+
+
+
+Locate branches, shared branches and ATMs—and use text banking to get quick account info.
+
+
+##### Advanced security
+
+## Built-in Security Features Work Behind the Scenes to Protect Your Money
+
+##### **Securely log on**
+
+Use Face ID or fingerprint login for quick, secure access to your Dupaco accounts in Shine.
+
+##### **Manage your password**
+
+Update your password, handle trusted devices and view your login history right in Shine.
+
+##### Get instant alerts
+
+Set up customized alerts with eNotifiers to track your account activity in real time.
+
+##### Track refunds easily
+
+We’ll let you know when a merchant refund hits your account—so you’re not left guessing.
+
+##### **Turn cards off and on**
+
+Lost your Dupaco card? Easily turn it off—or back on—to prevent others from using it.
+
+##### **Submit travel plans**
+
+Let us know you’re traveling to make sure your Dupaco card(s) work while you’re away.
+
+> “I appreciate when something that is out of the ordinary is checked on!”
+
+Dupaco member and Shine user
+
+- 1
+
+![Shine-Online-Desktop-Business](https://www.dupaco.com/hs-fs/hubfs/Shine-Online-Desktop-Business.png?width=980&height=824&name=Shine-Online-Desktop-Business.png)
+
+##### **Business Banking**
+
+### Starting—and running—a business is a labor of love. Our online banking solutions can make things easier.
+
+- Delegate online account management duties with Shared Access. You can easily add, edit or remove sub-users from your Shine business account(s). [Get started](https://shine.dupaco.com/).
+
+- Send money anywhere in the world with wire transfers.
+
+- Protect yourself against fraud with [Positive Pay](https://www.dupaco.com/business/cash-management).
+
+
+[Sign up for Shine](https://shine.dupaco.com/sign-up)
+
+[Log in](https://shine.dupaco.com/)
+
+##### FAQs
+
+## Have questions? We have answers.
+
+Our team of experts has answers to some of your most commonly asked questions. But if you’d rather talk to a human, you can give us a call at [800-373-7600](tel:8003737600). We can’t wait to talk!
+
+- [How do I download Shine Mobile Banking?](https://www.dupaco.com/shine#)
+
+
+
+
+You can download Shine Mobile Banking from your phone’s app store—just search for “Dupaco Mobile.” Once you’ve downloaded the app, log in with your Shine username and password, or enroll right from your phone.
+
+- [What insights will I see in Bright Track Financial Wellness Hub?](https://www.dupaco.com/shine#)
+
+
+
+
+You’ll see personalized insights like when your spending increases, your balance dips or you have opportunities to save more. It’s built right into your Shine account, so no extra setup is required. Just log in to Shine and tap “See more” on your insights carousel from your home screen.
+
+
+
+The best part? The more you use a[Dupaco checking account](https://join.dupaco.com/?utm_source=Dupaco&utm_medium=referral&utm_campaign=BrightTrack&utm_content=Shine)and cards, the smarter your insights become. You’ll start seeing tips that reflect your real spending habits to help you reach your goals faster.
+
+- [How do I set up alerts or notifications within Shine?](https://www.dupaco.com/shine#)
+
+
+
+
+You can create custom alerts—like low balance, deposit or sign-in notifications—in your eNotifier Alert Settings in Shine. [Log in here](https://www.dupaco.com/mobile/eNotifiers) to go straight to your Alert Settings and personalize yours!
+
+- [How do I deposit a check with the Shine app?](https://www.dupaco.com/shine#)
+
+
+
+
+Mobile deposit lets you skip the branch and deposit checks right from your mobile device. Just endorse your check, log in to the Shine app, tap “Mobile Deposit” from your Quick Actions and follow the prompts.
+
+- [How do I pay bills using Shine?](https://www.dupaco.com/shine#)
+
+
+
+
+You can pay bills one time or set them to repeat automatically—all from any device while logged in to Shine. Snap a photo of your bill, or add your payee manually. Either way, we’ll guide you through it step by step.[Log in to Shine here](https://www.dupaco.com/mobile/ssoWebview?type=PAY_BILL&title=Pay%20Bill)to go straight to Bill Pay.
+
+
+
+Hint: Paying bills from your[Dupaco checking account](https://join.dupaco.com/?utm_source=Dupaco&utm_medium=referral&utm_campaign=BrightTrack&utm_content=Shine)helps your insights track real spending patterns, so you can see a clearer picture of your cash flow and get smarter alerts.
+
+- [Can I open new accounts or apply for loans in Shine?](https://www.dupaco.com/shine#)
+
+
+
+
+Yes! You can add checking or savings accounts, apply for loans and more—anytime, right in Shine. The more you use your Dupaco accounts, the more your insights can help you see spending trends, plan savings goals and make even smarter money decisions.
+
+- [Can I use mobile payments like Apple Pay or Google Pay?](https://www.dupaco.com/shine#)
+
+
+
+
+Definitely! You can add your Dupaco debit or credit cards to Apple Pay, Google Pay or Samsung Pay to pay from your phone. Learn [how to set up mobile payments](https://www.dupaco.com/connect/online-and-mobile-banking/mobile-payments/).
+
+
+
+Don’t forget: Mobile payments from your Dupaco cards are tracked in Shine and powering your insights to offer even smarter, personalized tips!
+
+
+#### For wherever life takes you
+
+Download the Shine Mobile Banking app.
+
+[![appleappstor](https://www.dupaco.com/hs-fs/hubfs/appleappstor.png?width=150&height=50&name=appleappstor.png)](https://apps.apple.com/us/app/dupaco-mobile/id477520555)
+
+[![App_Badges-01](https://www.dupaco.com/hs-fs/hubfs/App_Badges-01.png?width=150&height=44&name=App_Badges-01.png)](https://play.google.com/store/apps/details?id=Fi_Mobile.Dupaco)
+
+#### Don't have a Shine account?
+
+No worries. We can help with that.
+
+[Sign up](https://shine.dupaco.com/)
+
+![buildingOffice](https://www.dupaco.com/hubfs/icons/buildingOffice.svg)
+
+✕
+
+**Heads up! This link leads to a different website.**
+
+We only do this when it's helpful for you. But we must inform you that Dupaco isn't responsible for the site's content, products, services, policies or sponsors. Also, Dupaco's Privacy Policy does not apply to third-party sites. So, if you have concerns, please look at its privacy disclosures.
+
+[Continue](https://www.dupaco.com/shine#) Cancel
+
+✕
+
+**Heads up! This link leads to a different website.**
+
+We only do this when it's helpful for you. But we must inform you that Dupaco isn't responsible for the site's content, products, services, policies or sponsors. Also, Dupaco's Privacy Policy does not apply to third-party sites. So, if you have concerns, please look at its privacy disclosures.
+
+[Continue](https://www.dupaco.com/shine#) Cancel

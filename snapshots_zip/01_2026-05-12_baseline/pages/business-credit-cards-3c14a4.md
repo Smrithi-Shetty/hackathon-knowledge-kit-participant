@@ -1,0 +1,242 @@
+# Flexible Business Credit Cards
+
+Whether you’re running a small operation or managing a growing team, a Dupaco Business Visa—Platinum or Rewards—gives you purchasing power to keep things moving. This card helps you manage expenses, protect your account and access added benefits for you and your employees—all backed by local service.
+
+[Request my application](https://shine.dupaco.com/User/AccessBusinessLoan/Start?loanpurpose=visa)
+
+![Dupaco-Waukee-Branch-Exterior-4-202504](https://www.dupaco.com/hs-fs/hubfs/Dupaco-Waukee-Branch-Exterior-4-202504.jpeg?width=2000&name=Dupaco-Waukee-Branch-Exterior-4-202504.jpeg)
+
+* * *
+
+![CreditCard](https://www.dupaco.com/hubfs/icons/CreditCard.svg)
+
+### Business Platinum Visa
+
+A reliable option for everyday business purchases.
+
+- Minimum credit limit of $500.
+- Spending flexibility and a lower rate (in case you carry a balance).
+- Variable Annual Percentage Rate (APR) of 15.50%1.
+- Backed by friendly, local Dupaco support when you need it.
+
+![CreditCard](https://www.dupaco.com/hubfs/icons/CreditCard.svg)
+
+### Business Rewards Visa
+
+Get cash back or other rewards on everyday business purchases.
+
+- Minimum credit limit of $1,500.
+- Earn 1 point for every $1 spent to redeem for cash back, merchandise and more.
+- Variable Annual Percentage Rate (APR) of 20.5%1.
+- Always supported by the friendly Dupaco team.
+
+##### RATES
+
+## Business Credit Card Rates
+
+- [Business Credit Cards](https://www.dupaco.com/business/credit-cards#)
+
+
+
+Business Platinum Visa
+
+
+
+
+
+
+
+
+_Minimum credit limit: $500_
+
+Spending flexibility and a lower rate (in case you carry a balance).
+
+
+
+
+| Business Platinum Visa | Annual Percentage Rate (APR)\* |
+| --- | --- |
+| Variable Interest Rate | 15.50%1 |
+
+
+
+
+
+
+
+
+
+Rates effective 1/1/2026. All loans are subject to approval. Rates, terms, and conditions are subject to change.
+
+
+
+1Business Platinum Visa Rate: The Interest Rate is variable and may increase in the future. The Interest Rate is subject to change on the first day of the billing cycle quarterly to reflect any change in the Index and will be determined by the Prime Rate on the last business day of each calendar quarter (March, June, September, and December), to which We add a margin. The Interest Rate will never be less than 12.00%. The Interest Rate will never be greater than 21.00%. Any increase in the Interest Rate will result in an increase in the amount of the interest You will pay, may increase Your minimum payment, and may increase the number of payments to pay off Your balance. If the Index is no longer available, the Credit Union will choose a new index which is based upon comparable information.
+
+
+
+There is no annual fee. Other fees include: Cash advance fee--$10.00 or 3.00% of the amount of each cash advance, whichever is greater; foreign transaction fee--1.00% of each transaction in US Dollars; late payment fee--up to $35.00; returned payment fee--up to $25.00.
+
+
+
+
+
+[Request an application](https://shine.dupaco.com/loan-application-personal/credit-card?loanpurpose=visa) [Call us](tel:+18003737600)
+
+
+
+
+
+
+Business Rewards Visa
+
+
+
+
+
+
+
+
+_Minimum credit limit: $1,500_
+
+Earn 1 point for every $1 you spend. Redeem your points for cash back, brand-name merchandise, and more!
+
+
+
+
+| Business Rewards Visa | Annual Percentage Rate (APR)\* |
+| --- | --- |
+| Variable Interest Rate | 20.5%1 |
+
+
+
+
+
+
+
+
+
+Rates effective 1/1/2026. All loans are subject to approval. Rates, terms, and conditions are subject to change.
+
+
+
+1Business Rewards Visa Rate: The Interest Rate is variable and may increase in the future. The Interest Rate is subject to change on the first day of the billing cycle quarterly to reflect any change in the Index and will be determined by the Prime Rate on the last business day of each calendar quarter (March, June, September, and December), to which We add a margin. The Interest Rate will never be less than 17.00%. The Interest Rate will never be greater than 21.00%. Any increase in the Interest Rate will result in an increase in the amount of the interest You will pay, may increase Your minimum payment, and may increase the number of payments to pay off Your balance. If the Index is no longer available, the Credit Union will choose a new index which is based upon comparable information.
+
+
+
+There is no annual fee. Other fees include: Cash advance fee--$10.00 or 3.00% of the amount of each cash advance, whichever is greater; foreign transaction fee--1.00% of each transaction in US Dollars; late payment fee--up to $35.00; returned payment fee--up to $25.00.
+
+
+
+
+
+[Request an application](https://shine.dupaco.com/loan-application-personal/credit-card?loanpurpose=visa) [Call us](tel:+18003737600)
+
+
+![Dupaco-Waukee-Branch-Exterior-3-202504](https://www.dupaco.com/hs-fs/hubfs/Dupaco-Waukee-Branch-Exterior-3-202504.jpeg?width=2000&name=Dupaco-Waukee-Branch-Exterior-3-202504.jpeg)
+
+##### Features You'll Love
+
+## Manage Your Business Expenses with Ease
+
+Our Business Visa cards help keep your personal and business expenses separate. No matter which card you choose, you’ll enjoy:
+
+- No annual fee
+- Low, variable rates
+- 25-day grace period
+- Free online management
+- No-cost fraud monitoring
+- Travel and warranty protection
+
+[Request my application](https://shine.dupaco.com/User/AccessBusinessLoan/Start?loanpurpose=visa)
+
+## Practical Guidance for Everyday Business
+
+[Working capital: What is it, and how much does your business need?](https://www.dupaco.com/business/resources/working-capital-what-is-it-and-how-much-does-your-business-need?hsLang=en)
+
+[**Working capital: What is it, and how much does your business need?**](https://www.dupaco.com/business/resources/working-capital-what-is-it-and-how-much-does-your-business-need?hsLang=en)
+
+Jun 17, 2022
+
+Working capital is the cash you have each month to cover expenses. For example: If your overheads are $100,000 a month, and you...
+
+
+[7 tips to help you defend and justify your prices](https://www.dupaco.com/business/resources/7-tips-to-help-you-defend-and-justify-your-prices?hsLang=en)
+
+[**7 tips to help you defend and justify your prices**](https://www.dupaco.com/business/resources/7-tips-to-help-you-defend-and-justify-your-prices?hsLang=en)
+
+Jun 17, 2022
+
+Have you ever felt pressured to offer a discount or match the competition to get the sale? As a small business owner, you might...
+
+
+[5 strategies to help you boost your bottom line](https://www.dupaco.com/business/resources/5-strategies-to-help-you-boost-your-bottom-line?hsLang=en)
+
+[**5 strategies to help you boost your bottom line**](https://www.dupaco.com/business/resources/5-strategies-to-help-you-boost-your-bottom-line?hsLang=en)
+
+Jun 17, 2022
+
+Most businesses seek to increase their profit from year to year. Here are five ways you can look to increase your bottom line....
+
+
+[Read more](https://www.dupaco.com/resources/business-resources?hsLang=en)
+
+## Frequently asked questions about Business Visa
+
+- [What can I use a Dupaco Business Visa for?](https://www.dupaco.com/business/credit-cards#)
+
+
+
+
+A Dupaco Business Visa can be used for everyday business expenses like supplies, travel, meals and fuel. It’s a simple way to keep business spending separate from personal purchases.
+
+- [Can I get business credit cards for my employees?](https://www.dupaco.com/business/credit-cards#)
+
+
+
+
+Yes. We can issue multiple business credit cards for your employees, and you can take advantage of consolidated billing to see all activity in one place.
+
+- [How do I manage and track my Business Visa spending?](https://www.dupaco.com/business/credit-cards#)
+
+
+
+
+You can manage payments, view transactions, activate cards and more using MyCardInfo, a free online tool for Dupaco Business Visa cardholders. It helps you stay organized and in control of your business spending.
+
+- [What should I do if I have questions or concerns about my card?](https://www.dupaco.com/business/credit-cards#)
+
+
+
+
+Help is always available. You can call us at **800-373-7600, ext. 234**. Live, secure and personalized support is available 24 hours a day, seven days a week through our partnership with CO-OP Financial Services.
+
+- [Is a Business Visa different from using a personal credit card?](https://www.dupaco.com/business/credit-cards#)
+
+
+
+
+Yes. A business Visa helps keep personal and business expenses separate, simplifies record-keeping and provides features designed specifically for business needs.
+
+- [What happens if my Business Visa is lost or I notice suspicious activity?](https://www.dupaco.com/business/credit-cards#)
+
+
+
+
+Your card includes automatic, no-cost fraud monitoring to help protect your account. If something doesn’t look right, you can call **800-373-7600, ext. 234** any time to speak with a live representative.
+
+
+✕
+
+**Heads up! This link leads to a different website.**
+
+We only do this when it's helpful for you. But we must inform you that Dupaco isn't responsible for the site's content, products, services, policies or sponsors. Also, Dupaco's Privacy Policy does not apply to third-party sites. So, if you have concerns, please look at its privacy disclosures.
+
+[Continue](https://www.dupaco.com/business/credit-cards#) Cancel
+
+✕
+
+**Heads up! This link leads to a different website.**
+
+We only do this when it's helpful for you. But we must inform you that Dupaco isn't responsible for the site's content, products, services, policies or sponsors. Also, Dupaco's Privacy Policy does not apply to third-party sites. So, if you have concerns, please look at its privacy disclosures.
+
+[Continue](https://www.dupaco.com/business/credit-cards#) Cancel

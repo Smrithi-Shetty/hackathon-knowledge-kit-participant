@@ -1,0 +1,3830 @@
+{
+ "snapshot_id": "01_2026-05-12_baseline",
+ "taken_on": "2026-05-12",
+ "label": "baseline",
+ "description": "First full crawl (637 pages).",
+ "pages": [
+  {
+   "file": "pages/home-5c5961.md",
+   "url": "https://www.dupaco.com",
+   "title": "Build a Life Worth Loving, Together | Dupaco",
+   "fetched_at": "2026-05-12T19:56:22.620Z"
+  },
+  {
+   "file": "pages/21-day-sprint-to-savings-challenge-94036d.md",
+   "url": "https://www.dupaco.com/21-day-sprint-to-savings-challenge",
+   "title": "21-Day Sprint to Savings Challenge",
+   "fetched_at": "2026-05-12T19:56:35.748Z"
+  },
+  {
+   "file": "pages/about-c68140.md",
+   "url": "https://www.dupaco.com/about",
+   "title": "About Us | Dupaco",
+   "fetched_at": "2026-05-12T19:56:34.540Z"
+  },
+  {
+   "file": "pages/about-join-5120ae.md",
+   "url": "https://www.dupaco.com/about/join",
+   "title": "Join | Dupaco",
+   "fetched_at": "2026-05-12T19:56:25.317Z"
+  },
+  {
+   "file": "pages/about-member-services-15404f.md",
+   "url": "https://www.dupaco.com/about/member-services",
+   "title": "Member Benefits | Dupaco",
+   "fetched_at": "2026-05-12T19:56:23.262Z"
+  },
+  {
+   "file": "pages/business-3e62fc.md",
+   "url": "https://www.dupaco.com/business",
+   "title": "Business Banking: Flexible Loans, Checking and More | Dupaco",
+   "fetched_at": "2026-05-12T19:56:22.790Z"
+  },
+  {
+   "file": "pages/business-calculators-58ff62.md",
+   "url": "https://www.dupaco.com/business-calculators",
+   "title": "Plan Your Growth: Free Business Calculators | Dupaco",
+   "fetched_at": "2026-05-12T19:56:36.798Z"
+  },
+  {
+   "file": "pages/business-rates-7b3f99.md",
+   "url": "https://www.dupaco.com/business-rates",
+   "title": "Business Deposit and Loan Rates: Earn More, Pay Less | Dupaco",
+   "fetched_at": "2026-05-12T19:56:39.331Z"
+  },
+  {
+   "file": "pages/business-cash-management-8a28c6.md",
+   "url": "https://www.dupaco.com/business/cash-management",
+   "title": "Cash Management Services: Solutions For Your Business | Dupaco",
+   "fetched_at": "2026-05-12T19:56:26.376Z"
+  },
+  {
+   "file": "pages/business-checking-accounts-d230fa.md",
+   "url": "https://www.dupaco.com/business/checking-accounts",
+   "title": "Business Checking Accounts: Options for Your Business | Dupaco",
+   "fetched_at": "2026-05-12T19:56:30.042Z"
+  },
+  {
+   "file": "pages/business-credit-cards-3c14a4.md",
+   "url": "https://www.dupaco.com/business/credit-cards",
+   "title": "Business Credit Card: Low Rate with Benefits You'll Love | Dupaco",
+   "fetched_at": "2026-05-12T19:56:23.233Z"
+  },
+  {
+   "file": "pages/business-credit-lines-6db945.md",
+   "url": "https://www.dupaco.com/business/credit-lines",
+   "title": "Business Line of Credit: Boost Your Cash Flow | Dupaco",
+   "fetched_at": "2026-05-12T19:56:38.784Z"
+  },
+  {
+   "file": "pages/business-employee-wellness-858d27.md",
+   "url": "https://www.dupaco.com/business/employee-wellness",
+   "title": "Employee Benefits: Free Financial Education Program | Dupaco",
+   "fetched_at": "2026-05-12T19:56:37.110Z"
+  },
+  {
+   "file": "pages/business-insurance-1ddc70.md",
+   "url": "https://www.dupaco.com/business/insurance",
+   "title": "Business Insurance: Solid Coverage for Your Business | Dupaco",
+   "fetched_at": "2026-05-12T19:56:29.366Z"
+  },
+  {
+   "file": "pages/business-loans-ee7b0b.md",
+   "url": "https://www.dupaco.com/business/loans",
+   "title": "Business Loans: Low Rates and Service You Can Count On | Dupaco",
+   "fetched_at": "2026-05-12T19:56:35.589Z"
+  },
+  {
+   "file": "pages/business-loans-construction-loans-b41e06.md",
+   "url": "https://www.dupaco.com/business/loans/construction-loans",
+   "title": "Business Construction Loans: Build Your Dream Space | Dupaco",
+   "fetched_at": "2026-05-12T19:56:23.634Z"
+  },
+  {
+   "file": "pages/business-loans-equipment-vehicle-loans-cf7b57.md",
+   "url": "https://www.dupaco.com/business/loans/equipment-vehicle-loans",
+   "title": "Business Equipment & Vehicle Loans | Dupaco",
+   "fetched_at": "2026-05-12T19:56:34.250Z"
+  },
+  {
+   "file": "pages/business-loans-real-estate-loans-621763.md",
+   "url": "https://www.dupaco.com/business/loans/real-estate-loans",
+   "title": "Business Real Estate Loans: Options for Your Business | Dupaco",
+   "fetched_at": "2026-05-12T19:56:33.850Z"
+  },
+  {
+   "file": "pages/business-loans-small-business-loans-353850.md",
+   "url": "https://www.dupaco.com/business/loans/small-business-loans",
+   "title": "Small Business Loans: For Loans Less Than $50,000 | Dupaco",
+   "fetched_at": "2026-05-12T19:56:27.674Z"
+  },
+  {
+   "file": "pages/business-resources-9c3c62.md",
+   "url": "https://www.dupaco.com/business/resources",
+   "title": "Business Resources",
+   "fetched_at": "2026-05-12T19:56:30.985Z"
+  },
+  {
+   "file": "pages/business-resources-10-tips-to-help-you-start-building-an-effective-social-media-strategy-6a2e97.md",
+   "url": "https://www.dupaco.com/business/resources/10-tips-to-help-you-start-building-an-effective-social-media-strategy",
+   "title": "10 tips to help you build an effective social media strategy | Dupaco",
+   "fetched_at": "2026-05-12T19:56:33.723Z"
+  },
+  {
+   "file": "pages/business-resources-3-steps-to-help-you-start-your-first-podcast-f3cbca.md",
+   "url": "https://www.dupaco.com/business/resources/3-steps-to-help-you-start-your-first-podcast",
+   "title": "3 steps to help you start your first podcast | Dupaco",
+   "fetched_at": "2026-05-12T19:56:28.559Z"
+  },
+  {
+   "file": "pages/business-resources-3-ways-you-can-unlock-the-cash-in-your-business-f9decf.md",
+   "url": "https://www.dupaco.com/business/resources/3-ways-you-can-unlock-the-cash-in-your-business",
+   "title": "3 ways you can unlock the cash in your business | Dupaco",
+   "fetched_at": "2026-05-12T19:56:33.562Z"
+  },
+  {
+   "file": "pages/business-resources-4-questions-youll-want-to-answer-before-you-sell-your-business-25e1c5.md",
+   "url": "https://www.dupaco.com/business/resources/4-questions-youll-want-to-answer-before-you-sell-your-business",
+   "title": "4 questions to answer before you sell your business | Dupaco",
+   "fetched_at": "2026-05-12T19:56:37.032Z"
+  },
+  {
+   "file": "pages/business-resources-4-tips-to-help-you-consider-how-to-finance-your-business-b18f36.md",
+   "url": "https://www.dupaco.com/business/resources/4-tips-to-help-you-consider-how-to-finance-your-business",
+   "title": "4 tips to help you consider how to finance your business | Dupaco",
+   "fetched_at": "2026-05-12T19:56:37.977Z"
+  },
+  {
+   "file": "pages/business-resources-5-strategies-to-help-you-boost-your-bottom-line-f6eba5.md",
+   "url": "https://www.dupaco.com/business/resources/5-strategies-to-help-you-boost-your-bottom-line",
+   "title": "5 strategies to help you boost your bottom line | Dupaco",
+   "fetched_at": "2026-05-12T19:56:37.220Z"
+  },
+  {
+   "file": "pages/business-resources-5-strategies-to-help-you-build-credibility-and-attract-customers-618b4c.md",
+   "url": "https://www.dupaco.com/business/resources/5-strategies-to-help-you-build-credibility-and-attract-customers",
+   "title": "5 strategies to help build credibility and attract customers | Dupaco",
+   "fetched_at": "2026-05-12T19:56:34.919Z"
+  },
+  {
+   "file": "pages/business-resources-5-strategies-to-help-you-manage-your-companys-seasonal-demand-362253.md",
+   "url": "https://www.dupaco.com/business/resources/5-strategies-to-help-you-manage-your-companys-seasonal-demand",
+   "title": "How to manage seasonal demand and protect your cash flow | Dupaco",
+   "fetched_at": "2026-05-12T19:56:24.148Z"
+  },
+  {
+   "file": "pages/business-resources-5-tips-to-increase-the-value-of-your-business-before-you-sell-6eeb72.md",
+   "url": "https://www.dupaco.com/business/resources/5-tips-to-increase-the-value-of-your-business-before-you-sell",
+   "title": "5 tips to increase the value of your business before you sell | Dupaco",
+   "fetched_at": "2026-05-12T19:56:30.170Z"
+  },
+  {
+   "file": "pages/business-resources-5-ways-to-increase-profit-margins-1f8582.md",
+   "url": "https://www.dupaco.com/business/resources/5-ways-to-increase-profit-margins",
+   "title": "5 Ways to Increase Profit Margins Calculator | Dupaco",
+   "fetched_at": "2026-05-12T19:56:23.590Z"
+  },
+  {
+   "file": "pages/business-resources-6-best-practices-to-build-a-website-that-works-for-your-business-deb1e5.md",
+   "url": "https://www.dupaco.com/business/resources/6-best-practices-to-build-a-website-that-works-for-your-business",
+   "title": "6 best practices to build a website for your business | Dupaco",
+   "fetched_at": "2026-05-12T19:56:38.121Z"
+  },
+  {
+   "file": "pages/business-resources-6-exit-strategies-which-is-best-for-your-business-231da6.md",
+   "url": "https://www.dupaco.com/business/resources/6-exit-strategies-which-is-best-for-your-business",
+   "title": "6 exit strategies: Which is best for your business? | Dupaco",
+   "fetched_at": "2026-05-12T19:56:24.799Z"
+  },
+  {
+   "file": "pages/business-resources-6-metrics-you-can-use-to-track-your-business-growth-e5d7d1.md",
+   "url": "https://www.dupaco.com/business/resources/6-metrics-you-can-use-to-track-your-business-growth",
+   "title": "6 metrics you can use to track your business\u2019 growth | Dupaco",
+   "fetched_at": "2026-05-12T19:56:35.176Z"
+  },
+  {
+   "file": "pages/business-resources-6-smart-ways-to-raise-capital-for-your-small-business-2323d6.md",
+   "url": "https://www.dupaco.com/business/resources/6-smart-ways-to-raise-capital-for-your-small-business",
+   "title": "6 smart ways to raise capital for your small business",
+   "fetched_at": "2026-05-12T19:56:29.816Z"
+  },
+  {
+   "file": "pages/business-resources-7-steps-to-help-you-create-a-promotional-plan-that-works-23528b.md",
+   "url": "https://www.dupaco.com/business/resources/7-steps-to-help-you-create-a-promotional-plan-that-works",
+   "title": "7 steps to help you create a promotional plan that works | Dupaco",
+   "fetched_at": "2026-05-12T19:56:31.685Z"
+  },
+  {
+   "file": "pages/business-resources-7-tips-to-help-you-defend-and-justify-your-prices-4218b2.md",
+   "url": "https://www.dupaco.com/business/resources/7-tips-to-help-you-defend-and-justify-your-prices",
+   "title": "7 tips to help you defend and justify your prices | Dupaco",
+   "fetched_at": "2026-05-12T19:56:23.795Z"
+  },
+  {
+   "file": "pages/business-resources-8-steps-to-help-you-create-an-effective-marketing-plan-075ba8.md",
+   "url": "https://www.dupaco.com/business/resources/8-steps-to-help-you-create-an-effective-marketing-plan",
+   "title": "8 steps to help you create an effective marketing plan | Dupaco",
+   "fetched_at": "2026-05-12T19:56:34.509Z"
+  },
+  {
+   "file": "pages/business-resources-a-healthy-partnership-our-dreams-are-coming-true-0b1460.md",
+   "url": "https://www.dupaco.com/business/resources/a-healthy-partnership-our-dreams-are-coming-true",
+   "title": "A healthy partnership: 'Our dreams are coming true' | Dupaco",
+   "fetched_at": "2026-05-12T19:56:33.307Z"
+  },
+  {
+   "file": "pages/business-resources-a-step-by-step-plan-to-help-close-your-business-the-right-way-4bd278.md",
+   "url": "https://www.dupaco.com/business/resources/a-step-by-step-plan-to-help-close-your-business-the-right-way",
+   "title": "A step-by-step plan to help close your business the right way | Dupaco",
+   "fetched_at": "2026-05-12T19:56:32.890Z"
+  },
+  {
+   "file": "pages/business-resources-animal-lover-turns-her-passion-into-a-grooming-business-71066a.md",
+   "url": "https://www.dupaco.com/business/resources/animal-lover-turns-her-passion-into-a-grooming-business",
+   "title": "Animal lover turns her passion into a grooming business | Dupaco",
+   "fetched_at": "2026-05-12T19:56:26.603Z"
+  },
+  {
+   "file": "pages/business-resources-author-admin-7cad1f.md",
+   "url": "https://www.dupaco.com/business/resources/author/admin",
+   "title": "Business Resources | Admin",
+   "fetched_at": "2026-05-12T19:56:38.082Z"
+  },
+  {
+   "file": "pages/business-resources-author-brad-schweikert-a64cda.md",
+   "url": "https://www.dupaco.com/business/resources/author/brad-schweikert",
+   "title": "Business Resources | Brad Schweikert",
+   "fetched_at": "2026-05-12T19:56:38.169Z"
+  },
+  {
+   "file": "pages/business-resources-author-emily-kittle-6f0a55.md",
+   "url": "https://www.dupaco.com/business/resources/author/emily-kittle",
+   "title": "Business Resources | Emily Kittle",
+   "fetched_at": "2026-05-12T19:56:39.230Z"
+  },
+  {
+   "file": "pages/business-resources-author-jennifer-faley-efe1a4.md",
+   "url": "https://www.dupaco.com/business/resources/author/jennifer-faley",
+   "title": "Business Resources | Jennifer Faley",
+   "fetched_at": "2026-05-12T19:56:31.715Z"
+  },
+  {
+   "file": "pages/business-resources-author-tara-mcdermott-2e321b.md",
+   "url": "https://www.dupaco.com/business/resources/author/tara-mcdermott",
+   "title": "Business Resources | Tara McDermott",
+   "fetched_at": "2026-05-12T19:56:24.305Z"
+  },
+  {
+   "file": "pages/business-resources-break-even-business-expense-template-7985e3.md",
+   "url": "https://www.dupaco.com/business/resources/break-even-business-expense-template",
+   "title": "Break-even Business Expense Template | Dupaco",
+   "fetched_at": "2026-05-12T19:56:38.809Z"
+  },
+  {
+   "file": "pages/business-resources-build-your-savings-does-your-business-use-this-strategy-6eba28.md",
+   "url": "https://www.dupaco.com/business/resources/build-your-savings-does-your-business-use-this-strategy",
+   "title": "Build your savings: Does your business use this strategy? | Dupaco",
+   "fetched_at": "2026-05-12T19:56:30.076Z"
+  },
+  {
+   "file": "pages/business-resources-burn-rate-calculator-6678af.md",
+   "url": "https://www.dupaco.com/business/resources/burn-rate-calculator",
+   "title": "Burn Rate Calculator | Dupaco",
+   "fetched_at": "2026-05-12T19:56:23.318Z"
+  },
+  {
+   "file": "pages/business-resources-business-construction-loan-calculator-47c8d4.md",
+   "url": "https://www.dupaco.com/business/resources/business-construction-loan-calculator",
+   "title": "Business Construction Loan Calculator | Dupaco",
+   "fetched_at": "2026-05-12T19:56:35.327Z"
+  },
+  {
+   "file": "pages/business-resources-business-equipment-loan-calculator-aaebdf.md",
+   "url": "https://www.dupaco.com/business/resources/business-equipment-loan-calculator",
+   "title": "Business Equipment Loan Calculator | Dupaco",
+   "fetched_at": "2026-05-12T19:56:26.126Z"
+  },
+  {
+   "file": "pages/business-resources-business-loan-repayment-calculator-8784f1.md",
+   "url": "https://www.dupaco.com/business/resources/business-loan-repayment-calculator",
+   "title": "Business Loan Repayment Calculator | Dupaco",
+   "fetched_at": "2026-05-12T19:56:37.292Z"
+  },
+  {
+   "file": "pages/business-resources-business-planner-9b571f.md",
+   "url": "https://www.dupaco.com/business/resources/business-planner",
+   "title": "Business Planner | Dupaco",
+   "fetched_at": "2026-05-12T19:56:23.368Z"
+  },
+  {
+   "file": "pages/business-resources-business-real-estate-loan-calculator-0d237e.md",
+   "url": "https://www.dupaco.com/business/resources/business-real-estate-loan-calculator",
+   "title": "Business Real Estate Loan Calculator | Dupaco",
+   "fetched_at": "2026-05-12T19:56:34.725Z"
+  },
+  {
+   "file": "pages/business-resources-business-revenue-potential-6bae32.md",
+   "url": "https://www.dupaco.com/business/resources/business-revenue-potential",
+   "title": "Business Revenue Potential | Dupaco",
+   "fetched_at": "2026-05-12T19:56:34.062Z"
+  },
+  {
+   "file": "pages/business-resources-business-startup-guide-24eed4.md",
+   "url": "https://www.dupaco.com/business/resources/business-startup-guide",
+   "title": "Business startup guide",
+   "fetched_at": "2026-05-12T19:56:33.288Z"
+  },
+  {
+   "file": "pages/business-resources-business-startup-guide-1-0b3162.md",
+   "url": "https://www.dupaco.com/business/resources/business-startup-guide-1",
+   "title": "Business Startup Guide | Dupaco",
+   "fetched_at": "2026-05-12T19:56:30.537Z"
+  },
+  {
+   "file": "pages/business-resources-can-adding-a-new-online-distribution-channel-help-your-business-37e1b3.md",
+   "url": "https://www.dupaco.com/business/resources/can-adding-a-new-online-distribution-channel-help-your-business",
+   "title": "Can adding an online distribution channel help your business? | Dupaco",
+   "fetched_at": "2026-05-12T19:56:33.507Z"
+  },
+  {
+   "file": "pages/business-resources-couple-using-food-truck-to-pay-it-forward-f61980.md",
+   "url": "https://www.dupaco.com/business/resources/couple-using-food-truck-to-pay-it-forward",
+   "title": "Couple using food truck to pay it forward | Dupaco",
+   "fetched_at": "2026-05-12T19:56:34.667Z"
+  },
+  {
+   "file": "pages/business-resources-does-your-business-have-hidden-money-its-time-to-take-a-closer-look-26a90e.md",
+   "url": "https://www.dupaco.com/business/resources/does-your-business-have-hidden-money-its-time-to-take-a-closer-look",
+   "title": "How to find out whether your business has hidden money | Dupaco",
+   "fetched_at": "2026-05-12T19:56:26.416Z"
+  },
+  {
+   "file": "pages/business-resources-dominos-franchise-owners-discover-recipe-for-success-0a5dea.md",
+   "url": "https://www.dupaco.com/business/resources/dominos-franchise-owners-discover-recipe-for-success",
+   "title": "Domino\u2019s franchise owners discover recipe for success | Dupaco",
+   "fetched_at": "2026-05-12T19:56:38.150Z"
+  },
+  {
+   "file": "pages/business-resources-dupaco-gives-caterer-chance-to-pursue-dream-9a6267.md",
+   "url": "https://www.dupaco.com/business/resources/dupaco-gives-caterer-chance-to-pursue-dream",
+   "title": "Dupaco gives caterer chance to pursue dream",
+   "fetched_at": "2026-05-12T19:56:26.722Z"
+  },
+  {
+   "file": "pages/business-resources-dupaco-helps-member-open-unique-yoga-and-cycling-studio-in-dubuque-0fe14a.md",
+   "url": "https://www.dupaco.com/business/resources/dupaco-helps-member-open-unique-yoga-and-cycling-studio-in-dubuque",
+   "title": "Dupaco helps member open unique yoga and cycling studio in Dubuque",
+   "fetched_at": "2026-05-12T19:56:39.361Z"
+  },
+  {
+   "file": "pages/business-resources-dupaco-helps-small-businesses-weather-covid-with-ppp-loans-2a7359.md",
+   "url": "https://www.dupaco.com/business/resources/dupaco-helps-small-businesses-weather-covid-with-ppp-loans",
+   "title": "Dupaco helps small businesses weather COVID with PPP loans | Dupaco",
+   "fetched_at": "2026-05-12T19:56:32.668Z"
+  },
+  {
+   "file": "pages/business-resources-empower-your-customers-so-you-can-reduce-the-need-to-collect-debts-4cbb29.md",
+   "url": "https://www.dupaco.com/business/resources/empower-your-customers-so-you-can-reduce-the-need-to-collect-debts",
+   "title": "Empower your customers to reduce the need to collect debts | Dupaco",
+   "fetched_at": "2026-05-12T19:56:30.800Z"
+  },
+  {
+   "file": "pages/business-resources-family-property-management-business-builds-on-a-vision-1e038a.md",
+   "url": "https://www.dupaco.com/business/resources/family-property-management-business-builds-on-a-vision",
+   "title": "Family property management business builds on a vision | Dupaco",
+   "fetched_at": "2026-05-12T19:56:37.141Z"
+  },
+  {
+   "file": "pages/business-resources-financial-health-check-9ba200.md",
+   "url": "https://www.dupaco.com/business/resources/financial-health-check",
+   "title": "Financial Health Check Calculator | Dupaco",
+   "fetched_at": "2026-05-12T19:56:35.412Z"
+  },
+  {
+   "file": "pages/business-resources-financial-performance-plan-f790de.md",
+   "url": "https://www.dupaco.com/business/resources/financial-performance-plan",
+   "title": "Financial performance plan | Dupaco",
+   "fetched_at": "2026-05-12T19:56:37.563Z"
+  },
+  {
+   "file": "pages/business-resources-financial-performance-planner-6b9ac4.md",
+   "url": "https://www.dupaco.com/business/resources/financial-performance-planner",
+   "title": "Financial Performance Planner | Dupaco",
+   "fetched_at": "2026-05-12T19:56:24.702Z"
+  },
+  {
+   "file": "pages/business-resources-finding-a-fair-price-heres-what-to-consider-with-your-business-valuatio-a8100f.md",
+   "url": "https://www.dupaco.com/business/resources/finding-a-fair-price-heres-what-to-consider-with-your-business-valuation",
+   "title": "Finding a fair price: What to consider with valuations | Dupaco",
+   "fetched_at": "2026-05-12T19:56:23.882Z"
+  },
+  {
+   "file": "pages/business-resources-forecast-your-cash-flow-62463a.md",
+   "url": "https://www.dupaco.com/business/resources/forecast-your-cash-flow",
+   "title": "Forecast Your Cashflow | Dupaco",
+   "fetched_at": "2026-05-12T19:56:36.628Z"
+  },
+  {
+   "file": "pages/business-resources-free-managment-coaching-d205eb.md",
+   "url": "https://www.dupaco.com/business/resources/free-managment-coaching",
+   "title": "Free Managment Coaching",
+   "fetched_at": "2026-05-12T19:56:32.294Z"
+  },
+  {
+   "file": "pages/business-resources-free-peer-learning-roundtables-e3f042.md",
+   "url": "https://www.dupaco.com/business/resources/free-peer-learning-roundtables",
+   "title": "Free Peer Learning Roundtables",
+   "fetched_at": "2026-05-12T19:56:26.886Z"
+  },
+  {
+   "file": "pages/business-resources-free-podcast-library-540011.md",
+   "url": "https://www.dupaco.com/business/resources/free-podcast-library",
+   "title": "Free Podcast Library",
+   "fetched_at": "2026-05-12T19:56:37.794Z"
+  },
+  {
+   "file": "pages/business-resources-free-startup-coaching-467a2e.md",
+   "url": "https://www.dupaco.com/business/resources/free-startup-coaching",
+   "title": "Free Start Up Coaching",
+   "fetched_at": "2026-05-12T19:56:23.677Z"
+  },
+  {
+   "file": "pages/business-resources-free-succession-plan-coaching-3a4b78.md",
+   "url": "https://www.dupaco.com/business/resources/free-succession-plan-coaching",
+   "title": "Free Succession Plan Coaching",
+   "fetched_at": "2026-05-12T19:56:30.751Z"
+  },
+  {
+   "file": "pages/business-resources-free-website-design-bootcamp-689867.md",
+   "url": "https://www.dupaco.com/business/resources/free-website-design-bootcamp",
+   "title": "Free Website Design Bootcamp",
+   "fetched_at": "2026-05-12T19:56:37.484Z"
+  },
+  {
+   "file": "pages/business-resources-free-website-evaluations-ea42d7.md",
+   "url": "https://www.dupaco.com/business/resources/free-website-evaluations",
+   "title": "Free Website Evaluations",
+   "fetched_at": "2026-05-12T19:56:28.140Z"
+  },
+  {
+   "file": "pages/business-resources-getting-more-orders-congrats-learn-how-to-build-capacity-7474e9.md",
+   "url": "https://www.dupaco.com/business/resources/getting-more-orders-congrats-learn-how-to-build-capacity",
+   "title": "Getting more orders? Congrats! Learn how to build capacity | Dupaco",
+   "fetched_at": "2026-05-12T19:56:35.015Z"
+  },
+  {
+   "file": "pages/business-resources-hiring-a-virtual-assistant-here-are-3-things-you-should-know-d49859.md",
+   "url": "https://www.dupaco.com/business/resources/hiring-a-virtual-assistant-here-are-3-things-you-should-know",
+   "title": "Hiring a virtual assistant? Here are 3 things you should know | Dupaco",
+   "fetched_at": "2026-05-12T19:56:32.223Z"
+  },
+  {
+   "file": "pages/business-resources-how-can-a-competitor-analysis-help-your-business-c9ffb0.md",
+   "url": "https://www.dupaco.com/business/resources/how-can-a-competitor-analysis-help-your-business",
+   "title": "How can a competitor analysis help your business? | Dupaco",
+   "fetched_at": "2026-05-12T19:56:35.640Z"
+  },
+  {
+   "file": "pages/business-resources-how-to-increase-your-sales-f5d867.md",
+   "url": "https://www.dupaco.com/business/resources/how-to-increase-your-sales",
+   "title": "How to Increase Your Sales",
+   "fetched_at": "2026-05-12T19:56:33.226Z"
+  },
+  {
+   "file": "pages/business-resources-identify-new-markets-and-customers-to-help-your-business-grow-e9f584.md",
+   "url": "https://www.dupaco.com/business/resources/identify-new-markets-and-customers-to-help-your-business-grow",
+   "title": "Identify new markets and customers to help your business grow | Dupaco",
+   "fetched_at": "2026-05-12T19:56:27.459Z"
+  },
+  {
+   "file": "pages/business-resources-inspiration-to-help-you-uncover-your-next-new-product-idea-4e11eb.md",
+   "url": "https://www.dupaco.com/business/resources/inspiration-to-help-you-uncover-your-next-new-product-idea",
+   "title": "Inspiration to help you uncover your next new product idea | Dupaco",
+   "fetched_at": "2026-05-12T19:56:29.783Z"
+  },
+  {
+   "file": "pages/business-resources-iowa-center-for-economic-success-helps-small-businesses-23f071.md",
+   "url": "https://www.dupaco.com/business/resources/iowa-center-for-economic-success-helps-small-businesses",
+   "title": "Iowa Center for Economic Success Helps Small Businesses | Dupaco",
+   "fetched_at": "2026-05-12T19:56:33.534Z"
+  },
+  {
+   "file": "pages/business-resources-ip-basics-for-your-business-how-to-protect-intellectual-property-9ea390.md",
+   "url": "https://www.dupaco.com/business/resources/ip-basics-for-your-business-how-to-protect-intellectual-property",
+   "title": "IP basics: How to protect intellectual property | Dupaco",
+   "fetched_at": "2026-05-12T19:56:31.130Z"
+  },
+  {
+   "file": "pages/business-resources-lean-business-plan-e62857.md",
+   "url": "https://www.dupaco.com/business/resources/lean-business-plan",
+   "title": "Lean business plan | Dupaco",
+   "fetched_at": "2026-05-12T19:56:23.439Z"
+  },
+  {
+   "file": "pages/business-resources-lean-business-planner-d4abf3.md",
+   "url": "https://www.dupaco.com/business/resources/lean-business-planner",
+   "title": "Lean Business Planner | Dupaco",
+   "fetched_at": "2026-05-12T19:56:38.566Z"
+  },
+  {
+   "file": "pages/business-resources-learn-how-budgeting-and-cash-flow-forecasting-can-help-your-business-5bf665.md",
+   "url": "https://www.dupaco.com/business/resources/learn-how-budgeting-and-cash-flow-forecasting-can-help-your-business",
+   "title": "How budgeting, cash flow forecasting can help your business | Dupaco",
+   "fetched_at": "2026-05-12T19:56:34.012Z"
+  },
+  {
+   "file": "pages/business-resources-learn-how-to-choose-a-business-name-with-these-7-tips-86d697.md",
+   "url": "https://www.dupaco.com/business/resources/learn-how-to-choose-a-business-name-with-these-7-tips",
+   "title": "Learn how to choose a business name with these 7 tips",
+   "fetched_at": "2026-05-12T19:56:23.767Z"
+  },
+  {
+   "file": "pages/business-resources-learn-how-to-develop-your-business-usp-unique-selling-proposition-47c716.md",
+   "url": "https://www.dupaco.com/business/resources/learn-how-to-develop-your-business-usp-unique-selling-proposition",
+   "title": "How to develop your business' unique selling proposition | Dupaco",
+   "fetched_at": "2026-05-12T19:56:29.950Z"
+  },
+  {
+   "file": "pages/business-resources-learn-how-to-reduce-costs-without-sacrificing-great-service-a5674a.md",
+   "url": "https://www.dupaco.com/business/resources/learn-how-to-reduce-costs-without-sacrificing-great-service",
+   "title": "Learn how to reduce costs without sacrificing great service | Dupaco",
+   "fetched_at": "2026-05-12T19:56:34.639Z"
+  },
+  {
+   "file": "pages/business-resources-letting-go-tips-to-help-you-hand-over-the-reins-to-your-business-17ccb8.md",
+   "url": "https://www.dupaco.com/business/resources/letting-go-tips-to-help-you-hand-over-the-reins-to-your-business",
+   "title": "Letting go: Tips to help you hand over your business | Dupaco",
+   "fetched_at": "2026-05-12T19:56:37.341Z"
+  },
+  {
+   "file": "pages/business-resources-looking-for-a-smart-way-to-share-resources-consider-a-business-partners-79c6fd.md",
+   "url": "https://www.dupaco.com/business/resources/looking-for-a-smart-way-to-share-resources-consider-a-business-partnership",
+   "title": "Business partnerships offer a smart way to share resources | Dupaco",
+   "fetched_at": "2026-05-12T19:56:39.276Z"
+  },
+  {
+   "file": "pages/business-resources-pricing-strategy-101-heres-what-to-consider-when-you-get-started-1738cb.md",
+   "url": "https://www.dupaco.com/business/resources/pricing-strategy-101-heres-what-to-consider-when-you-get-started",
+   "title": "Pricing strategy 101: What to consider when getting started | Dupaco",
+   "fetched_at": "2026-05-12T19:56:35.696Z"
+  },
+  {
+   "file": "pages/business-resources-providing-more-than-financial-support-in-a-jumbled-world-8aa116.md",
+   "url": "https://www.dupaco.com/business/resources/providing-more-than-financial-support-in-a-jumbled-world",
+   "title": "Providing more than financial support in a jumbled world | Dupaco",
+   "fetched_at": "2026-05-12T19:56:27.764Z"
+  },
+  {
+   "file": "pages/business-resources-set-your-business-up-for-success-by-keeping-good-records-a7e2fe.md",
+   "url": "https://www.dupaco.com/business/resources/set-your-business-up-for-success-by-keeping-good-records",
+   "title": "Set your business up for success by keeping good records | Dupaco",
+   "fetched_at": "2026-05-12T19:56:34.747Z"
+  },
+  {
+   "file": "pages/business-resources-should-you-increase-prices-heres-what-to-consider-before-you-do-dc4b1b.md",
+   "url": "https://www.dupaco.com/business/resources/should-you-increase-prices-heres-what-to-consider-before-you-do",
+   "title": "Should you increase prices? Here\u2019s what to consider | Dupaco",
+   "fetched_at": "2026-05-12T19:56:33.937Z"
+  },
+  {
+   "file": "pages/business-resources-small-business-loan-calculator-c62a1f.md",
+   "url": "https://www.dupaco.com/business/resources/small-business-loan-calculator",
+   "title": "Small Business Loan Calculator | Dupaco",
+   "fetched_at": "2026-05-12T19:56:28.397Z"
+  },
+  {
+   "file": "pages/business-resources-tag-calculators-5fa4b7.md",
+   "url": "https://www.dupaco.com/business/resources/tag/calculators",
+   "title": "Business Resources | Calculators",
+   "fetched_at": "2026-05-12T19:56:37.544Z"
+  },
+  {
+   "file": "pages/business-resources-tag-cash-flow-management-0e5806.md",
+   "url": "https://www.dupaco.com/business/resources/tag/cash-flow-management",
+   "title": "Business Resources | Cash Flow",
+   "fetched_at": "2026-05-12T19:56:35.059Z"
+  },
+  {
+   "file": "pages/business-resources-tag-checklists-1136da.md",
+   "url": "https://www.dupaco.com/business/resources/tag/checklists",
+   "title": "Business Resources | Checklists",
+   "fetched_at": "2026-05-12T19:56:35.791Z"
+  },
+  {
+   "file": "pages/business-resources-tag-coaching-eab931.md",
+   "url": "https://www.dupaco.com/business/resources/tag/coaching",
+   "title": "Business Resources | Coaching",
+   "fetched_at": "2026-05-12T19:56:24.848Z"
+  },
+  {
+   "file": "pages/business-resources-tag-community-04a68b.md",
+   "url": "https://www.dupaco.com/business/resources/tag/community",
+   "title": "Business Resources | Community",
+   "fetched_at": "2026-05-12T19:56:38.764Z"
+  },
+  {
+   "file": "pages/business-resources-tag-community-partnerships-e315f4.md",
+   "url": "https://www.dupaco.com/business/resources/tag/community-partnerships",
+   "title": "Business Resources | Community Partnerships",
+   "fetched_at": "2026-05-12T19:56:35.367Z"
+  },
+  {
+   "file": "pages/business-resources-tag-established-mature-0f2615.md",
+   "url": "https://www.dupaco.com/business/resources/tag/established-mature",
+   "title": "Business Resources | Run",
+   "fetched_at": "2026-05-12T19:56:22.943Z"
+  },
+  {
+   "file": "pages/business-resources-tag-exit-succession-6b8244.md",
+   "url": "https://www.dupaco.com/business/resources/tag/exit-succession",
+   "title": "Business Resources | Exit",
+   "fetched_at": "2026-05-12T19:56:39.114Z"
+  },
+  {
+   "file": "pages/business-resources-tag-growth-9fef24.md",
+   "url": "https://www.dupaco.com/business/resources/tag/growth",
+   "title": "Business Resources | Grow",
+   "fetched_at": "2026-05-12T19:56:28.015Z"
+  },
+  {
+   "file": "pages/business-resources-tag-health-check-8a9658.md",
+   "url": "https://www.dupaco.com/business/resources/tag/health-check",
+   "title": "Business Resources | Health Check",
+   "fetched_at": "2026-05-12T19:56:32.716Z"
+  },
+  {
+   "file": "pages/business-resources-tag-leadership-hr-e1407f.md",
+   "url": "https://www.dupaco.com/business/resources/tag/leadership-hr",
+   "title": "Business Resources | Leadership & HR",
+   "fetched_at": "2026-05-12T19:56:37.839Z"
+  },
+  {
+   "file": "pages/business-resources-tag-lending-capital-cf02d4.md",
+   "url": "https://www.dupaco.com/business/resources/tag/lending-capital",
+   "title": "Business Resources | Financing",
+   "fetched_at": "2026-05-12T19:56:28.162Z"
+  },
+  {
+   "file": "pages/business-resources-tag-planners-cfe394.md",
+   "url": "https://www.dupaco.com/business/resources/tag/planners",
+   "title": "Business Resources | Planners",
+   "fetched_at": "2026-05-12T19:56:23.067Z"
+  },
+  {
+   "file": "pages/business-resources-tag-retail-service-2d1298.md",
+   "url": "https://www.dupaco.com/business/resources/tag/retail-service",
+   "title": "Business Resources | Retail & Service",
+   "fetched_at": "2026-05-12T19:56:37.899Z"
+  },
+  {
+   "file": "pages/business-resources-tag-small-business-df38ba.md",
+   "url": "https://www.dupaco.com/business/resources/tag/small-business",
+   "title": "Business Resources | Small Business",
+   "fetched_at": "2026-05-12T19:56:38.706Z"
+  },
+  {
+   "file": "pages/business-resources-tag-startup-401efc.md",
+   "url": "https://www.dupaco.com/business/resources/tag/startup",
+   "title": "Business Resources | Start",
+   "fetched_at": "2026-05-12T19:56:35.621Z"
+  },
+  {
+   "file": "pages/business-resources-tag-templates-b94edd.md",
+   "url": "https://www.dupaco.com/business/resources/tag/templates",
+   "title": "Business Resources | Templates",
+   "fetched_at": "2026-05-12T19:56:24.828Z"
+  },
+  {
+   "file": "pages/business-resources-tag-tools-templates-0fa018.md",
+   "url": "https://www.dupaco.com/business/resources/tag/tools-templates",
+   "title": "Business Resources | Tools",
+   "fetched_at": "2026-05-12T19:56:31.889Z"
+  },
+  {
+   "file": "pages/business-resources-the-6-most-important-things-business-buyers-want-to-know-dd3c49.md",
+   "url": "https://www.dupaco.com/business/resources/the-6-most-important-things-business-buyers-want-to-know",
+   "title": "The 6 most important things business buyers want to know | Dupaco",
+   "fetched_at": "2026-05-12T19:56:25.894Z"
+  },
+  {
+   "file": "pages/business-resources-the-business-records-you-need-to-keep-and-why-dc0e09.md",
+   "url": "https://www.dupaco.com/business/resources/the-business-records-you-need-to-keep-and-why",
+   "title": "The business records you need to keep (and why) | Dupaco",
+   "fetched_at": "2026-05-12T19:56:25.227Z"
+  },
+  {
+   "file": "pages/business-resources-the-midwest-girl-dupaco-believes-in-us-dd3b8f.md",
+   "url": "https://www.dupaco.com/business/resources/the-midwest-girl-dupaco-believes-in-us",
+   "title": "The Midwest Girl: Dupaco believes in us | Dupaco",
+   "fetched_at": "2026-05-12T19:56:23.413Z"
+  },
+  {
+   "file": "pages/business-resources-these-tips-can-help-you-improve-cash-flow-in-your-business-b641e2.md",
+   "url": "https://www.dupaco.com/business/resources/these-tips-can-help-you-improve-cash-flow-in-your-business",
+   "title": "These tips can help you improve cash flow in your business | Dupaco",
+   "fetched_at": "2026-05-12T19:56:30.626Z"
+  },
+  {
+   "file": "pages/business-resources-update-your-business-model-ac82bb.md",
+   "url": "https://www.dupaco.com/business/resources/update-your-business-model",
+   "title": "Update Your Business Model | Dupaco",
+   "fetched_at": "2026-05-12T19:56:28.971Z"
+  },
+  {
+   "file": "pages/business-resources-waiting-for-your-next-big-idea-heres-where-to-find-business-inspiration-e8a01f.md",
+   "url": "https://www.dupaco.com/business/resources/waiting-for-your-next-big-idea-heres-where-to-find-business-inspiration",
+   "title": "Waiting for your next big idea? Here\u2019s where to find inspo | Dupaco",
+   "fetched_at": "2026-05-12T19:56:26.655Z"
+  },
+  {
+   "file": "pages/business-resources-want-to-enter-a-new-market-heres-what-to-consider-first-f50905.md",
+   "url": "https://www.dupaco.com/business/resources/want-to-enter-a-new-market-heres-what-to-consider-first",
+   "title": "Want to enter a new market? Here\u2019s what to consider first | Dupaco",
+   "fetched_at": "2026-05-12T19:56:37.725Z"
+  },
+  {
+   "file": "pages/business-resources-what-new-market-vertical-opportunities-exist-for-your-business-8b5e81.md",
+   "url": "https://www.dupaco.com/business/resources/what-new-market-vertical-opportunities-exist-for-your-business",
+   "title": "What market vertical opportunities exist for your business? | Dupaco",
+   "fetched_at": "2026-05-12T19:56:31.611Z"
+  },
+  {
+   "file": "pages/business-resources-what-you-need-to-know-about-new-reporting-requirements-for-your-busines-aeff88.md",
+   "url": "https://www.dupaco.com/business/resources/what-you-need-to-know-about-new-reporting-requirements-for-your-business",
+   "title": "New reporting requirements for your business | Dupaco",
+   "fetched_at": "2026-05-12T19:56:28.182Z"
+  },
+  {
+   "file": "pages/business-resources-whens-the-best-time-to-write-a-business-plan-dupaco-b3c9a2.md",
+   "url": "https://www.dupaco.com/business/resources/whens-the-best-time-to-write-a-business-plan-dupaco",
+   "title": "When's the best time to write a business plan? | Dupaco",
+   "fetched_at": "2026-05-12T19:56:33.985Z"
+  },
+  {
+   "file": "pages/business-resources-why-every-business-owner-should-protect-and-value-their-intangible-asse-e0d085.md",
+   "url": "https://www.dupaco.com/business/resources/why-every-business-owner-should-protect-and-value-their-intangible-assets",
+   "title": "Why business owners should value their intangible assets | Dupaco",
+   "fetched_at": "2026-05-12T19:56:28.768Z"
+  },
+  {
+   "file": "pages/business-resources-why-liquidity-matters-plus-ways-to-improve-it-6ac2bb.md",
+   "url": "https://www.dupaco.com/business/resources/why-liquidity-matters-plus-ways-to-improve-it",
+   "title": "Why liquidity matters (plus ways to improve it) | Dupaco",
+   "fetched_at": "2026-05-12T19:56:31.559Z"
+  },
+  {
+   "file": "pages/business-resources-working-capital-what-is-it-and-how-much-does-your-business-need-c42741.md",
+   "url": "https://www.dupaco.com/business/resources/working-capital-what-is-it-and-how-much-does-your-business-need",
+   "title": "Working capital: How much does your business need? | Dupaco",
+   "fetched_at": "2026-05-12T19:56:37.312Z"
+  },
+  {
+   "file": "pages/business-resources-workshop-library-c07f35.md",
+   "url": "https://www.dupaco.com/business/resources/workshop-library",
+   "title": "Workshop Library",
+   "fetched_at": "2026-05-12T19:56:29.254Z"
+  },
+  {
+   "file": "pages/business-savings-accounts-735d7b.md",
+   "url": "https://www.dupaco.com/business/savings-accounts",
+   "title": "Business Savings: Start Saving and Earning | Dupaco",
+   "fetched_at": "2026-05-12T19:56:27.410Z"
+  },
+  {
+   "file": "pages/calculators-60683e.md",
+   "url": "https://www.dupaco.com/calculators",
+   "title": "Financial Calculators to Help You Plan | Dupaco",
+   "fetched_at": "2026-05-12T19:56:28.063Z"
+  },
+  {
+   "file": "pages/calculators-5-ways-to-increase-profit-margins-dupaco-ae91b8.md",
+   "url": "https://www.dupaco.com/calculators/5-ways-to-increase-profit-margins-dupaco",
+   "title": "5 Ways to Increase Profit Margins | Dupaco",
+   "fetched_at": "2026-05-12T19:56:25.952Z"
+  },
+  {
+   "file": "pages/calculators-auto-refinance-95fa9c.md",
+   "url": "https://www.dupaco.com/calculators/auto-refinance",
+   "title": "Auto Loan Refinance Calculator | Dupaco",
+   "fetched_at": "2026-05-12T19:56:35.454Z"
+  },
+  {
+   "file": "pages/calculators-borrowing-from-a-heloc-5faf1c.md",
+   "url": "https://www.dupaco.com/calculators/borrowing-from-a-heloc",
+   "title": "Home Equity Calculator: Estimate the Equity You've Built | Dupaco",
+   "fetched_at": "2026-05-12T19:56:24.754Z"
+  },
+  {
+   "file": "pages/calculators-business-construction-loan-dupaco-4ec7f0.md",
+   "url": "https://www.dupaco.com/calculators/business-construction-loan-dupaco",
+   "title": "Business Construction Loan | Dupaco",
+   "fetched_at": "2026-05-12T19:56:24.888Z"
+  },
+  {
+   "file": "pages/calculators-business-equipment-loan-dupaco-3a664d.md",
+   "url": "https://www.dupaco.com/calculators/business-equipment-loan-dupaco",
+   "title": "Business Equipment Loan Calculator | Dupaco",
+   "fetched_at": "2026-05-12T19:56:31.209Z"
+  },
+  {
+   "file": "pages/calculators-business-loan-repayment-calculator-dupaco-c5d7d1.md",
+   "url": "https://www.dupaco.com/calculators/business-loan-repayment-calculator-dupaco",
+   "title": "Business Loan Repayment Calculator | Dupaco",
+   "fetched_at": "2026-05-12T19:56:24.422Z"
+  },
+  {
+   "file": "pages/calculators-business-planner-calculator-dupaco-51f275.md",
+   "url": "https://www.dupaco.com/calculators/business-planner-calculator-dupaco",
+   "title": "Business Planner Calculator | Dupaco",
+   "fetched_at": "2026-05-12T19:56:33.642Z"
+  },
+  {
+   "file": "pages/calculators-business-real-estate-loan-dupaco-44c805.md",
+   "url": "https://www.dupaco.com/calculators/business-real-estate-loan-dupaco",
+   "title": "Business Real Estate Loan Calculator | Dupaco",
+   "fetched_at": "2026-05-12T19:56:26.689Z"
+  },
+  {
+   "file": "pages/calculators-certificate-calculator-d9cb5a.md",
+   "url": "https://www.dupaco.com/calculators/certificate-calculator",
+   "title": "Certificate Calculator | Dupaco",
+   "fetched_at": "2026-05-12T19:56:26.553Z"
+  },
+  {
+   "file": "pages/calculators-credit-card-pay-off-285d5e.md",
+   "url": "https://www.dupaco.com/calculators/credit-card-pay-off",
+   "title": "Credit Card Payoff Calculator | Dupaco",
+   "fetched_at": "2026-05-12T19:56:31.351Z"
+  },
+  {
+   "file": "pages/calculators-debt-consolidation-d77e1d.md",
+   "url": "https://www.dupaco.com/calculators/debt-consolidation",
+   "title": "Debt Consolidation Calculator | Dupaco",
+   "fetched_at": "2026-05-12T19:56:23.699Z"
+  },
+  {
+   "file": "pages/calculators-financial-health-check-dupaco-ec0f3e.md",
+   "url": "https://www.dupaco.com/calculators/financial-health-check-dupaco",
+   "title": "Financial Health Check Calculator | Dupaco",
+   "fetched_at": "2026-05-12T19:56:26.768Z"
+  },
+  {
+   "file": "pages/calculators-home-affordability-497666.md",
+   "url": "https://www.dupaco.com/calculators/home-affordability",
+   "title": "Home Affordability Calculator | Dupaco",
+   "fetched_at": "2026-05-12T19:56:37.059Z"
+  },
+  {
+   "file": "pages/calculators-home-refinance-67de39.md",
+   "url": "https://www.dupaco.com/calculators/home-refinance",
+   "title": "Mortgage Refinance Calculator | Dupaco",
+   "fetched_at": "2026-05-12T19:56:28.795Z"
+  },
+  {
+   "file": "pages/calculators-lease-vs-buy-09a966.md",
+   "url": "https://www.dupaco.com/calculators/lease-vs-buy",
+   "title": "Lease or Buy Auto Calculator | Dupaco",
+   "fetched_at": "2026-05-12T19:56:34.207Z"
+  },
+  {
+   "file": "pages/calculators-life-insurance-coverage-e743a1.md",
+   "url": "https://www.dupaco.com/calculators/life-insurance-coverage",
+   "title": "Life Insurance Coverage Calculator | Dupaco",
+   "fetched_at": "2026-05-12T19:56:23.742Z"
+  },
+  {
+   "file": "pages/calculators-loan-term-comparison-1e961d.md",
+   "url": "https://www.dupaco.com/calculators/loan-term-comparison",
+   "title": "Mortgage Comparison Calculator | Dupaco",
+   "fetched_at": "2026-05-12T19:56:26.818Z"
+  },
+  {
+   "file": "pages/calculators-mortgage-payment-10830d.md",
+   "url": "https://www.dupaco.com/calculators/mortgage-payment",
+   "title": "Mortgage Payment Calculator | Dupaco",
+   "fetched_at": "2026-05-12T19:56:26.270Z"
+  },
+  {
+   "file": "pages/calculators-personal-loan-d68b27.md",
+   "url": "https://www.dupaco.com/calculators/personal-loan",
+   "title": "Personal Loan Calculator | Dupaco",
+   "fetched_at": "2026-05-12T19:56:26.446Z"
+  },
+  {
+   "file": "pages/calculators-rent-vs-buy-ab6762.md",
+   "url": "https://www.dupaco.com/calculators/rent-vs-buy",
+   "title": "Rent vs. Buy Calculator | Dupaco",
+   "fetched_at": "2026-05-12T19:56:38.448Z"
+  },
+  {
+   "file": "pages/calculators-retirement-income-b40ca9.md",
+   "url": "https://www.dupaco.com/calculators/retirement-income",
+   "title": "Retirement Income Calculator | Dupaco",
+   "fetched_at": "2026-05-12T19:56:26.247Z"
+  },
+  {
+   "file": "pages/calculators-retirement-savings-7867d0.md",
+   "url": "https://www.dupaco.com/calculators/retirement-savings",
+   "title": "How Long Will My Retirement Savings Last Calculator | Dupaco",
+   "fetched_at": "2026-05-12T19:56:24.127Z"
+  },
+  {
+   "file": "pages/calculators-roth-vs-traditional-ira-4abdfb.md",
+   "url": "https://www.dupaco.com/calculators/roth-vs-traditional-ira",
+   "title": "Roth vs. Traditional IRA Calculator | Dupaco",
+   "fetched_at": "2026-05-12T19:56:28.702Z"
+  },
+  {
+   "file": "pages/calculators-save-toward-a-goal-2a0918.md",
+   "url": "https://www.dupaco.com/calculators/save-toward-a-goal",
+   "title": "Save Toward a Goal Calculator | Dupaco",
+   "fetched_at": "2026-05-12T19:56:26.745Z"
+  },
+  {
+   "file": "pages/calculators-savings-budget-bc7d98.md",
+   "url": "https://www.dupaco.com/calculators/savings-budget",
+   "title": "Savings Budget Calculator: How Much Can I Save | Dupaco",
+   "fetched_at": "2026-05-12T19:56:31.422Z"
+  },
+  {
+   "file": "pages/calculators-savings-interest-9d7ac2.md",
+   "url": "https://www.dupaco.com/calculators/savings-interest",
+   "title": "Compound Interest Savings Calculator | Dupaco",
+   "fetched_at": "2026-05-12T19:56:28.084Z"
+  },
+  {
+   "file": "pages/calculators-small-business-loan-dupaco-b495d5.md",
+   "url": "https://www.dupaco.com/calculators/small-business-loan-dupaco",
+   "title": "Small Business Loan Calculator | Dupaco",
+   "fetched_at": "2026-05-12T19:56:29.451Z"
+  },
+  {
+   "file": "pages/calculators-vehicle-affordability-bc054b.md",
+   "url": "https://www.dupaco.com/calculators/vehicle-affordability",
+   "title": "Vehicle Affordability Calculator | Dupaco",
+   "fetched_at": "2026-05-12T19:56:28.365Z"
+  },
+  {
+   "file": "pages/calculators-vehicle-payment-55e8c7.md",
+   "url": "https://www.dupaco.com/calculators/vehicle-payment",
+   "title": "Auto Loan Payment Calculator | Dupaco",
+   "fetched_at": "2026-05-12T19:56:38.233Z"
+  },
+  {
+   "file": "pages/careers-a52e75.md",
+   "url": "https://www.dupaco.com/careers",
+   "title": "Work With Purpose: Join Our Crew | Dupaco",
+   "fetched_at": "2026-05-12T19:56:25.374Z"
+  },
+  {
+   "file": "pages/checking-offer-lp-a3545a.md",
+   "url": "https://www.dupaco.com/checking-offer-lp",
+   "title": "Checking Account Offer",
+   "fetched_at": "2026-05-12T19:56:34.299Z"
+  },
+  {
+   "file": "pages/community-c481b3.md",
+   "url": "https://www.dupaco.com/community",
+   "title": "Building Better Communities | Dupaco",
+   "fetched_at": "2026-05-12T19:56:24.663Z"
+  },
+  {
+   "file": "pages/connect-online-and-mobile-banking-shine-login-help-847922.md",
+   "url": "https://www.dupaco.com/connect/online-and-mobile-banking/shine-login-help",
+   "title": "Shine Login Help",
+   "fetched_at": "2026-05-12T19:56:31.799Z"
+  },
+  {
+   "file": "pages/contact-c99539.md",
+   "url": "https://www.dupaco.com/contact",
+   "title": "Contact Us and Find Your Closest Location | Dupaco",
+   "fetched_at": "2026-05-12T19:56:29.217Z"
+  },
+  {
+   "file": "pages/digital-privacy-policy-22deef.md",
+   "url": "https://www.dupaco.com/digital-privacy-policy",
+   "title": "Digital Privacy Policy | Dupaco",
+   "fetched_at": "2026-05-12T19:56:32.394Z"
+  },
+  {
+   "file": "pages/disclosures-57e3c7.md",
+   "url": "https://www.dupaco.com/disclosures",
+   "title": "Disclosures | Dupaco",
+   "fetched_at": "2026-05-12T19:56:38.422Z"
+  },
+  {
+   "file": "pages/disclosures-california-consumer-privacy-act-3cd25b.md",
+   "url": "https://www.dupaco.com/disclosures/california-consumer-privacy-act",
+   "title": "California Consumer Act | Dupaco",
+   "fetched_at": "2026-05-12T19:56:38.495Z"
+  },
+  {
+   "file": "pages/financial-services-7aeabc.md",
+   "url": "https://www.dupaco.com/financial-services",
+   "title": "Dupaco Financial Services: Guidance for Retirement and More | Dupaco",
+   "fetched_at": "2026-05-12T19:56:33.449Z"
+  },
+  {
+   "file": "pages/first-time-homebuyer-grant-27fcc5.md",
+   "url": "https://www.dupaco.com/first-time-homebuyer-grant",
+   "title": "First-Time Homebuyer Grant: Help For Your First Home | Dupaco",
+   "fetched_at": "2026-05-12T19:56:30.348Z"
+  },
+  {
+   "file": "pages/gift-of-innovation-grant-c6d8e2.md",
+   "url": "https://www.dupaco.com/gift-of-innovation-grant",
+   "title": "Gift of Innovation Grant | Dupaco",
+   "fetched_at": "2026-05-12T19:56:30.705Z"
+  },
+  {
+   "file": "pages/hardship-grant-73e414.md",
+   "url": "https://www.dupaco.com/hardship-grant",
+   "title": "Hardship Grant: Unexpected Hardship? We're Here to Help | Dupaco",
+   "fetched_at": "2026-05-12T19:56:29.549Z"
+  },
+  {
+   "file": "pages/homebuying-guidance-ba0df5.md",
+   "url": "https://www.dupaco.com/homebuying-guidance",
+   "title": "Buying a Home? We'll Help You Make the Right Move | Dupaco",
+   "fetched_at": "2026-05-12T19:56:33.779Z"
+  },
+  {
+   "file": "pages/hubfs-3-2-fraud-recovery-family-id-restoration-enrollment-pdf-8dd6a1.md",
+   "url": "https://www.dupaco.com/hubfs/3.2._fraud-recovery_Family-ID-Restoration-Enrollment.pdf",
+   "title": "https://www.dupaco.com/hubfs/3.2._fraud-recovery_Family-ID-Restoration-Enrollment.pdf",
+   "fetched_at": "2026-05-12T19:56:26.907Z"
+  },
+  {
+   "file": "pages/hubfs-5626-layout-lo-pdf-c7d521.md",
+   "url": "https://www.dupaco.com/hubfs/5626_layout_LO.pdf",
+   "title": "https://www.dupaco.com/hubfs/5626_layout_LO.pdf",
+   "fetched_at": "2026-05-12T19:56:22.923Z"
+  },
+  {
+   "file": "pages/hubfs-business-real-estate-loan-application-pdf-6fbc62.md",
+   "url": "https://www.dupaco.com/hubfs/Business-Real-Estate-Loan-Application.pdf",
+   "title": "https://www.dupaco.com/hubfs/Business-Real-Estate-Loan-Application.pdf",
+   "fetched_at": "2026-05-12T19:56:24.535Z"
+  },
+  {
+   "file": "pages/hubfs-cash-flow-forecast-template-dupaco-xls-fb929d.md",
+   "url": "https://www.dupaco.com/hubfs/Cash-Flow-Forecast-Template-Dupaco.xls",
+   "title": "https://www.dupaco.com/hubfs/Cash-Flow-Forecast-Template-Dupaco.xls",
+   "fetched_at": "2026-05-12T19:56:22.832Z"
+  },
+  {
+   "file": "pages/hubfs-commercial-business-loan-application-personal-financial-statement-1-20-1-pdf-9aa0ce.md",
+   "url": "https://www.dupaco.com/hubfs/Commercial-Business-Loan-Application-Personal-Financial-Statement-1%20(1).pdf",
+   "title": "https://www.dupaco.com/hubfs/Commercial-Business-Loan-Application-Personal-Financial-Statement-1%20(1).pdf",
+   "fetched_at": "2026-05-12T19:56:22.537Z"
+  },
+  {
+   "file": "pages/hubfs-custom-budget-worksheet-11-money-20makeoversheet-csv-5f12ef.md",
+   "url": "https://www.dupaco.com/hubfs/Custom-Budget-Worksheet-11(Money%20MakeoverSheet).csv",
+   "title": "https://www.dupaco.com/hubfs/Custom-Budget-Worksheet-11(Money%20MakeoverSheet).csv",
+   "fetched_at": "2026-05-12T19:56:26.468Z"
+  },
+  {
+   "file": "pages/hubfs-dupaco-2025-impact-report-pdf-a7d448.md",
+   "url": "https://www.dupaco.com/hubfs/Dupaco-2025-Impact-Report.pdf",
+   "title": "5623_layout.indd",
+   "fetched_at": "2026-05-12T19:56:31.869Z"
+  },
+  {
+   "file": "pages/hubfs-dupaco-swbc-credit-debit-transfers-terms-conditions-pdf-91a0d0.md",
+   "url": "https://www.dupaco.com/hubfs/Dupaco-SWBC-Credit-Debit-Transfers-Terms-Conditions.pdf",
+   "title": "https://www.dupaco.com/hubfs/Dupaco-SWBC-Credit-Debit-Transfers-Terms-Conditions.pdf",
+   "fetched_at": "2026-05-12T19:56:33.353Z"
+  },
+  {
+   "file": "pages/hubfs-dupacocu-privacy-policy-2025-pdf-7b526a.md",
+   "url": "https://www.dupaco.com/hubfs/DupacoCU_Privacy_Policy_2025.pdf",
+   "title": "https://www.dupaco.com/hubfs/DupacoCU_Privacy_Policy_2025.pdf",
+   "fetched_at": "2026-05-12T19:56:30.260Z"
+  },
+  {
+   "file": "pages/hubfs-financial-performance-plan-dupaco-pdf-ee56f0.md",
+   "url": "https://www.dupaco.com/hubfs/Financial-Performance-Plan-Dupaco.pdf",
+   "title": "https://www.dupaco.com/hubfs/Financial-Performance-Plan-Dupaco.pdf",
+   "fetched_at": "2026-05-12T19:56:28.347Z"
+  },
+  {
+   "file": "pages/hubfs-gift-of-innovation-webinar-presentation-pdf-1e8a8c.md",
+   "url": "https://www.dupaco.com/hubfs/Gift-of-Innovation-Webinar-Presentation.pdf",
+   "title": "Innovation Labs + ITM Strategy",
+   "fetched_at": "2026-05-12T19:56:29.311Z"
+  },
+  {
+   "file": "pages/hubfs-grow-your-sales-checklist-dupaco-pdf-fe7a04.md",
+   "url": "https://www.dupaco.com/hubfs/Grow-Your-Sales-Checklist-Dupaco.pdf",
+   "title": "Business Checklist: Grow your sales",
+   "fetched_at": "2026-05-12T19:56:22.423Z"
+  },
+  {
+   "file": "pages/hubfs-lean-business-plan-dupaco-pdf-5bd3a5.md",
+   "url": "https://www.dupaco.com/hubfs/Lean-Business-Plan-Dupaco.pdf",
+   "title": "Lean Business Plan - Dupaco",
+   "fetched_at": "2026-05-12T19:56:23.824Z"
+  },
+  {
+   "file": "pages/hubfs-smalldollarlending-pfs-pdf-b4722b.md",
+   "url": "https://www.dupaco.com/hubfs/SmallDollarLending-PFS.pdf",
+   "title": "https://www.dupaco.com/hubfs/SmallDollarLending-PFS.pdf",
+   "fetched_at": "2026-05-12T19:56:25.026Z"
+  },
+  {
+   "file": "pages/hubfs-starting-a-business-guide-dupaco-pdf-cb0ded.md",
+   "url": "https://www.dupaco.com/hubfs/Starting-a-Business-Guide-Dupaco.pdf",
+   "title": "https://www.dupaco.com/hubfs/Starting-a-Business-Guide-Dupaco.pdf",
+   "fetched_at": "2026-05-12T19:56:39.057Z"
+  },
+  {
+   "file": "pages/hubfs-update-your-business-model-checklist-dupaco-pdf-776ce2.md",
+   "url": "https://www.dupaco.com/hubfs/Update-Your-Business-Model-Checklist-Dupaco.pdf",
+   "title": "Business Checklist: Update your business model",
+   "fetched_at": "2026-05-12T19:56:32.964Z"
+  },
+  {
+   "file": "pages/hubfs-visa-comparison-chart-202502-pdf-f6ca7e.md",
+   "url": "https://www.dupaco.com/hubfs/Visa-Comparison-Chart-202502.pdf",
+   "title": "https://www.dupaco.com/hubfs/Visa-Comparison-Chart-202502.pdf",
+   "fetched_at": "2026-05-12T19:56:29.200Z"
+  },
+  {
+   "file": "pages/hubfs-dupaco-credit-union-fee-schedule-miscellaneous-fees-jan-15-2025-1-pdf-312b5a.md",
+   "url": "https://www.dupaco.com/hubfs/dupaco-credit-union-fee-schedule-miscellaneous-fees-jan-15-2025-1.pdf",
+   "title": "https://www.dupaco.com/hubfs/dupaco-credit-union-fee-schedule-miscellaneous-fees-jan-15-2025-1.pdf",
+   "fetched_at": "2026-05-12T19:56:25.083Z"
+  },
+  {
+   "file": "pages/kccc-membership-grant-e26c88.md",
+   "url": "https://www.dupaco.com/kccc-membership-grant",
+   "title": "Dream to Reality: Maker Mentorship Program | Dupaco",
+   "fetched_at": "2026-05-12T19:56:24.972Z"
+  },
+  {
+   "file": "pages/learn-blog-fc5ee6.md",
+   "url": "https://www.dupaco.com/learn/blog",
+   "title": "Personal Resources",
+   "fetched_at": "2026-05-12T19:56:32.980Z"
+  },
+  {
+   "file": "pages/learn-blog-11-steps-for-buying-a-house-for-the-first-time-3a2553.md",
+   "url": "https://www.dupaco.com/learn/blog/11-steps-for-buying-a-house-for-the-first-time",
+   "title": "11 steps for buying a house for the first time | Dupaco",
+   "fetched_at": "2026-05-12T19:56:29.671Z"
+  },
+  {
+   "file": "pages/learn-blog-23-creative-ways-to-save-money-for-travel-6b95bb.md",
+   "url": "https://www.dupaco.com/learn/blog/23-creative-ways-to-save-money-for-travel",
+   "title": "23+ creative ways to save money for travel | Dupaco",
+   "fetched_at": "2026-05-12T19:56:33.029Z"
+  },
+  {
+   "file": "pages/learn-blog-3-hidden-expenses-of-pet-ownership-ecb274.md",
+   "url": "https://www.dupaco.com/learn/blog/3-hidden-expenses-of-pet-ownership",
+   "title": "3 hidden expenses of pet ownership",
+   "fetched_at": "2026-05-12T19:56:27.604Z"
+  },
+  {
+   "file": "pages/learn-blog-3-things-to-keep-doing-after-a-job-loss-5fab9f.md",
+   "url": "https://www.dupaco.com/learn/blog/3-things-to-keep-doing-after-a-job-loss",
+   "title": "3 things to keep doing after a job loss | Dupaco",
+   "fetched_at": "2026-05-12T19:56:28.678Z"
+  },
+  {
+   "file": "pages/learn-blog-4-budget-friendly-gift-ideas-2bc8b0.md",
+   "url": "https://www.dupaco.com/learn/blog/4-budget-friendly-gift-ideas",
+   "title": "4 budget-friendly gift ideas | Dupaco",
+   "fetched_at": "2026-05-12T19:56:27.222Z"
+  },
+  {
+   "file": "pages/learn-blog-4-challenges-of-choosing-a-career-and-what-to-do-about-it-8389ae.md",
+   "url": "https://www.dupaco.com/learn/blog/4-challenges-of-choosing-a-career-and-what-to-do-about-it",
+   "title": "4 challenges of choosing a career ... and what to do about it | Dupaco",
+   "fetched_at": "2026-05-12T19:56:25.172Z"
+  },
+  {
+   "file": "pages/learn-blog-5-benefits-of-pet-insurance-to-consider-right-meow-801d82.md",
+   "url": "https://www.dupaco.com/learn/blog/5-benefits-of-pet-insurance-to-consider-right-meow",
+   "title": "Is pet insurance worth it? What every owner should know | Dupaco",
+   "fetched_at": "2026-05-12T19:56:38.290Z"
+  },
+  {
+   "file": "pages/learn-blog-5-steps-to-help-you-buy-your-house-as-home-prices-soar-5a299c.md",
+   "url": "https://www.dupaco.com/learn/blog/5-steps-to-help-you-buy-your-house-as-home-prices-soar",
+   "title": "5 steps to help you buy your house as home prices soar | Dupaco",
+   "fetched_at": "2026-05-12T19:56:38.998Z"
+  },
+  {
+   "file": "pages/learn-blog-5-ways-secure-2-0-act-could-impact-your-retirement-savings-a5270d.md",
+   "url": "https://www.dupaco.com/learn/blog/5-ways-secure-2-0-act-could-impact-your-retirement-savings",
+   "title": "5 ways SECURE 2.0 Act could impact your retirement savings | Dupaco",
+   "fetched_at": "2026-05-12T19:56:34.481Z"
+  },
+  {
+   "file": "pages/learn-blog-5-ways-to-lower-the-cost-of-tuition-d28553.md",
+   "url": "https://www.dupaco.com/learn/blog/5-ways-to-lower-the-cost-of-tuition",
+   "title": "How to lower the cost of college tuition: Smart ways to save | Dupaco",
+   "fetched_at": "2026-05-12T19:56:34.691Z"
+  },
+  {
+   "file": "pages/learn-blog-5-ways-you-can-save-time-with-scholarship-applications-6c4869.md",
+   "url": "https://www.dupaco.com/learn/blog/5-ways-you-can-save-time-with-scholarship-applications",
+   "title": "5 ways you can save time with scholarship applications | Dupaco",
+   "fetched_at": "2026-05-12T19:56:28.443Z"
+  },
+  {
+   "file": "pages/learn-blog-6-ways-to-improve-your-gas-mileage-this-winter-96d9dc.md",
+   "url": "https://www.dupaco.com/learn/blog/6-ways-to-improve-your-gas-mileage-this-winter",
+   "title": "6 ways to improve your gas mileage this winter | Dupaco",
+   "fetched_at": "2026-05-12T19:56:34.793Z"
+  },
+  {
+   "file": "pages/learn-blog-62-67-or-70-when-should-you-claim-social-security-bfd6f1.md",
+   "url": "https://www.dupaco.com/learn/blog/62-67-or-70-when-should-you-claim-social-security",
+   "title": "62, 67 or 70: When should you claim Social Security? | Dupaco",
+   "fetched_at": "2026-05-12T19:56:29.278Z"
+  },
+  {
+   "file": "pages/learn-blog-7-tips-to-help-you-discover-your-dream-job-3e6e66.md",
+   "url": "https://www.dupaco.com/learn/blog/7-tips-to-help-you-discover-your-dream-job",
+   "title": "7 tips to help you discover your dream job",
+   "fetched_at": "2026-05-12T19:56:25.506Z"
+  },
+  {
+   "file": "pages/learn-blog-8-hacks-that-will-help-you-save-more-money-3ed6f1.md",
+   "url": "https://www.dupaco.com/learn/blog/8-hacks-that-will-help-you-save-more-money",
+   "title": "8 surprisingly easy ways to save more money | Dupaco",
+   "fetched_at": "2026-05-12T19:56:33.477Z"
+  },
+  {
+   "file": "pages/learn-blog-a-journey-rooted-in-trust-66af43.md",
+   "url": "https://www.dupaco.com/learn/blog/a-journey-rooted-in-trust",
+   "title": "A journey rooted in trust",
+   "fetched_at": "2026-05-12T19:56:31.075Z"
+  },
+  {
+   "file": "pages/learn-blog-a-member-story-its-nice-to-be-where-i-am-now-be5b3c.md",
+   "url": "https://www.dupaco.com/learn/blog/a-member-story-its-nice-to-be-where-i-am-now",
+   "title": "A member story: 'It's nice to be where I am now'",
+   "fetched_at": "2026-05-12T19:56:35.348Z"
+  },
+  {
+   "file": "pages/learn-blog-a-member-story-on-the-road-to-financial-stability-f07814.md",
+   "url": "https://www.dupaco.com/learn/blog/a-member-story-on-the-road-to-financial-stability",
+   "title": "A member story: On the road to financial stability | Dupaco",
+   "fetched_at": "2026-05-12T19:56:30.280Z"
+  },
+  {
+   "file": "pages/learn-blog-a-member-story-the-future-looks-bright-1a4e65.md",
+   "url": "https://www.dupaco.com/learn/blog/a-member-story-the-future-looks-bright",
+   "title": "A member story: 'The future looks bright'",
+   "fetched_at": "2026-05-12T19:56:35.269Z"
+  },
+  {
+   "file": "pages/learn-blog-a-road-trip-detour-meeting-our-members-where-they-are-ae6016.md",
+   "url": "https://www.dupaco.com/learn/blog/a-road-trip-detour-meeting-our-members-where-they-are",
+   "title": "A road trip detour: Meeting our members where they are",
+   "fetched_at": "2026-05-12T19:56:26.949Z"
+  },
+  {
+   "file": "pages/learn-blog-are-reward-credit-cards-worth-it-dupaco-breaks-down-the-pros-and-cons-ac8e0c.md",
+   "url": "https://www.dupaco.com/learn/blog/are-reward-credit-cards-worth-it-dupaco-breaks-down-the-pros-and-cons",
+   "title": "Are reward credit cards worth it? Here are the pros and cons | Dupaco",
+   "fetched_at": "2026-05-12T19:56:37.582Z"
+  },
+  {
+   "file": "pages/learn-blog-as-vehicle-costs-continue-to-rise-dupaco-helps-buyers-steer-clear-of-costly-mis-a8b446.md",
+   "url": "https://www.dupaco.com/learn/blog/as-vehicle-costs-continue-to-rise-dupaco-helps-buyers-steer-clear-of-costly-mistakes",
+   "title": "https://www.dupaco.com/learn/blog/as-vehicle-costs-continue-to-rise-dupaco-helps-buyers-steer-clear-of-costly-mistakes",
+   "fetched_at": "2026-05-12T19:56:38.004Z"
+  },
+  {
+   "file": "pages/learn-blog-author-admin-1e5d5e.md",
+   "url": "https://www.dupaco.com/learn/blog/author/admin",
+   "title": "Personal Resources | Admin",
+   "fetched_at": "2026-05-12T19:56:25.426Z"
+  },
+  {
+   "file": "pages/learn-blog-author-dupaco-d35d98.md",
+   "url": "https://www.dupaco.com/learn/blog/author/dupaco",
+   "title": "Personal Resources | Dupaco",
+   "fetched_at": "2026-05-12T19:56:27.745Z"
+  },
+  {
+   "file": "pages/learn-blog-author-emily-kittle-f2b41f.md",
+   "url": "https://www.dupaco.com/learn/blog/author/emily-kittle",
+   "title": "Personal Resources | Emily Kittle",
+   "fetched_at": "2026-05-12T19:56:32.483Z"
+  },
+  {
+   "file": "pages/learn-blog-author-emily-kress-713357.md",
+   "url": "https://www.dupaco.com/learn/blog/author/emily-kress",
+   "title": "Personal Resources | Emily Kress",
+   "fetched_at": "2026-05-12T19:56:30.905Z"
+  },
+  {
+   "file": "pages/learn-blog-author-james-cyrus-d5b67e.md",
+   "url": "https://www.dupaco.com/learn/blog/author/james-cyrus",
+   "title": "Personal Resources | James Cyrus",
+   "fetched_at": "2026-05-12T19:56:27.513Z"
+  },
+  {
+   "file": "pages/learn-blog-author-jennifer-faley-0604e3.md",
+   "url": "https://www.dupaco.com/learn/blog/author/jennifer-faley",
+   "title": "Personal Resources | Jennifer Faley",
+   "fetched_at": "2026-05-12T19:56:30.011Z"
+  },
+  {
+   "file": "pages/learn-blog-author-mallory-blondin-359765.md",
+   "url": "https://www.dupaco.com/learn/blog/author/mallory-blondin",
+   "title": "Personal Resources | Mallory Blondin",
+   "fetched_at": "2026-05-12T19:56:31.944Z"
+  },
+  {
+   "file": "pages/learn-blog-author-tara-mcdermott-658eaa.md",
+   "url": "https://www.dupaco.com/learn/blog/author/tara-mcdermott",
+   "title": "Personal Resources | Tara McDermott",
+   "fetched_at": "2026-05-12T19:56:23.720Z"
+  },
+  {
+   "file": "pages/learn-blog-auto-refinance-calculator-5f96fc.md",
+   "url": "https://www.dupaco.com/learn/blog/auto-refinance-calculator",
+   "title": "Auto Refinance Calculator",
+   "fetched_at": "2026-05-12T19:56:22.967Z"
+  },
+  {
+   "file": "pages/learn-blog-best-roi-home-improvements-to-boost-your-homes-value-fc21dd.md",
+   "url": "https://www.dupaco.com/learn/blog/best-roi-home-improvements-to-boost-your-homes-value",
+   "title": "Best ROI home improvements to boost your home\u2019s value | Dupaco",
+   "fetched_at": "2026-05-12T19:56:36.839Z"
+  },
+  {
+   "file": "pages/learn-blog-best-time-of-year-to-sell-your-house-and-how-to-stand-out-bc5231.md",
+   "url": "https://www.dupaco.com/learn/blog/best-time-of-year-to-sell-your-house-and-how-to-stand-out",
+   "title": "Best time of year to sell your house (and how to stand out) | Dupaco",
+   "fetched_at": "2026-05-12T19:56:26.311Z"
+  },
+  {
+   "file": "pages/learn-blog-best-ways-to-save-for-kids-and-secure-their-futures-4f56e8.md",
+   "url": "https://www.dupaco.com/learn/blog/best-ways-to-save-for-kids-and-secure-their-futures",
+   "title": "Best ways to save for kids and help secure their future | Dupaco",
+   "fetched_at": "2026-05-12T19:56:29.072Z"
+  },
+  {
+   "file": "pages/learn-blog-boost-your-credit-score-4-myths-debunked-d74626.md",
+   "url": "https://www.dupaco.com/learn/blog/boost-your-credit-score-4-myths-debunked",
+   "title": "Boost your credit score: 4 myths debunked | Dupaco",
+   "fetched_at": "2026-05-12T19:56:22.567Z"
+  },
+  {
+   "file": "pages/learn-blog-borrowing-from-a-heloc-calculator-2e27d1.md",
+   "url": "https://www.dupaco.com/learn/blog/borrowing-from-a-heloc-calculator",
+   "title": "Borrowing from a HELOC Calculator",
+   "fetched_at": "2026-05-12T19:56:35.308Z"
+  },
+  {
+   "file": "pages/learn-blog-budgeting-for-a-newly-single-life-after-divorce-80e746.md",
+   "url": "https://www.dupaco.com/learn/blog/budgeting-for-a-newly-single-life-after-divorce",
+   "title": "How to build a comfortable budget after divorce | Dupaco",
+   "fetched_at": "2026-05-12T19:56:34.819Z"
+  },
+  {
+   "file": "pages/learn-blog-buying-a-new-car-should-you-lease-or-finance-a22baf.md",
+   "url": "https://www.dupaco.com/learn/blog/buying-a-new-car-should-you-lease-or-finance",
+   "title": "Lease vs. finance a car: How to decide what's right for you | Dupaco",
+   "fetched_at": "2026-05-12T19:56:25.474Z"
+  },
+  {
+   "file": "pages/learn-blog-buying-a-used-car-with-confidence-071a05.md",
+   "url": "https://www.dupaco.com/learn/blog/buying-a-used-car-with-confidence",
+   "title": "How to buy a used car with confidence in 7 steps | Dupaco",
+   "fetched_at": "2026-05-12T19:56:29.519Z"
+  },
+  {
+   "file": "pages/learn-blog-certificate-calculator-0835db.md",
+   "url": "https://www.dupaco.com/learn/blog/certificate-calculator",
+   "title": "Certificate Calculator",
+   "fetched_at": "2026-05-12T19:56:31.372Z"
+  },
+  {
+   "file": "pages/learn-blog-changing-jobs-dont-leave-your-401k-behind-9ab043.md",
+   "url": "https://www.dupaco.com/learn/blog/changing-jobs-dont-leave-your-401k-behind",
+   "title": "What to do with your 401(k) from a previous employer | Dupaco",
+   "fetched_at": "2026-05-12T19:56:34.948Z"
+  },
+  {
+   "file": "pages/learn-blog-circle-of-life-members-renovate-house-to-bring-mom-home-16bc6e.md",
+   "url": "https://www.dupaco.com/learn/blog/circle-of-life-members-renovate-house-to-bring-mom-home",
+   "title": "Circle of life: Members renovate house to bring mom home",
+   "fetched_at": "2026-05-12T19:56:27.312Z"
+  },
+  {
+   "file": "pages/learn-blog-college-countdown-how-to-get-your-money-in-order-df7744.md",
+   "url": "https://www.dupaco.com/learn/blog/college-countdown-how-to-get-your-money-in-order",
+   "title": "Getting ready to start college? You'll want to do this first | Dupaco",
+   "fetched_at": "2026-05-12T19:56:31.443Z"
+  },
+  {
+   "file": "pages/learn-blog-confused-by-cryptocurrency-our-beginners-guide-is-here-to-help-1e1599.md",
+   "url": "https://www.dupaco.com/learn/blog/confused-by-cryptocurrency-our-beginners-guide-is-here-to-help",
+   "title": "Confused by crypto? Our beginner's guide is here to help | Dupaco",
+   "fetched_at": "2026-05-12T19:56:38.901Z"
+  },
+  {
+   "file": "pages/learn-blog-could-an-adjustable-rate-mortgage-help-you-buy-your-home-aac5a8.md",
+   "url": "https://www.dupaco.com/learn/blog/could-an-adjustable-rate-mortgage-help-you-buy-your-home",
+   "title": "Could an adjustable-rate mortgage help you buy a home today? | Dupaco",
+   "fetched_at": "2026-05-12T19:56:22.853Z"
+  },
+  {
+   "file": "pages/learn-blog-couple-makes-a-deal-before-getting-married-and-they-still-laugh-about-it-389a8e.md",
+   "url": "https://www.dupaco.com/learn/blog/couple-makes-a-deal-before-getting-married-and-they-still-laugh-about-it",
+   "title": "Couple's marriage deal strengthens their financial future | Dupaco",
+   "fetched_at": "2026-05-12T19:56:30.731Z"
+  },
+  {
+   "file": "pages/learn-blog-couple-uses-home-equity-to-help-reach-their-dream-d74da1.md",
+   "url": "https://www.dupaco.com/learn/blog/couple-uses-home-equity-to-help-reach-their-dream",
+   "title": "Couple uses home equity to help reach their dream",
+   "fetched_at": "2026-05-12T19:56:37.083Z"
+  },
+  {
+   "file": "pages/learn-blog-credit-card-pay-off-calculator-192b61.md",
+   "url": "https://www.dupaco.com/learn/blog/credit-card-pay-off-calculator",
+   "title": "Credit Card Pay Off Calculator",
+   "fetched_at": "2026-05-12T19:56:25.204Z"
+  },
+  {
+   "file": "pages/learn-blog-credit-union-helps-couple-reach-their-dreams-23e87f.md",
+   "url": "https://www.dupaco.com/learn/blog/credit-union-helps-couple-reach-their-dreams",
+   "title": "Credit union helps couple reach their dreams",
+   "fetched_at": "2026-05-12T19:56:30.828Z"
+  },
+  {
+   "file": "pages/learn-blog-crew-mike-frommelt-f8eced.md",
+   "url": "https://www.dupaco.com/learn/blog/crew-mike-frommelt",
+   "title": "Meet your DupacoCrew: Mike Frommelt | Dupaco",
+   "fetched_at": "2026-05-12T19:56:39.249Z"
+  },
+  {
+   "file": "pages/learn-blog-crypto-fraud-what-you-need-to-know-62fa25.md",
+   "url": "https://www.dupaco.com/learn/blog/crypto-fraud-what-you-need-to-know",
+   "title": "Crypto fraud: What you need to know | Dupaco",
+   "fetched_at": "2026-05-12T19:56:35.245Z"
+  },
+  {
+   "file": "pages/learn-blog-daycare-provider-says-her-credit-union-wants-their-members-to-succeed-76878e.md",
+   "url": "https://www.dupaco.com/learn/blog/daycare-provider-says-her-credit-union-wants-their-members-to-succeed",
+   "title": "Day care provider says her credit union wants their members to succeed",
+   "fetched_at": "2026-05-12T19:56:32.151Z"
+  },
+  {
+   "file": "pages/learn-blog-dealing-with-unemployment-fraud-find-out-what-to-do-next-78f603.md",
+   "url": "https://www.dupaco.com/learn/blog/dealing-with-unemployment-fraud-find-out-what-to-do-next",
+   "title": "Dealing with unemployment fraud? Find out what to do next | Dupaco",
+   "fetched_at": "2026-05-12T19:56:24.477Z"
+  },
+  {
+   "file": "pages/learn-blog-debt-consolidation-calculator-543ca9.md",
+   "url": "https://www.dupaco.com/learn/blog/debt-consolidation-calculator",
+   "title": "Debt Consolidation Calculator",
+   "fetched_at": "2026-05-12T19:56:29.343Z"
+  },
+  {
+   "file": "pages/learn-blog-debt-consolidation-is-it-right-for-you-41cd78.md",
+   "url": "https://www.dupaco.com/learn/blog/debt-consolidation-is-it-right-for-you",
+   "title": "What is debt consolidation? How and when it works | Dupaco",
+   "fetched_at": "2026-05-12T19:56:29.639Z"
+  },
+  {
+   "file": "pages/learn-blog-deductions-you-may-not-know-about-but-should-be-taking-c2ab0e.md",
+   "url": "https://www.dupaco.com/learn/blog/deductions-you-may-not-know-about-but-should-be-taking",
+   "title": "Deductions you may not know about (but should be taking) | Dupaco",
+   "fetched_at": "2026-05-12T19:56:24.556Z"
+  },
+  {
+   "file": "pages/learn-blog-did-dupaco-really-mail-that-to-you-0611d9.md",
+   "url": "https://www.dupaco.com/learn/blog/did-dupaco-really-mail-that-to-you",
+   "title": "Mortgage scam postcards and texts: How to tell if it's legit | Dupaco",
+   "fetched_at": "2026-05-12T19:56:27.963Z"
+  },
+  {
+   "file": "pages/learn-blog-did-you-get-a-call-about-card-fraud-5c16ce.md",
+   "url": "https://www.dupaco.com/learn/blog/did-you-get-a-call-about-card-fraud",
+   "title": "Were you contacted about card fraud? | Dupaco",
+   "fetched_at": "2026-05-12T19:56:33.247Z"
+  },
+  {
+   "file": "pages/learn-blog-do-you-know-the-best-way-to-get-your-tax-refund-1090be.md",
+   "url": "https://www.dupaco.com/learn/blog/do-you-know-the-best-way-to-get-your-tax-refund",
+   "title": "Why direct deposit is the best way to get your tax refund | Dupaco",
+   "fetched_at": "2026-05-12T19:56:31.392Z"
+  },
+  {
+   "file": "pages/learn-blog-dupaco-alley-to-open-as-publicly-accessible-pedestrian-walkway-a6e131.md",
+   "url": "https://www.dupaco.com/learn/blog/dupaco-alley-to-open-as-publicly-accessible-pedestrian-walkway",
+   "title": "Dupaco Alley to open as publicly accessible pedestrian walkway",
+   "fetched_at": "2026-05-12T19:56:23.391Z"
+  },
+  {
+   "file": "pages/learn-blog-dupaco-community-credit-union-to-acquire-home-savings-bank-106f8c.md",
+   "url": "https://www.dupaco.com/learn/blog/dupaco-community-credit-union-to-acquire-home-savings-bank",
+   "title": "Dupaco Community Credit Union to acquire Home Savings Bank",
+   "fetched_at": "2026-05-12T19:56:28.472Z"
+  },
+  {
+   "file": "pages/learn-blog-dupaco-explores-revival-of-historic-downtown-building-for-operations-center-9868b8.md",
+   "url": "https://www.dupaco.com/learn/blog/dupaco-explores-revival-of-historic-downtown-building-for-operations-center",
+   "title": "Dupaco explores revival of historic building for Operations Center",
+   "fetched_at": "2026-05-12T19:56:22.701Z"
+  },
+  {
+   "file": "pages/learn-blog-dupaco-member-helps-fellow-member-with-anonymous-donation-4314c6.md",
+   "url": "https://www.dupaco.com/learn/blog/dupaco-member-helps-fellow-member-with-anonymous-donation",
+   "title": "Dupaco member helps fellow member with anonymous donation | Dupaco",
+   "fetched_at": "2026-05-12T19:56:38.686Z"
+  },
+  {
+   "file": "pages/learn-blog-dupaco-to-open-learning-lab-branch-in-coralville-b07de9.md",
+   "url": "https://www.dupaco.com/learn/blog/dupaco-to-open-learning-lab-branch-in-coralville",
+   "title": "Dupaco to open learning lab branch in Coralville",
+   "fetched_at": "2026-05-12T19:56:34.435Z"
+  },
+  {
+   "file": "pages/learn-blog-dupacos-gift-of-innovation-strengthens-nonprofits-e0a711.md",
+   "url": "https://www.dupaco.com/learn/blog/dupacos-gift-of-innovation-strengthens-nonprofits",
+   "title": "Dupaco\u2019s Gift of Innovation strengthens nonprofits | Dupaco",
+   "fetched_at": "2026-05-12T19:56:35.833Z"
+  },
+  {
+   "file": "pages/learn-blog-dupacos-guide-to-crisis-readiness-five-tips-you-need-to-know-18b29c.md",
+   "url": "https://www.dupaco.com/learn/blog/dupacos-guide-to-crisis-readiness-five-tips-you-need-to-know",
+   "title": "Dupaco\u2019s guide to crisis readiness: 5 tips you need to know | Dupaco",
+   "fetched_at": "2026-05-12T19:56:35.433Z"
+  },
+  {
+   "file": "pages/learn-blog-eliminating-paper-clutter-in-your-home-3d600a.md",
+   "url": "https://www.dupaco.com/learn/blog/eliminating-paper-clutter-in-your-home",
+   "title": "6 tips to help you banish paper clutter in your home | Dupaco",
+   "fetched_at": "2026-05-12T19:56:24.994Z"
+  },
+  {
+   "file": "pages/learn-blog-emergency-funds-101-the-key-to-staying-debt-free-and-sane-fd9304.md",
+   "url": "https://www.dupaco.com/learn/blog/emergency-funds-101-the-key-to-staying-debt-free-and-sane",
+   "title": "Emergency funds 101: The key to staying debt-free and sane | Dupaco",
+   "fetched_at": "2026-05-12T19:56:23.115Z"
+  },
+  {
+   "file": "pages/learn-blog-empowering-your-well-being-strategies-for-maximizing-tax-refunds-c3cc4c.md",
+   "url": "https://www.dupaco.com/learn/blog/empowering-your-well-being-strategies-for-maximizing-tax-refunds",
+   "title": "Strategies for maximizing tax refunds | Dupaco",
+   "fetched_at": "2026-05-12T19:56:31.641Z"
+  },
+  {
+   "file": "pages/learn-blog-engage-in-money-talk-before-you-tie-the-knot-b76e2b.md",
+   "url": "https://www.dupaco.com/learn/blog/engage-in-money-talk-before-you-tie-the-knot",
+   "title": "Engage in money talk before you tie the knot | Dupaco",
+   "fetched_at": "2026-05-12T19:56:26.574Z"
+  },
+  {
+   "file": "pages/learn-blog-facing-a-financial-hardship-here-are-steps-you-can-take-fea35b.md",
+   "url": "https://www.dupaco.com/learn/blog/facing-a-financial-hardship-here-are-steps-you-can-take",
+   "title": "Facing a financial hardship? Here are steps you can take | Dupaco",
+   "fetched_at": "2026-05-12T19:56:34.612Z"
+  },
+  {
+   "file": "pages/learn-blog-family-honors-heritage-by-celebrating-tradition-with-a-twist-080272.md",
+   "url": "https://www.dupaco.com/learn/blog/family-honors-heritage-by-celebrating-tradition-with-a-twist",
+   "title": "Family honors heritage by celebrating tradition with a twist",
+   "fetched_at": "2026-05-12T19:56:33.330Z"
+  },
+  {
+   "file": "pages/learn-blog-family-turns-to-dupaco-from-tri-state-area-and-beyond-37ddc9.md",
+   "url": "https://www.dupaco.com/learn/blog/family-turns-to-dupaco-from-tri-state-area-and-beyond",
+   "title": "Can you buy a home in another state with a credit union? | Dupaco",
+   "fetched_at": "2026-05-12T19:56:30.925Z"
+  },
+  {
+   "file": "pages/learn-blog-feeling-buried-in-bills-couple-turns-to-free-service-for-help-ea0fbb.md",
+   "url": "https://www.dupaco.com/learn/blog/feeling-buried-in-bills-couple-turns-to-free-service-for-help",
+   "title": "Feeling buried in bills, couple turns to free service for help",
+   "fetched_at": "2026-05-12T19:56:35.100Z"
+  },
+  {
+   "file": "pages/learn-blog-find-out-dupacos-2024-board-election-results-51f68e.md",
+   "url": "https://www.dupaco.com/learn/blog/find-out-dupacos-2024-board-election-results",
+   "title": "Find out Dupaco\u2019s 2024 board election results | Dupaco",
+   "fetched_at": "2026-05-12T19:56:38.543Z"
+  },
+  {
+   "file": "pages/learn-blog-finding-a-true-financial-partner-dupaco-098e0a.md",
+   "url": "https://www.dupaco.com/learn/blog/finding-a-true-financial-partner-dupaco",
+   "title": "Finding a true financial partner",
+   "fetched_at": "2026-05-12T19:56:37.676Z"
+  },
+  {
+   "file": "pages/learn-blog-follow-one-couples-journey-to-owning-their-dream-home-d7e8ed.md",
+   "url": "https://www.dupaco.com/learn/blog/follow-one-couples-journey-to-owning-their-dream-home",
+   "title": "Follow one couple\u2019s journey to owning their dream home",
+   "fetched_at": "2026-05-12T19:56:35.967Z"
+  },
+  {
+   "file": "pages/learn-blog-fueling-impact-free-coaching-for-entrepreneurial-success-30bdea.md",
+   "url": "https://www.dupaco.com/learn/blog/fueling-impact-free-coaching-for-entrepreneurial-success",
+   "title": "Fueling impact: Free coaching for entrepreneurial success | Dupaco",
+   "fetched_at": "2026-05-12T19:56:22.595Z"
+  },
+  {
+   "file": "pages/learn-blog-get-the-most-from-your-tax-refund-0a5207.md",
+   "url": "https://www.dupaco.com/learn/blog/get-the-most-from-your-tax-refund",
+   "title": "7 tips to help you unleash the power of your tax refund | Dupaco",
+   "fetched_at": "2026-05-12T19:56:37.610Z"
+  },
+  {
+   "file": "pages/learn-blog-getting-lower-insurance-with-more-coverage-was-the-best-experience-f3cbc8.md",
+   "url": "https://www.dupaco.com/learn/blog/getting-lower-insurance-with-more-coverage-was-the-best-experience",
+   "title": "Member shares how she got lower insurance with more coverage | Dupaco",
+   "fetched_at": "2026-05-12T19:56:35.726Z"
+  },
+  {
+   "file": "pages/learn-blog-give-every-dollar-a-purpose-with-zero-sum-budgeting-696121.md",
+   "url": "https://www.dupaco.com/learn/blog/give-every-dollar-a-purpose-with-zero-sum-budgeting",
+   "title": "Zero-sum budgeting: How to give every dollar a purpose | Dupaco",
+   "fetched_at": "2026-05-12T19:56:23.967Z"
+  },
+  {
+   "file": "pages/learn-blog-goodmann-miller-joins-dupacos-volunteer-board-of-directors-8de011.md",
+   "url": "https://www.dupaco.com/learn/blog/goodmann-miller-joins-dupacos-volunteer-board-of-directors",
+   "title": "Goodmann Miller joins Dupaco\u2019s volunteer board of directors | Dupaco",
+   "fetched_at": "2026-05-12T19:56:30.394Z"
+  },
+  {
+   "file": "pages/learn-blog-have-you-reviewed-your-life-insurance-lately-949b89.md",
+   "url": "https://www.dupaco.com/learn/blog/have-you-reviewed-your-life-insurance-lately",
+   "title": "Let's talk life insurance: 7 myths uncovered | Dupaco",
+   "fetched_at": "2026-05-12T19:56:25.568Z"
+  },
+  {
+   "file": "pages/learn-blog-hills-dales-supported-employment-c2f1c1.md",
+   "url": "https://www.dupaco.com/learn/blog/hills-dales-supported-employment",
+   "title": "How Hills & Dales Empowers More People to Shine | Dupaco",
+   "fetched_at": "2026-05-12T19:56:32.530Z"
+  },
+  {
+   "file": "pages/learn-blog-home-affordability-calculator-4245d5.md",
+   "url": "https://www.dupaco.com/learn/blog/home-affordability-calculator",
+   "title": "Home Affordability Calculator",
+   "fetched_at": "2026-05-12T19:56:29.402Z"
+  },
+  {
+   "file": "pages/learn-blog-home-equity-loan-or-line-of-credit-which-is-right-for-you-5e9d5b.md",
+   "url": "https://www.dupaco.com/learn/blog/home-equity-loan-or-line-of-credit-which-is-right-for-you",
+   "title": "Home equity loan or line of credit: Which is right for you? | Dupaco",
+   "fetched_at": "2026-05-12T19:56:29.872Z"
+  },
+  {
+   "file": "pages/learn-blog-home-refinance-calculator-ac2c00.md",
+   "url": "https://www.dupaco.com/learn/blog/home-refinance-calculator",
+   "title": "Home Refinance Calculator",
+   "fetched_at": "2026-05-12T19:56:26.531Z"
+  },
+  {
+   "file": "pages/learn-blog-homebuyer-mistakes-to-avoid-plus-how-to-spot-red-flags-070ca6.md",
+   "url": "https://www.dupaco.com/learn/blog/homebuyer-mistakes-to-avoid-plus-how-to-spot-red-flags",
+   "title": "Homebuyer mistakes to avoid (plus, how to spot red flags) | Dupaco",
+   "fetched_at": "2026-05-12T19:56:38.829Z"
+  },
+  {
+   "file": "pages/learn-blog-how-1-cooperative-helps-member-help-others-1fb7b5.md",
+   "url": "https://www.dupaco.com/learn/blog/how-1-cooperative-helps-member-help-others",
+   "title": "How 1 cooperative helps member help others | Dupaco",
+   "fetched_at": "2026-05-12T19:56:34.393Z"
+  },
+  {
+   "file": "pages/learn-blog-how-much-should-you-save-for-retirement-4b5ced.md",
+   "url": "https://www.dupaco.com/learn/blog/how-much-should-you-save-for-retirement",
+   "title": "How much should you save for retirement? | Dupaco",
+   "fetched_at": "2026-05-12T19:56:35.123Z"
+  },
+  {
+   "file": "pages/learn-blog-how-one-member-built-her-credit-to-buy-new-car-a571fd.md",
+   "url": "https://www.dupaco.com/learn/blog/how-one-member-built-her-credit-to-buy-new-car",
+   "title": "How one member built her credit to buy new car | Dupaco",
+   "fetched_at": "2026-05-12T19:56:30.859Z"
+  },
+  {
+   "file": "pages/learn-blog-how-the-federal-interest-rates-impact-you-c911c3.md",
+   "url": "https://www.dupaco.com/learn/blog/how-the-federal-interest-rates-impact-you",
+   "title": "How federal interest rate cuts affect you (and what to do) | Dupaco",
+   "fetched_at": "2026-05-12T19:56:23.936Z"
+  },
+  {
+   "file": "pages/learn-blog-how-to-avoid-college-scams-bf2f0c.md",
+   "url": "https://www.dupaco.com/learn/blog/how-to-avoid-college-scams",
+   "title": "How to avoid college application scams | Dupaco",
+   "fetched_at": "2026-05-12T19:56:37.192Z"
+  },
+  {
+   "file": "pages/learn-blog-how-to-avoid-paying-private-mortgage-insurance-33e9e1.md",
+   "url": "https://www.dupaco.com/learn/blog/how-to-avoid-paying-private-mortgage-insurance",
+   "title": "Don't want to pay PMI? You might have options to avoid it | Dupaco",
+   "fetched_at": "2026-05-12T19:56:33.000Z"
+  },
+  {
+   "file": "pages/learn-blog-how-to-avoid-travel-scams-protect-your-adventures-and-your-wallet-792c5a.md",
+   "url": "https://www.dupaco.com/learn/blog/how-to-avoid-travel-scams-protect-your-adventures-and-your-wallet",
+   "title": "How to avoid travel scams: Protect your adventures and wallet | Dupaco",
+   "fetched_at": "2026-05-12T19:56:36.872Z"
+  },
+  {
+   "file": "pages/learn-blog-how-to-break-the-fee-cycle-682101.md",
+   "url": "https://www.dupaco.com/learn/blog/how-to-break-the-fee-cycle",
+   "title": "How to avoid bank fees (and keep more of your money) | Dupaco",
+   "fetched_at": "2026-05-12T19:56:30.655Z"
+  },
+  {
+   "file": "pages/learn-blog-how-to-build-the-best-certificate-ladder-for-you-568203.md",
+   "url": "https://www.dupaco.com/learn/blog/how-to-build-the-best-certificate-ladder-for-you",
+   "title": "How to build a certificate ladder that works for you | Dupaco",
+   "fetched_at": "2026-05-12T19:56:39.303Z"
+  },
+  {
+   "file": "pages/learn-blog-how-to-calm-your-job-interview-jitters-529bad.md",
+   "url": "https://www.dupaco.com/learn/blog/how-to-calm-your-job-interview-jitters",
+   "title": "How to calm your job interview jitters | Dupaco",
+   "fetched_at": "2026-05-12T19:56:36.965Z"
+  },
+  {
+   "file": "pages/learn-blog-how-to-choose-the-best-rewards-card-for-you-19f8ed.md",
+   "url": "https://www.dupaco.com/learn/blog/how-to-choose-the-best-rewards-card-for-you",
+   "title": "How to choose the best rewards card for you | Dupaco",
+   "fetched_at": "2026-05-12T19:56:23.291Z"
+  },
+  {
+   "file": "pages/learn-blog-how-to-decide-whether-you-can-afford-a-bigger-home-71245f.md",
+   "url": "https://www.dupaco.com/learn/blog/how-to-decide-whether-you-can-afford-a-bigger-home",
+   "title": "Can I afford to buy a bigger house? Here's how to find out | Dupaco",
+   "fetched_at": "2026-05-12T19:56:27.042Z"
+  },
+  {
+   "file": "pages/learn-blog-how-to-file-a-claim-following-a-disaster-043090.md",
+   "url": "https://www.dupaco.com/learn/blog/how-to-file-a-claim-following-a-disaster",
+   "title": "How to file a claim following a disaster | Dupaco",
+   "fetched_at": "2026-05-12T19:56:37.436Z"
+  },
+  {
+   "file": "pages/learn-blog-how-to-get-ready-for-your-virtual-interview-a3b96b.md",
+   "url": "https://www.dupaco.com/learn/blog/how-to-get-ready-for-your-virtual-interview",
+   "title": "Virtual interview tips from a recruiter: How to stand out | Dupaco",
+   "fetched_at": "2026-05-12T19:56:28.586Z"
+  },
+  {
+   "file": "pages/learn-blog-how-to-help-your-kids-become-money-savvy-grownups-d2e440.md",
+   "url": "https://www.dupaco.com/learn/blog/how-to-help-your-kids-become-money-savvy-grownups",
+   "title": "How to help your kids become money-savvy grownups | Dupaco",
+   "fetched_at": "2026-05-12T19:56:28.272Z"
+  },
+  {
+   "file": "pages/learn-blog-how-to-help-your-kids-establish-their-credit-6f4a73.md",
+   "url": "https://www.dupaco.com/learn/blog/how-to-help-your-kids-establish-their-credit",
+   "title": "How you can help your kids establish credit | Dupaco",
+   "fetched_at": "2026-05-12T19:56:25.538Z"
+  },
+  {
+   "file": "pages/learn-blog-how-to-hire-a-reliable-contractor-and-avoid-costly-mistakes-259616.md",
+   "url": "https://www.dupaco.com/learn/blog/how-to-hire-a-reliable-contractor-and-avoid-costly-mistakes",
+   "title": "How to hire a reliable contractor and avoid costly mistakes | Dupaco",
+   "fetched_at": "2026-05-12T19:56:28.725Z"
+  },
+  {
+   "file": "pages/learn-blog-how-to-host-a-successful-garage-sale-276307.md",
+   "url": "https://www.dupaco.com/learn/blog/how-to-host-a-successful-garage-sale",
+   "title": "How to host a successful garage sale | Dupaco",
+   "fetched_at": "2026-05-12T19:56:29.753Z"
+  },
+  {
+   "file": "pages/learn-blog-how-to-know-can-i-buy-a-house-with-student-loan-debt-d53f38.md",
+   "url": "https://www.dupaco.com/learn/blog/how-to-know-can-i-buy-a-house-with-student-loan-debt",
+   "title": "Can I buy a house with student loan debt? | Dupaco",
+   "fetched_at": "2026-05-12T19:56:33.588Z"
+  },
+  {
+   "file": "pages/learn-blog-how-to-know-if-a-money-market-account-is-right-for-you-1bc3c4.md",
+   "url": "https://www.dupaco.com/learn/blog/how-to-know-if-a-money-market-account-is-right-for-you",
+   "title": "How to know if a money market account is right for you | Dupaco",
+   "fetched_at": "2026-05-12T19:56:28.838Z"
+  },
+  {
+   "file": "pages/learn-blog-how-to-live-debt-smart-4093d7.md",
+   "url": "https://www.dupaco.com/learn/blog/how-to-live-debt-smart",
+   "title": "4 smart practices that could help you live with less debt | Dupaco",
+   "fetched_at": "2026-05-12T19:56:32.504Z"
+  },
+  {
+   "file": "pages/learn-blog-how-to-navigate-the-what-ifs-of-college-savings-plans-0d2081.md",
+   "url": "https://www.dupaco.com/learn/blog/how-to-navigate-the-what-ifs-of-college-savings-plans",
+   "title": "What can you do with 529 college savings when plans change? | Dupaco",
+   "fetched_at": "2026-05-12T19:56:31.473Z"
+  },
+  {
+   "file": "pages/learn-blog-how-to-prepare-for-unexpected-financial-challenges-22528b.md",
+   "url": "https://www.dupaco.com/learn/blog/how-to-prepare-for-unexpected-financial-challenges",
+   "title": "How to prepare for unexpected financial challenges | Dupaco",
+   "fetched_at": "2026-05-12T19:56:28.925Z"
+  },
+  {
+   "file": "pages/learn-blog-how-to-price-your-garage-sale-items-be7fd8.md",
+   "url": "https://www.dupaco.com/learn/blog/how-to-price-your-garage-sale-items",
+   "title": "How to price your garage sale items",
+   "fetched_at": "2026-05-12T19:56:27.146Z"
+  },
+  {
+   "file": "pages/learn-blog-how-to-prioritize-debt-repayment-7-strategies-that-work-4296f2.md",
+   "url": "https://www.dupaco.com/learn/blog/how-to-prioritize-debt-repayment-7-strategies-that-work",
+   "title": "How to prioritize debt repayment: 7 strategies that work | Dupaco",
+   "fetched_at": "2026-05-12T19:56:36.495Z"
+  },
+  {
+   "file": "pages/learn-blog-how-to-protect-your-accounts-with-two-step-verification-459ee9.md",
+   "url": "https://www.dupaco.com/learn/blog/how-to-protect-your-accounts-with-two-step-verification",
+   "title": "How to protect your accounts with two-step verification | Dupaco",
+   "fetched_at": "2026-05-12T19:56:23.184Z"
+  },
+  {
+   "file": "pages/learn-blog-how-to-protect-your-credit-after-seeking-deferred-payments-93929a.md",
+   "url": "https://www.dupaco.com/learn/blog/how-to-protect-your-credit-after-seeking-deferred-payments",
+   "title": "How to protect your credit after seeking deferred payments | Dupaco",
+   "fetched_at": "2026-05-12T19:56:35.990Z"
+  },
+  {
+   "file": "pages/learn-blog-how-to-protect-your-identity-from-fraudsters-ff2331.md",
+   "url": "https://www.dupaco.com/learn/blog/how-to-protect-your-identity-from-fraudsters",
+   "title": "How to protect your identity from fraudsters",
+   "fetched_at": "2026-05-12T19:56:32.367Z"
+  },
+  {
+   "file": "pages/learn-blog-how-to-refinance-your-auto-loan-and-when-it-makes-sense-dd0ffc.md",
+   "url": "https://www.dupaco.com/learn/blog/how-to-refinance-your-auto-loan-and-when-it-makes-sense",
+   "title": "How to refinance your auto loan (and when it makes sense) | Dupaco",
+   "fetched_at": "2026-05-12T19:56:38.050Z"
+  },
+  {
+   "file": "pages/learn-blog-how-to-retire-debt-free-9dd6da.md",
+   "url": "https://www.dupaco.com/learn/blog/how-to-retire-debt-free",
+   "title": "How to retire without debt: Here's how one couple did it | Dupaco",
+   "fetched_at": "2026-05-12T19:56:35.859Z"
+  },
+  {
+   "file": "pages/learn-blog-how-to-save-more-money-automatically-08232b.md",
+   "url": "https://www.dupaco.com/learn/blog/how-to-save-more-money-automatically",
+   "title": "How to save more money automatically (and make saving easier) | Dupaco",
+   "fetched_at": "2026-05-12T19:56:23.208Z"
+  },
+  {
+   "file": "pages/learn-blog-how-to-sell-your-home-while-buying-a-new-one-d0d605.md",
+   "url": "https://www.dupaco.com/learn/blog/how-to-sell-your-home-while-buying-a-new-one",
+   "title": "How to sell your home while buying a new one | Dupaco",
+   "fetched_at": "2026-05-12T19:56:31.309Z"
+  },
+  {
+   "file": "pages/learn-blog-how-to-spring-clean-your-passwords-663808.md",
+   "url": "https://www.dupaco.com/learn/blog/how-to-spring-clean-your-passwords",
+   "title": "How to create strong passwords to help protect your accounts | Dupaco",
+   "fetched_at": "2026-05-12T19:56:32.837Z"
+  },
+  {
+   "file": "pages/learn-blog-how-to-stay-safe-on-the-roads-this-winter-41739f.md",
+   "url": "https://www.dupaco.com/learn/blog/how-to-stay-safe-on-the-roads-this-winter",
+   "title": "How to stay safe on the roads this winter | Dupaco",
+   "fetched_at": "2026-05-12T19:56:26.150Z"
+  },
+  {
+   "file": "pages/learn-blog-how-to-stick-to-a-budget-when-you-use-credit-cards-a2cbff.md",
+   "url": "https://www.dupaco.com/learn/blog/how-to-stick-to-a-budget-when-you-use-credit-cards",
+   "title": "How to stick to a budget when you use credit cards | Dupaco",
+   "fetched_at": "2026-05-12T19:56:30.488Z"
+  },
+  {
+   "file": "pages/learn-blog-how-to-stop-lifestyle-creep-in-its-tracks-808942.md",
+   "url": "https://www.dupaco.com/learn/blog/how-to-stop-lifestyle-creep-in-its-tracks",
+   "title": "How to stop lifestyle creep in its tracks | Dupaco",
+   "fetched_at": "2026-05-12T19:56:32.055Z"
+  },
+  {
+   "file": "pages/learn-blog-how-to-trick-yourself-into-saving-more-a7ee06.md",
+   "url": "https://www.dupaco.com/learn/blog/how-to-trick-yourself-into-saving-more",
+   "title": "How to 'trick' yourself into saving more money | Dupaco",
+   "fetched_at": "2026-05-12T19:56:36.561Z"
+  },
+  {
+   "file": "pages/learn-blog-how-to-winterize-a-house-and-avoid-costly-claims-107b7e.md",
+   "url": "https://www.dupaco.com/learn/blog/how-to-winterize-a-house-and-avoid-costly-claims",
+   "title": "How to winterize your house and avoid costly damage | Dupaco",
+   "fetched_at": "2026-05-12T19:56:25.123Z"
+  },
+  {
+   "file": "pages/learn-blog-irs-warns-of-tax-related-scams-cac4c6.md",
+   "url": "https://www.dupaco.com/learn/blog/irs-warns-of-tax-related-scams",
+   "title": "Avoid tax scams like a pro with these helpful tips | Dupaco",
+   "fetched_at": "2026-05-12T19:56:25.990Z"
+  },
+  {
+   "file": "pages/learn-blog-is-disability-insurance-right-for-you-72261e.md",
+   "url": "https://www.dupaco.com/learn/blog/is-disability-insurance-right-for-you",
+   "title": "Is disability insurance right for you? | Dupaco",
+   "fetched_at": "2026-05-12T19:56:24.725Z"
+  },
+  {
+   "file": "pages/learn-blog-is-it-worth-refinancing-your-home-loan-bdb683.md",
+   "url": "https://www.dupaco.com/learn/blog/is-it-worth-refinancing-your-home-loan",
+   "title": "How to determine if it's worth refinancing your home loan | Dupaco",
+   "fetched_at": "2026-05-12T19:56:33.809Z"
+  },
+  {
+   "file": "pages/learn-blog-is-this-email-legit-heres-how-to-tell-c7cbfc.md",
+   "url": "https://www.dupaco.com/learn/blog/is-this-email-legit-heres-how-to-tell",
+   "title": "Is this email legit? Here's how to tell | Dupaco",
+   "fetched_at": "2026-05-12T19:56:26.628Z"
+  },
+  {
+   "file": "pages/learn-blog-keeping-your-cards-safe-while-traveling-9a52ac.md",
+   "url": "https://www.dupaco.com/learn/blog/keeping-your-cards-safe-while-traveling",
+   "title": "How to keep your cards safe while traveling abroad | Dupaco",
+   "fetched_at": "2026-05-12T19:56:35.152Z"
+  },
+  {
+   "file": "pages/learn-blog-kick-off-the-new-year-with-a-fresh-start-to-spending-590b94.md",
+   "url": "https://www.dupaco.com/learn/blog/kick-off-the-new-year-with-a-fresh-start-to-spending",
+   "title": "Kick off the new year with a fresh start to spending",
+   "fetched_at": "2026-05-12T19:56:37.386Z"
+  },
+  {
+   "file": "pages/learn-blog-knock-knock-ira-certificates-open-an-extra-door-for-retirement-savings-e0d0bb.md",
+   "url": "https://www.dupaco.com/learn/blog/knock-knock-ira-certificates-open-an-extra-door-for-retirement-savings",
+   "title": "What's a certificate IRA and should it be part of your plan? | Dupaco",
+   "fetched_at": "2026-05-12T19:56:38.874Z"
+  },
+  {
+   "file": "pages/learn-blog-learn-how-these-full-time-rvers-found-budget-freedom-aaac9d.md",
+   "url": "https://www.dupaco.com/learn/blog/learn-how-these-full-time-rvers-found-budget-freedom",
+   "title": "Learn how these full-time RVers found budget freedom",
+   "fetched_at": "2026-05-12T19:56:24.398Z"
+  },
+  {
+   "file": "pages/learn-blog-learn-how-to-find-the-right-car-deal-so-you-can-save-thousands-666aa1.md",
+   "url": "https://www.dupaco.com/learn/blog/learn-how-to-find-the-right-car-deal-so-you-can-save-thousands",
+   "title": "How to get a good deal on a car when you're ready to buy | Dupaco",
+   "fetched_at": "2026-05-12T19:56:38.256Z"
+  },
+  {
+   "file": "pages/learn-blog-lease-vs-buy-calculator-c818c5.md",
+   "url": "https://www.dupaco.com/learn/blog/lease-vs-buy-calculator",
+   "title": "Lease vs. Buy Calculator",
+   "fetched_at": "2026-05-12T19:56:30.328Z"
+  },
+  {
+   "file": "pages/learn-blog-life-has-changed-is-it-time-for-an-insurance-review-9f8e25.md",
+   "url": "https://www.dupaco.com/learn/blog/life-has-changed-is-it-time-for-an-insurance-review",
+   "title": "Life has changed. Is it time for an insurance review? | Dupaco",
+   "fetched_at": "2026-05-12T19:56:38.608Z"
+  },
+  {
+   "file": "pages/learn-blog-life-insurance-coverage-calculator-c3ef4d.md",
+   "url": "https://www.dupaco.com/learn/blog/life-insurance-coverage-calculator",
+   "title": "Life Insurance Coverage Calculator",
+   "fetched_at": "2026-05-12T19:56:29.180Z"
+  },
+  {
+   "file": "pages/learn-blog-loan-term-comparison-calculator-41032b.md",
+   "url": "https://www.dupaco.com/learn/blog/loan-term-comparison-calculator",
+   "title": "Loan Term Comparison Calculator",
+   "fetched_at": "2026-05-12T19:56:27.079Z"
+  },
+  {
+   "file": "pages/learn-blog-local-financial-institutions-serve-as-trusted-partners-of-choice-in-good-times--43c8c1.md",
+   "url": "https://www.dupaco.com/learn/blog/local-financial-institutions-serve-as-trusted-partners-of-choice-in-good-times-and-bad",
+   "title": "Local financials serve as trusted partners in good times and bad",
+   "fetched_at": "2026-05-12T19:56:28.419Z"
+  },
+  {
+   "file": "pages/learn-blog-make-live-remote-transactions-46de3c.md",
+   "url": "https://www.dupaco.com/learn/blog/make-live-remote-transactions",
+   "title": "How live video tellers work and what they can do for you | Dupaco",
+   "fetched_at": "2026-05-12T19:56:31.243Z"
+  },
+  {
+   "file": "pages/learn-blog-master-your-money-retirement-planning-82d031.md",
+   "url": "https://www.dupaco.com/learn/blog/master-your-money/retirement-planning",
+   "title": "Retirement planning: Resources for your dream retirement | Dupaco",
+   "fetched_at": "2026-05-12T19:56:31.183Z"
+  },
+  {
+   "file": "pages/learn-blog-meet-your-dupacocrew-dupaco-always-had-a-spot-in-my-heart-dc435d.md",
+   "url": "https://www.dupaco.com/learn/blog/meet-your-dupacocrew-dupaco-always-had-a-spot-in-my-heart",
+   "title": "Meet your #DupacoCrew: \u2018Dupaco always had a spot in my heart\u2019",
+   "fetched_at": "2026-05-12T19:56:26.186Z"
+  },
+  {
+   "file": "pages/learn-blog-meet-your-dupacocrew-finding-joy-through-helping-people-81f8f5.md",
+   "url": "https://www.dupaco.com/learn/blog/meet-your-dupacocrew-finding-joy-through-helping-people",
+   "title": "Meet your #DupacoCrew: Finding joy through helping people",
+   "fetched_at": "2026-05-12T19:56:33.425Z"
+  },
+  {
+   "file": "pages/learn-blog-meet-your-dupacocrew-i-am-blessed-with-the-best-0d43b5.md",
+   "url": "https://www.dupaco.com/learn/blog/meet-your-dupacocrew-i-am-blessed-with-the-best",
+   "title": "Meet your #DupacoCrew: \u2018I am blessed with the best\u2019",
+   "fetched_at": "2026-05-12T19:56:29.845Z"
+  },
+  {
+   "file": "pages/learn-blog-meet-your-dupacocrew-i-knew-i-was-making-a-difference-2a21bf.md",
+   "url": "https://www.dupaco.com/learn/blog/meet-your-dupacocrew-i-knew-i-was-making-a-difference",
+   "title": "Meet your #DupacoCrew: I knew I was making a difference",
+   "fetched_at": "2026-05-12T19:56:24.034Z"
+  },
+  {
+   "file": "pages/learn-blog-meet-your-dupacocrew-i-needed-to-believe-in-what-i-was-doing-4c72ee.md",
+   "url": "https://www.dupaco.com/learn/blog/meet-your-dupacocrew-i-needed-to-believe-in-what-i-was-doing",
+   "title": "Meet your #DupacoCrew: \u2018I needed to believe in what I was doing\u2019",
+   "fetched_at": "2026-05-12T19:56:25.927Z"
+  },
+  {
+   "file": "pages/learn-blog-meet-your-dupacocrew-im-thankful-to-have-meaningful-work-6ba23f.md",
+   "url": "https://www.dupaco.com/learn/blog/meet-your-dupacocrew-im-thankful-to-have-meaningful-work",
+   "title": "Meet your #DupacoCrew: \u2018I\u2019m thankful to have meaningful work\u2019",
+   "fetched_at": "2026-05-12T19:56:24.078Z"
+  },
+  {
+   "file": "pages/learn-blog-meet-your-dupacocrew-my-hope-is-for-members-to-feel-empowered-so-they-can-confi-12af10.md",
+   "url": "https://www.dupaco.com/learn/blog/meet-your-dupacocrew-my-hope-is-for-members-to-feel-empowered-so-they-can-confidently-plan-for-their-futures",
+   "title": "Meet your #DupacoCrew: My hope is for members to feel empowered",
+   "fetched_at": "2026-05-12T19:56:34.772Z"
+  },
+  {
+   "file": "pages/learn-blog-meet-your-dupacocrew-serving-others-with-love-and-passion-8253aa.md",
+   "url": "https://www.dupaco.com/learn/blog/meet-your-dupacocrew-serving-others-with-love-and-passion",
+   "title": "Meet your #DupacoCrew: Serving others with love and passion",
+   "fetched_at": "2026-05-12T19:56:23.514Z"
+  },
+  {
+   "file": "pages/learn-blog-meet-your-dupacocrew-they-helped-me-now-i-get-to-help-others-5523d8.md",
+   "url": "https://www.dupaco.com/learn/blog/meet-your-dupacocrew-they-helped-me-now-i-get-to-help-others",
+   "title": "Meet your #DupacoCrew: They helped me\u2014now I get to help others",
+   "fetched_at": "2026-05-12T19:56:24.867Z"
+  },
+  {
+   "file": "pages/learn-blog-meet-your-dupacocrew-were-people-who-want-to-help-others-06f108.md",
+   "url": "https://www.dupaco.com/learn/blog/meet-your-dupacocrew-were-people-who-want-to-help-others",
+   "title": "Meet your #DupacoCrew: We're people who care and want to help others",
+   "fetched_at": "2026-05-12T19:56:35.889Z"
+  },
+  {
+   "file": "pages/learn-blog-meet-your-dupacocrew-working-here-has-changed-my-life-in-the-best-way-8092ef.md",
+   "url": "https://www.dupaco.com/learn/blog/meet-your-dupacocrew-working-here-has-changed-my-life-in-the-best-way",
+   "title": "Meet your #DupacoCrew: Working here has changed my life",
+   "fetched_at": "2026-05-12T19:56:27.582Z"
+  },
+  {
+   "file": "pages/learn-blog-members-2020-delivers-medical-worries-and-lots-of-love-e99cc2.md",
+   "url": "https://www.dupaco.com/learn/blog/members-2020-delivers-medical-worries-and-lots-of-love",
+   "title": "Year delivers medical worries and lots of love",
+   "fetched_at": "2026-05-12T19:56:25.732Z"
+  },
+  {
+   "file": "pages/learn-blog-mindful-spending-can-improve-habits-and-overall-savings-59cc7f.md",
+   "url": "https://www.dupaco.com/learn/blog/mindful-spending-can-improve-habits-and-overall-savings",
+   "title": "Mindful spending can improve habits and overall savings | Dupaco",
+   "fetched_at": "2026-05-12T19:56:24.945Z"
+  },
+  {
+   "file": "pages/learn-blog-mini-max-financing-calculator-2d3067.md",
+   "url": "https://www.dupaco.com/learn/blog/mini-max-financing-calculator",
+   "title": "Mini-Max Financing Calculator",
+   "fetched_at": "2026-05-12T19:56:27.725Z"
+  },
+  {
+   "file": "pages/learn-blog-mobile-wallets-a-simple-guide-to-faster-safer-payments-8a6703.md",
+   "url": "https://www.dupaco.com/learn/blog/mobile-wallets-a-simple-guide-to-faster-safer-payments",
+   "title": "Mobile wallets: A simple guide to faster, safer payments | Dupaco",
+   "fetched_at": "2026-05-12T19:56:34.888Z"
+  },
+  {
+   "file": "pages/learn-blog-mortgage-payment-calculator-8d106e.md",
+   "url": "https://www.dupaco.com/learn/blog/mortgage-payment-calculator",
+   "title": "Mortgage Payment Calculator",
+   "fetched_at": "2026-05-12T19:56:32.817Z"
+  },
+  {
+   "file": "pages/learn-blog-on-the-move-your-guide-to-moving-24f6c3.md",
+   "url": "https://www.dupaco.com/learn/blog/on-the-move-your-guide-to-moving",
+   "title": "Moving soon? Here's how to get organized for your move | Dupaco",
+   "fetched_at": "2026-05-12T19:56:29.125Z"
+  },
+  {
+   "file": "pages/learn-blog-one-familys-journey-toward-financial-wellness-6a43f9.md",
+   "url": "https://www.dupaco.com/learn/blog/one-familys-journey-toward-financial-wellness",
+   "title": "One family\u2019s journey toward financial wellness",
+   "fetched_at": "2026-05-12T19:56:37.249Z"
+  },
+  {
+   "file": "pages/learn-blog-opening-your-first-credit-card-dont-forget-to-do-this-d5418f.md",
+   "url": "https://www.dupaco.com/learn/blog/opening-your-first-credit-card-dont-forget-to-do-this",
+   "title": "Opening your first credit card? Don\u2019t forget to do this | Dupaco",
+   "fetched_at": "2026-05-12T19:56:32.555Z"
+  },
+  {
+   "file": "pages/learn-blog-operation-fresh-start-empowering-youth-in-madison-50430d.md",
+   "url": "https://www.dupaco.com/learn/blog/operation-fresh-start-empowering-youth-in-madison",
+   "title": "How Operation Fresh Start is empowering youth in Madison",
+   "fetched_at": "2026-05-12T19:56:29.425Z"
+  },
+  {
+   "file": "pages/learn-blog-page-2-062b91.md",
+   "url": "https://www.dupaco.com/learn/blog/page/2",
+   "title": "Personal Resources (2)",
+   "fetched_at": "2026-05-12T19:56:34.573Z"
+  },
+  {
+   "file": "pages/learn-blog-personal-loan-calculator-f6f9ef.md",
+   "url": "https://www.dupaco.com/learn/blog/personal-loan-calculator",
+   "title": "Personal Loan Calculator",
+   "fetched_at": "2026-05-12T19:56:29.926Z"
+  },
+  {
+   "file": "pages/learn-blog-picking-up-the-pieces-after-crash-totaled-familys-only-vehicle-deaab6.md",
+   "url": "https://www.dupaco.com/learn/blog/picking-up-the-pieces-after-crash-totaled-familys-only-vehicle",
+   "title": "Picking up the pieces when crash totals family\u2019s only vehicle | Dupaco",
+   "fetched_at": "2026-05-12T19:56:32.026Z"
+  },
+  {
+   "file": "pages/learn-blog-properly-protecting-your-new-gifts-a5f8cc.md",
+   "url": "https://www.dupaco.com/learn/blog/properly-protecting-your-new-gifts",
+   "title": "Why should you properly insure those expensive gifts? | Dupaco",
+   "fetched_at": "2026-05-12T19:56:38.664Z"
+  },
+  {
+   "file": "pages/learn-blog-protecting-your-child-from-identity-theft-ad61b7.md",
+   "url": "https://www.dupaco.com/learn/blog/protecting-your-child-from-identity-theft",
+   "title": "7 tips to help you protect your child from identity theft",
+   "fetched_at": "2026-05-12T19:56:27.533Z"
+  },
+  {
+   "file": "pages/learn-blog-put-your-first-paycheck-to-work-e89e65.md",
+   "url": "https://www.dupaco.com/learn/blog/put-your-first-paycheck-to-work",
+   "title": "What to do with your first paycheck: Smart money tips | Dupaco",
+   "fetched_at": "2026-05-12T19:56:39.199Z"
+  },
+  {
+   "file": "pages/learn-blog-rent-vs-buy-calculator-3ced6d.md",
+   "url": "https://www.dupaco.com/learn/blog/rent-vs.-buy-calculator",
+   "title": "Rent vs. Buy Calculator",
+   "fetched_at": "2026-05-12T19:56:30.883Z"
+  },
+  {
+   "file": "pages/learn-blog-retirement-in-sight-avoid-these-7-retirement-mistakes-8965dc.md",
+   "url": "https://www.dupaco.com/learn/blog/retirement-in-sight-avoid-these-7-retirement-mistakes",
+   "title": "Retirement in sight? Avoid these 7 retirement mistakes | Dupaco",
+   "fetched_at": "2026-05-12T19:56:25.052Z"
+  },
+  {
+   "file": "pages/learn-blog-retirement-income-calculator-9bb3be.md",
+   "url": "https://www.dupaco.com/learn/blog/retirement-income-calculator",
+   "title": "Retirement Income Calculator",
+   "fetched_at": "2026-05-12T19:56:27.868Z"
+  },
+  {
+   "file": "pages/learn-blog-retirement-savings-calculator-5d1cfb.md",
+   "url": "https://www.dupaco.com/learn/blog/retirement-savings-calculator",
+   "title": "Retirement Savings Calculator",
+   "fetched_at": "2026-05-12T19:56:37.857Z"
+  },
+  {
+   "file": "pages/learn-blog-revitalizing-neighborhoods-and-making-affordable-housing-and-homeownership-poss-1a1711.md",
+   "url": "https://www.dupaco.com/learn/blog/revitalizing-neighborhoods-and-making-affordable-housing-and-homeownership-possible",
+   "title": "Stability through homeownership: Iowa Heartland Habitat for Humanity",
+   "fetched_at": "2026-05-12T19:56:23.339Z"
+  },
+  {
+   "file": "pages/learn-blog-rising-home-values-learn-how-to-tap-into-the-equity-youve-built-ace16d.md",
+   "url": "https://www.dupaco.com/learn/blog/rising-home-values-learn-how-to-tap-into-the-equity-youve-built",
+   "title": "Rising home values: How to tap into the equity you\u2019ve built | Dupaco",
+   "fetched_at": "2026-05-12T19:56:38.468Z"
+  },
+  {
+   "file": "pages/learn-blog-rising-interest-rates-what-does-this-mean-for-you-4781ba.md",
+   "url": "https://www.dupaco.com/learn/blog/rising-interest-rates-what-does-this-mean-for-you",
+   "title": "Rising interest rates: What does this mean for you? | Dupaco",
+   "fetched_at": "2026-05-12T19:56:39.024Z"
+  },
+  {
+   "file": "pages/learn-blog-road-trip-time-heres-how-to-stay-safe-on-your-adventure-fdcd88.md",
+   "url": "https://www.dupaco.com/learn/blog/road-trip-time-heres-how-to-stay-safe-on-your-adventure",
+   "title": "Road trip time? Here's how to stay safe on your adventure | Dupaco",
+   "fetched_at": "2026-05-12T19:56:36.748Z"
+  },
+  {
+   "file": "pages/learn-blog-roth-vs-traditional-ira-calculator-47e4f7.md",
+   "url": "https://www.dupaco.com/learn/blog/roth-vs.-traditional-ira-calculator",
+   "title": "Roth vs. Traditional IRA Calculator",
+   "fetched_at": "2026-05-12T19:56:34.992Z"
+  },
+  {
+   "file": "pages/learn-blog-save-toward-a-goal-calculator-6fc3fa.md",
+   "url": "https://www.dupaco.com/learn/blog/save-toward-a-goal-calculator",
+   "title": "Save Toward a Goal Calculator",
+   "fetched_at": "2026-05-12T19:56:33.187Z"
+  },
+  {
+   "file": "pages/learn-blog-saving-early-has-paid-off-for-young-homeowners-dupaco-1e12f0.md",
+   "url": "https://www.dupaco.com/learn/blog/saving-early-has-paid-off-for-young-homeowners-dupaco",
+   "title": "Saving early has paid off for young homeowners | Dupaco",
+   "fetched_at": "2026-05-12T19:56:34.163Z"
+  },
+  {
+   "file": "pages/learn-blog-savings-budget-calculator-3a529b.md",
+   "url": "https://www.dupaco.com/learn/blog/savings-budget-calculator",
+   "title": "Savings Budget Calculator",
+   "fetched_at": "2026-05-12T19:56:27.178Z"
+  },
+  {
+   "file": "pages/learn-blog-savings-interest-calculator-4a6290.md",
+   "url": "https://www.dupaco.com/learn/blog/savings-interest-calculator",
+   "title": "Savings Interest Calculator",
+   "fetched_at": "2026-05-12T19:56:23.459Z"
+  },
+  {
+   "file": "pages/learn-blog-seven-holiday-spending-tips-18041f.md",
+   "url": "https://www.dupaco.com/learn/blog/seven-holiday-spending-tips",
+   "title": "7 smart (and simple) ways to save money on holiday shopping | Dupaco",
+   "fetched_at": "2026-05-12T19:56:30.202Z"
+  },
+  {
+   "file": "pages/learn-blog-share-certificate-or-cd-investment-when-to-cash-in-early-983fee.md",
+   "url": "https://www.dupaco.com/learn/blog/share-certificate-or-cd-investment-when-to-cash-in-early",
+   "title": "Share certificate or CD investment: When to cash in early | Dupaco",
+   "fetched_at": "2026-05-12T19:56:29.980Z"
+  },
+  {
+   "file": "pages/learn-blog-should-i-get-a-heloc-just-in-case-heres-what-to-consider-cb106c.md",
+   "url": "https://www.dupaco.com/learn/blog/should-i-get-a-heloc-just-in-case-heres-what-to-consider",
+   "title": "Should I get a HELOC just in case? Here\u2019s what to consider | Dupaco",
+   "fetched_at": "2026-05-12T19:56:22.763Z"
+  },
+  {
+   "file": "pages/learn-blog-should-i-refinance-my-mortgage-before-retirement-3c6824.md",
+   "url": "https://www.dupaco.com/learn/blog/should-i-refinance-my-mortgage-before-retirement",
+   "title": "Should I refinance my mortgage before retirement? | Dupaco",
+   "fetched_at": "2026-05-12T19:56:34.110Z"
+  },
+  {
+   "file": "pages/learn-blog-smart-tips-for-wiring-money-a38763.md",
+   "url": "https://www.dupaco.com/learn/blog/smart-tips-for-wiring-money",
+   "title": "Wiring money: 5 things you should know | Dupaco",
+   "fetched_at": "2026-05-12T19:56:35.386Z"
+  },
+  {
+   "file": "pages/learn-blog-surprise-vacation-leads-to-lifelong-saving-habits-8203d8.md",
+   "url": "https://www.dupaco.com/learn/blog/surprise-vacation-leads-to-lifelong-saving-habits",
+   "title": "Surprise vacation leads to lifelong saving habits",
+   "fetched_at": "2026-05-12T19:56:32.600Z"
+  },
+  {
+   "file": "pages/learn-blog-tag-auto-76f7e8.md",
+   "url": "https://www.dupaco.com/learn/blog/tag/auto",
+   "title": "Personal Resources | Auto",
+   "fetched_at": "2026-05-12T19:56:30.467Z"
+  },
+  {
+   "file": "pages/learn-blog-tag-borrowing-credit-8c1b6a.md",
+   "url": "https://www.dupaco.com/learn/blog/tag/borrowing-credit",
+   "title": "Personal Resources | Borrowing & Credit",
+   "fetched_at": "2026-05-12T19:56:27.337Z"
+  },
+  {
+   "file": "pages/learn-blog-tag-budgeting-566336.md",
+   "url": "https://www.dupaco.com/learn/blog/tag/budgeting",
+   "title": "Personal Resources | Budgeting",
+   "fetched_at": "2026-05-12T19:56:35.909Z"
+  },
+  {
+   "file": "pages/learn-blog-tag-buy-a-home-caf1aa.md",
+   "url": "https://www.dupaco.com/learn/blog/tag/buy-a-home",
+   "title": "Personal Resources | Buy a Home",
+   "fetched_at": "2026-05-12T19:56:25.689Z"
+  },
+  {
+   "file": "pages/learn-blog-tag-calculators-d0887a.md",
+   "url": "https://www.dupaco.com/learn/blog/tag/calculators",
+   "title": "Personal Resources | Calculators",
+   "fetched_at": "2026-05-12T19:56:38.383Z"
+  },
+  {
+   "file": "pages/learn-blog-tag-career-income-7b6974.md",
+   "url": "https://www.dupaco.com/learn/blog/tag/career-income",
+   "title": "Personal Resources | Career & Income",
+   "fetched_at": "2026-05-12T19:56:36.924Z"
+  },
+  {
+   "file": "pages/learn-blog-tag-community-d8a40a.md",
+   "url": "https://www.dupaco.com/learn/blog/tag/community",
+   "title": "Personal Resources | Community",
+   "fetched_at": "2026-05-12T19:56:38.100Z"
+  },
+  {
+   "file": "pages/learn-blog-tag-community-partnerships-bc397a.md",
+   "url": "https://www.dupaco.com/learn/blog/tag/community-partnerships",
+   "title": "Personal Resources | Community Partnerships",
+   "fetched_at": "2026-05-12T19:56:28.865Z"
+  },
+  {
+   "file": "pages/learn-blog-tag-family-relationships-a924ac.md",
+   "url": "https://www.dupaco.com/learn/blog/tag/family-relationships",
+   "title": "Personal Resources | Family & Relationships",
+   "fetched_at": "2026-05-12T19:56:27.363Z"
+  },
+  {
+   "file": "pages/learn-blog-tag-financial-planning-053359.md",
+   "url": "https://www.dupaco.com/learn/blog/tag/financial-planning",
+   "title": "Personal Resources | Financial Planning",
+   "fetched_at": "2026-05-12T19:56:37.504Z"
+  },
+  {
+   "file": "pages/learn-blog-tag-fraud-security-77464c.md",
+   "url": "https://www.dupaco.com/learn/blog/tag/fraud-security",
+   "title": "Personal Resources | Fraud & Security",
+   "fetched_at": "2026-05-12T19:56:31.663Z"
+  },
+  {
+   "file": "pages/learn-blog-tag-home-503f02.md",
+   "url": "https://www.dupaco.com/learn/blog/tag/home",
+   "title": "Personal Resources | Home",
+   "fetched_at": "2026-05-12T19:56:27.787Z"
+  },
+  {
+   "file": "pages/learn-blog-tag-homeownership-f9f92a.md",
+   "url": "https://www.dupaco.com/learn/blog/tag/homeownership",
+   "title": "Personal Resources | Homeownership",
+   "fetched_at": "2026-05-12T19:56:30.413Z"
+  },
+  {
+   "file": "pages/learn-blog-tag-impact-7dd17e.md",
+   "url": "https://www.dupaco.com/learn/blog/tag/impact",
+   "title": "Personal Resources | Impact",
+   "fetched_at": "2026-05-12T19:56:33.270Z"
+  },
+  {
+   "file": "pages/learn-blog-tag-insurance-5b3e5e.md",
+   "url": "https://www.dupaco.com/learn/blog/tag/insurance",
+   "title": "Personal Resources | Insurance",
+   "fetched_at": "2026-05-12T19:56:29.159Z"
+  },
+  {
+   "file": "pages/learn-blog-tag-investing-a1ae6e.md",
+   "url": "https://www.dupaco.com/learn/blog/tag/investing",
+   "title": "Personal Resources | Investing",
+   "fetched_at": "2026-05-12T19:56:38.317Z"
+  },
+  {
+   "file": "pages/learn-blog-tag-investing-retirement-60716f.md",
+   "url": "https://www.dupaco.com/learn/blog/tag/investing-retirement",
+   "title": "Personal Resources | Investing & Retirement",
+   "fetched_at": "2026-05-12T19:56:28.905Z"
+  },
+  {
+   "file": "pages/learn-blog-tag-member-impact-e16f34.md",
+   "url": "https://www.dupaco.com/learn/blog/tag/member-impact",
+   "title": "Personal Resources | Member Impact",
+   "fetched_at": "2026-05-12T19:56:38.213Z"
+  },
+  {
+   "file": "pages/learn-blog-tag-member-stories-ce0fec.md",
+   "url": "https://www.dupaco.com/learn/blog/tag/member-stories",
+   "title": "Personal Resources | Member Stories",
+   "fetched_at": "2026-05-12T19:56:27.387Z"
+  },
+  {
+   "file": "pages/learn-blog-tag-member-story-3cfa7b.md",
+   "url": "https://www.dupaco.com/learn/blog/tag/member-story",
+   "title": "Personal Resources | Member Story",
+   "fetched_at": "2026-05-12T19:56:27.125Z"
+  },
+  {
+   "file": "pages/learn-blog-tag-refinance-abcc4e.md",
+   "url": "https://www.dupaco.com/learn/blog/tag/refinance",
+   "title": "Personal Resources | Refinance",
+   "fetched_at": "2026-05-12T19:56:28.326Z"
+  },
+  {
+   "file": "pages/learn-blog-tag-saving-589e81.md",
+   "url": "https://www.dupaco.com/learn/blog/tag/saving",
+   "title": "Personal Resources | Saving",
+   "fetched_at": "2026-05-12T19:56:27.995Z"
+  },
+  {
+   "file": "pages/learn-blog-tag-student-finances-34b51d.md",
+   "url": "https://www.dupaco.com/learn/blog/tag/student-finances",
+   "title": "Personal Resources | Student Finances",
+   "fetched_at": "2026-05-12T19:56:23.840Z"
+  },
+  {
+   "file": "pages/learn-blog-tag-student-loan-f9a424.md",
+   "url": "https://www.dupaco.com/learn/blog/tag/student-loan",
+   "title": "Personal Resources | Student Loan",
+   "fetched_at": "2026-05-12T19:56:37.366Z"
+  },
+  {
+   "file": "pages/learn-blog-tag-tools-templates-e313a6.md",
+   "url": "https://www.dupaco.com/learn/blog/tag/tools-templates",
+   "title": "Personal Resources | Tools & Templates",
+   "fetched_at": "2026-05-12T19:56:35.040Z"
+  },
+  {
+   "file": "pages/learn-blog-tag-vehicle-d905f0.md",
+   "url": "https://www.dupaco.com/learn/blog/tag/vehicle",
+   "title": "Personal Resources | Auto",
+   "fetched_at": "2026-05-12T19:56:38.524Z"
+  },
+  {
+   "file": "pages/learn-blog-take-control-of-your-student-debt-b06338.md",
+   "url": "https://www.dupaco.com/learn/blog/take-control-of-your-student-debt",
+   "title": "4 tips to help you take control of your student debt | Dupaco",
+   "fetched_at": "2026-05-12T19:56:37.815Z"
+  },
+  {
+   "file": "pages/learn-blog-teacher-they-make-me-feel-like-im-worthy-bd7351.md",
+   "url": "https://www.dupaco.com/learn/blog/teacher-they-make-me-feel-like-im-worthy",
+   "title": "A first-time homebuyer's story: How teacher makes it a reality",
+   "fetched_at": "2026-05-12T19:56:31.007Z"
+  },
+  {
+   "file": "pages/learn-blog-term-share-certificate-basics-352112.md",
+   "url": "https://www.dupaco.com/learn/blog/term-share-certificate-basics",
+   "title": "How to save more by investing in term-share certificates | Dupaco",
+   "fetched_at": "2026-05-12T19:56:32.920Z"
+  },
+  {
+   "file": "pages/learn-blog-the-inflation-struggle-is-real-heres-what-you-can-do-about-it-20b5a8.md",
+   "url": "https://www.dupaco.com/learn/blog/the-inflation-struggle-is-real-heres-what-you-can-do-about-it",
+   "title": "The inflation struggle is real: Here\u2019s what you can do | Dupaco",
+   "fetched_at": "2026-05-12T19:56:30.102Z"
+  },
+  {
+   "file": "pages/learn-blog-the-price-of-one-members-move-from-puerto-rico-3955cb.md",
+   "url": "https://www.dupaco.com/learn/blog/the-price-of-one-members-move-from-puerto-rico",
+   "title": "The price of one member\u2019s move from Puerto Rico",
+   "fetched_at": "2026-05-12T19:56:32.086Z"
+  },
+  {
+   "file": "pages/learn-blog-the-ultimate-guide-to-choosing-the-right-financial-advisor-for-you-b1f5b2.md",
+   "url": "https://www.dupaco.com/learn/blog/the-ultimate-guide-to-choosing-the-right-financial-advisor-for-you",
+   "title": "The ultimate guide to choosing the right financial advisor | Dupaco",
+   "fetched_at": "2026-05-12T19:56:23.011Z"
+  },
+  {
+   "file": "pages/learn-blog-understand-insurance-deductibles-1c0ab4.md",
+   "url": "https://www.dupaco.com/learn/blog/understand-insurance-deductibles",
+   "title": "How to choose the right car insurance deductible for you | Dupaco",
+   "fetched_at": "2026-05-12T19:56:31.908Z"
+  },
+  {
+   "file": "pages/learn-blog-vehicle-affordability-calculator-179847.md",
+   "url": "https://www.dupaco.com/learn/blog/vehicle-affordability-calculator",
+   "title": "Vehicle Affordability Calculator",
+   "fetched_at": "2026-05-12T19:56:30.582Z"
+  },
+  {
+   "file": "pages/learn-blog-vehicle-payment-calculator-0efa2a.md",
+   "url": "https://www.dupaco.com/learn/blog/vehicle-payment-calculator",
+   "title": "Vehicle Payment Calculator",
+   "fetched_at": "2026-05-12T19:56:27.560Z"
+  },
+  {
+   "file": "pages/learn-blog-want-to-unfreeze-your-credit-heres-what-you-should-know-11bc40.md",
+   "url": "https://www.dupaco.com/learn/blog/want-to-unfreeze-your-credit-heres-what-you-should-know",
+   "title": "How to unfreeze your credit (and what to know before you do) | Dupaco",
+   "fetched_at": "2026-05-12T19:56:29.041Z"
+  },
+  {
+   "file": "pages/learn-blog-wedding-planning-on-a-budget-63bd3a.md",
+   "url": "https://www.dupaco.com/learn/blog/wedding-planning-on-a-budget",
+   "title": "How to budget for a wedding: Save money on your big day | Dupaco",
+   "fetched_at": "2026-05-12T19:56:28.214Z"
+  },
+  {
+   "file": "pages/learn-blog-what-amygdala-hijack-is-and-what-it-has-to-do-with-fraud-78a8c9.md",
+   "url": "https://www.dupaco.com/learn/blog/what-amygdala-hijack-is-and-what-it-has-to-do-with-fraud",
+   "title": "What amygdala hijack is\u2014and what it has to do with fraud",
+   "fetched_at": "2026-05-12T19:56:37.876Z"
+  },
+  {
+   "file": "pages/learn-blog-what-curbstoning-is-and-how-to-protect-yourself-from-it-2ac7f4.md",
+   "url": "https://www.dupaco.com/learn/blog/what-curbstoning-is-and-how-to-protect-yourself-from-it",
+   "title": "What curbstoning is\u2014and how to protect yourself from it | Dupaco",
+   "fetched_at": "2026-05-12T19:56:25.709Z"
+  },
+  {
+   "file": "pages/learn-blog-what-homeowners-should-know-about-flooding-82f922.md",
+   "url": "https://www.dupaco.com/learn/blog/what-homeowners-should-know-about-flooding",
+   "title": "Flooding prevention for homeowners: Tips to reduce risk | Dupaco",
+   "fetched_at": "2026-05-12T19:56:31.505Z"
+  },
+  {
+   "file": "pages/learn-blog-what-to-do-when-you-cant-find-a-job-after-college-0419e6.md",
+   "url": "https://www.dupaco.com/learn/blog/what-to-do-when-you-cant-find-a-job-after-college",
+   "title": "Struggling to find a job after college? Tips to move forward | Dupaco",
+   "fetched_at": "2026-05-12T19:56:26.211Z"
+  },
+  {
+   "file": "pages/learn-blog-what-you-need-to-know-about-atm-skimmers-b67ecd.md",
+   "url": "https://www.dupaco.com/learn/blog/what-you-need-to-know-about-atm-skimmers",
+   "title": "Do you know how to spot a card skimmer? | Dupaco",
+   "fetched_at": "2026-05-12T19:56:38.187Z"
+  },
+  {
+   "file": "pages/learn-blog-what-you-should-know-about-financing-new-home-construction-f75fc3.md",
+   "url": "https://www.dupaco.com/learn/blog/what-you-should-know-about-financing-new-home-construction",
+   "title": "New home construction financing: What you need to know | Dupaco",
+   "fetched_at": "2026-05-12T19:56:38.634Z"
+  },
+  {
+   "file": "pages/learn-blog-whats-the-best-way-to-build-credit-064927.md",
+   "url": "https://www.dupaco.com/learn/blog/whats-the-best-way-to-build-credit",
+   "title": "What\u2019s the best way to build credit? | Dupaco",
+   "fetched_at": "2026-05-12T19:56:37.919Z"
+  },
+  {
+   "file": "pages/learn-blog-whats-the-best-way-to-deal-with-an-escrow-shortage-f9f5b6.md",
+   "url": "https://www.dupaco.com/learn/blog/whats-the-best-way-to-deal-with-an-escrow-shortage",
+   "title": "What\u2019s the best way to deal with an escrow shortage? | Dupaco",
+   "fetched_at": "2026-05-12T19:56:27.835Z"
+  },
+  {
+   "file": "pages/learn-blog-whats-the-best-way-to-pay-for-home-improvements-c518a2.md",
+   "url": "https://www.dupaco.com/learn/blog/whats-the-best-way-to-pay-for-home-improvements",
+   "title": "What\u2019s the best way to pay for home improvements? | Dupaco",
+   "fetched_at": "2026-05-12T19:56:23.482Z"
+  },
+  {
+   "file": "pages/learn-blog-when-does-a-credit-card-balance-transfer-make-sense-3143f3.md",
+   "url": "https://www.dupaco.com/learn/blog/when-does-a-credit-card-balance-transfer-make-sense",
+   "title": "When does a credit card balance transfer make sense? | Dupaco",
+   "fetched_at": "2026-05-12T19:56:34.084Z"
+  },
+  {
+   "file": "pages/learn-blog-when-does-it-make-sense-to-refinance-student-loans-c48c23.md",
+   "url": "https://www.dupaco.com/learn/blog/when-does-it-make-sense-to-refinance-student-loans",
+   "title": "When does it make sense to refinance student loans? | Dupaco",
+   "fetched_at": "2026-05-12T19:56:22.883Z"
+  },
+  {
+   "file": "pages/learn-blog-why-insurance-costs-are-on-the-rise-and-what-you-can-do-about-it-0594c7.md",
+   "url": "https://www.dupaco.com/learn/blog/why-insurance-costs-are-on-the-rise-and-what-you-can-do-about-it",
+   "title": "How to save money on insurance as rates keep rising | Dupaco",
+   "fetched_at": "2026-05-12T19:56:37.645Z"
+  },
+  {
+   "file": "pages/learn-blog-why-you-should-avoid-payday-loans-and-what-to-do-instead-d193a8.md",
+   "url": "https://www.dupaco.com/learn/blog/why-you-should-avoid-payday-loans-and-what-to-do-instead",
+   "title": "Why you should avoid payday loans\u2014and what to do instead | Dupaco",
+   "fetched_at": "2026-05-12T19:56:25.781Z"
+  },
+  {
+   "file": "pages/learn-blog-why-you-should-stop-using-payment-apps-to-store-cash-ef3b8f.md",
+   "url": "https://www.dupaco.com/learn/blog/why-you-should-stop-using-payment-apps-to-store-cash",
+   "title": "Why you should stop using payment apps to store cash | Dupaco",
+   "fetched_at": "2026-05-12T19:56:25.638Z"
+  },
+  {
+   "file": "pages/learn-blog-you-still-have-time-to-save-in-these-accounts-9e9509.md",
+   "url": "https://www.dupaco.com/learn/blog/you-still-have-time-to-save-in-these-accounts",
+   "title": "You still have time to save in these accounts | Dupaco",
+   "fetched_at": "2026-05-12T19:56:33.756Z"
+  },
+  {
+   "file": "pages/learn-blog-your-financial-check-in-the-best-money-moves-to-make-now-755689.md",
+   "url": "https://www.dupaco.com/learn/blog/your-financial-check-in-the-best-money-moves-to-make-now",
+   "title": "Your financial check-in: The best money moves to make now | Dupaco",
+   "fetched_at": "2026-05-12T19:56:22.728Z"
+  },
+  {
+   "file": "pages/learn-blog-your-security-is-our-priority-b58f5b.md",
+   "url": "https://www.dupaco.com/learn/blog/your-security-is-our-priority",
+   "title": "Your security is our priority | Dupaco",
+   "fetched_at": "2026-05-12T19:56:23.912Z"
+  },
+  {
+   "file": "pages/learn-blog-your-social-privacy-fd1733.md",
+   "url": "https://www.dupaco.com/learn/blog/your-social-privacy",
+   "title": "Social media privacy isn't just about embarrassing posts | Dupaco",
+   "fetched_at": "2026-05-12T19:56:29.607Z"
+  },
+  {
+   "file": "pages/learn-blog-youre-so-close-how-much-do-you-need-to-retire-ee41ef.md",
+   "url": "https://www.dupaco.com/learn/blog/youre-so-close-how-much-do-you-need-to-retire",
+   "title": "You\u2019re so close: How much do you need to retire? | Dupaco",
+   "fetched_at": "2026-05-12T19:56:37.163Z"
+  },
+  {
+   "file": "pages/makethemost-lp-a7a56d.md",
+   "url": "https://www.dupaco.com/makethemost-lp",
+   "title": "Oops ... This Offer Has Expired | Dupaco",
+   "fetched_at": "2026-05-12T19:56:28.107Z"
+  },
+  {
+   "file": "pages/manage-account-alerts-ee21ea.md",
+   "url": "https://www.dupaco.com/manage-account-alerts",
+   "title": "Manage Account Alerts | Dupaco",
+   "fetched_at": "2026-05-12T19:56:27.932Z"
+  },
+  {
+   "file": "pages/membermoneymarket-lp-ff5ced.md",
+   "url": "https://www.dupaco.com/membermoneymarket-lp",
+   "title": "Member Money Market",
+   "fetched_at": "2026-05-12T19:56:34.323Z"
+  },
+  {
+   "file": "pages/money-makeover-279f62.md",
+   "url": "https://www.dupaco.com/money-makeover",
+   "title": "Money Makeover | Dupaco",
+   "fetched_at": "2026-05-12T19:56:26.108Z"
+  },
+  {
+   "file": "pages/mortgage-refi-b2c66c.md",
+   "url": "https://www.dupaco.com/mortgage-refi",
+   "title": "Is Refinancing Right for You? Let's Figure It Out Together | Dupaco",
+   "fetched_at": "2026-05-12T19:56:37.949Z"
+  },
+  {
+   "file": "pages/newcard-balancetransfer-lp-79d329.md",
+   "url": "https://www.dupaco.com/newcard-balancetransfer-lp",
+   "title": "New Card Balance Transfer",
+   "fetched_at": "2026-05-12T19:56:37.699Z"
+  },
+  {
+   "file": "pages/newmembermoneymarket-lp-9ae06e.md",
+   "url": "https://www.dupaco.com/newmembermoneymarket-lp",
+   "title": "Oops ... This Offer Has Expired | Dupaco",
+   "fetched_at": "2026-05-12T19:56:32.433Z"
+  },
+  {
+   "file": "pages/newsroom-74f652.md",
+   "url": "https://www.dupaco.com/newsroom",
+   "title": "Dupaco News",
+   "fetched_at": "2026-05-12T19:56:28.884Z"
+  },
+  {
+   "file": "pages/newsroom-application-open-for-dupaco-foundation-renewable-college-scholarships-cb651e.md",
+   "url": "https://www.dupaco.com/newsroom/application-open-for-dupaco-foundation-renewable-college-scholarships",
+   "title": "Application open for Dupaco Foundation renewable college scholarships",
+   "fetched_at": "2026-05-12T19:56:30.557Z"
+  },
+  {
+   "file": "pages/newsroom-as-financial-stress-peaks-dupaco-delivers-millions-of-personalized-money-insights-c955bd.md",
+   "url": "https://www.dupaco.com/newsroom/as-financial-stress-peaks-dupaco-delivers-millions-of-personalized-money-insights",
+   "title": "As financial stress peaks, Dupaco delivers personalized money insights",
+   "fetched_at": "2026-05-12T19:56:38.855Z"
+  },
+  {
+   "file": "pages/newsroom-author-admin-70546d.md",
+   "url": "https://www.dupaco.com/newsroom/author/admin",
+   "title": "Dupaco News | Admin",
+   "fetched_at": "2026-05-12T19:56:26.353Z"
+  },
+  {
+   "file": "pages/newsroom-author-emily-kittle-122a0e.md",
+   "url": "https://www.dupaco.com/newsroom/author/emily-kittle",
+   "title": "Dupaco News | Emily Kittle",
+   "fetched_at": "2026-05-12T19:56:35.225Z"
+  },
+  {
+   "file": "pages/newsroom-author-emily-kress-7b0c29.md",
+   "url": "https://www.dupaco.com/newsroom/author/emily-kress",
+   "title": "Dupaco News | Emily Kress",
+   "fetched_at": "2026-05-12T19:56:25.593Z"
+  },
+  {
+   "file": "pages/newsroom-brian-henneger-vp-mortgage-lending-a6200e.md",
+   "url": "https://www.dupaco.com/newsroom/brian-henneger-vp-mortgage-lending",
+   "title": "Dupaco welcomes Brian Henneger, VP Mortgage Lending | Dupaco",
+   "fetched_at": "2026-05-12T19:56:38.402Z"
+  },
+  {
+   "file": "pages/newsroom-celebrating-international-credit-union-day-dupacos-differentiator-and-commitment--4149da.md",
+   "url": "https://www.dupaco.com/newsroom/celebrating-international-credit-union-day-dupacos-differentiator-and-commitment-to-members",
+   "title": "Celebrating International Credit Union Day with Dupaco's member impact",
+   "fetched_at": "2026-05-12T19:56:33.617Z"
+  },
+  {
+   "file": "pages/newsroom-celebrating-international-credit-union-day-dupacos-legacy-impact-and-member-commi-d68701.md",
+   "url": "https://www.dupaco.com/newsroom/celebrating-international-credit-union-day-dupacos-legacy-impact-and-member-commitment",
+   "title": "Dupaco celebrates 77 years on International Credit Union Day",
+   "fetched_at": "2026-05-12T19:56:28.817Z"
+  },
+  {
+   "file": "pages/newsroom-direct-deposit-now-required-for-federal-payments-dupaco-helps-members-make-the-sw-9ce915.md",
+   "url": "https://www.dupaco.com/newsroom/direct-deposit-now-required-for-federal-payments-dupaco-helps-members-make-the-switch",
+   "title": "Direct deposit now required for federal payments | Dupaco",
+   "fetched_at": "2026-05-12T19:56:25.667Z"
+  },
+  {
+   "file": "pages/newsroom-dreams-within-reach-dupaco-provides-permanent-rate-reduction-with-mortgage-rate-r-48bf34.md",
+   "url": "https://www.dupaco.com/newsroom/dreams-within-reach-dupaco-provides-permanent-rate-reduction-with-mortgage-rate-relief-program",
+   "title": "Dupaco provides rate reduction through Mortgage Rate Relief Program",
+   "fetched_at": "2026-05-12T19:56:36.942Z"
+  },
+  {
+   "file": "pages/newsroom-dubuque-museum-of-art-finds-temporary-home-in-dupaco-voices-building-thanks-to-in-19688e.md",
+   "url": "https://www.dupaco.com/newsroom/dubuque-museum-of-art-finds-temporary-home-in-dupaco-voices-building-thanks-to-in-kind-donation",
+   "title": "Dubuque Museum of Art finds temporary home in Dupaco Voices Building",
+   "fetched_at": "2026-05-12T19:56:30.437Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-announces-board-election-results-a06caf.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-announces-board-election-results",
+   "title": "Dupaco announces board election results (2021)",
+   "fetched_at": "2026-05-12T19:56:34.042Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-announces-board-election-results-2-87d2e4.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-announces-board-election-results-2",
+   "title": "Dupaco announces board election results",
+   "fetched_at": "2026-05-12T19:56:28.993Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-announces-board-election-results-3-24ad26.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-announces-board-election-results-3",
+   "title": "Dupaco announces board election results",
+   "fetched_at": "2026-05-12T19:56:35.078Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-announces-board-election-results-4-fd49e2.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-announces-board-election-results-4",
+   "title": "Dupaco announces board election results",
+   "fetched_at": "2026-05-12T19:56:34.866Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-announces-board-election-results-5-7f5217.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-announces-board-election-results-5",
+   "title": "Dupaco announces board election results",
+   "fetched_at": "2026-05-12T19:56:27.016Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-awards-grants-to-boost-nonprofits-innovation-and-impact-4ece67.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-awards-grants-to-boost-nonprofits-innovation-and-impact",
+   "title": "Dupaco awards grants to boost nonprofits' innovation and impact",
+   "fetched_at": "2026-05-12T19:56:26.085Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-awards-local-creators-with-key-city-creative-center-membership-grants-da7b0d.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-awards-local-creators-with-key-city-creative-center-membership-grants",
+   "title": "Dupaco awards creators with Key City Creative Center membership grants",
+   "fetched_at": "2026-05-12T19:56:32.694Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-awards-local-creators-with-key-city-creative-center-membership-grants-2026-4746bb.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-awards-local-creators-with-key-city-creative-center-membership-grants-2026",
+   "title": "Dupaco awards membership grants to local creators at KCCC",
+   "fetched_at": "2026-05-12T19:56:28.494Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-awards-membership-grants-to-key-city-creative-center-6e0ce5.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-awards-membership-grants-to-key-city-creative-center",
+   "title": "Dupaco awards membership grants to Key City Creative Center",
+   "fetched_at": "2026-05-12T19:56:22.676Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-celebrates-75th-anniversary-50b2e4.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-celebrates-75th-anniversary",
+   "title": "Dupaco celebrates 75th anniversary",
+   "fetched_at": "2026-05-12T19:56:23.089Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-celebrates-completion-of-coralville-learning-lab-b14091.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-celebrates-completion-of-coralville-learning-lab",
+   "title": "Dupaco celebrates completion of Coralville Learning Lab",
+   "fetched_at": "2026-05-12T19:56:35.927Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-celebrates-completion-of-dupaco-voices-building-with-ribbon-cutting-38190f.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-celebrates-completion-of-dupaco-voices-building-with-ribbon-cutting",
+   "title": "Dupaco celebrates completion of Voices Building with ribbon cutting",
+   "fetched_at": "2026-05-12T19:56:32.108Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-celebrates-completion-of-newest-learning-lab-ad0d5f.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-celebrates-completion-of-newest-learning-lab",
+   "title": "Dupaco celebrates completion of newest learning lab",
+   "fetched_at": "2026-05-12T19:56:33.683Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-community-credit-union-acquires-assets-assumes-liabilities-of-home-savings-5d3143.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-community-credit-union-acquires-assets-assumes-liabilities-of-home-savings-bank",
+   "title": "Dupaco acquires assets, assumes liabilities of Home Savings Bank",
+   "fetched_at": "2026-05-12T19:56:31.765Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-community-credit-union-branch-office-to-open-in-coralville-iowa-335abb.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-community-credit-union-branch-office-to-open-in-coralville-iowa",
+   "title": "Dupaco Credit Union branch office to open in Coralville, Iowa",
+   "fetched_at": "2026-05-12T19:56:37.415Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-community-credit-union-celebrates-completion-of-expanded-branch-cbd0e1.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-community-credit-union-celebrates-completion-of-expanded-branch",
+   "title": "Dupaco Community Credit Union celebrates completion of expanded branch",
+   "fetched_at": "2026-05-12T19:56:30.515Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-community-credit-union-celebrates-completion-of-newest-learning-lab-62e243.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-community-credit-union-celebrates-completion-of-newest-learning-lab",
+   "title": "Dupaco Credit Union celebrates completion of newest learning lab",
+   "fetched_at": "2026-05-12T19:56:24.640Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-community-credit-union-celebrates-completion-of-newest-learning-lab-2-5f2a46.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-community-credit-union-celebrates-completion-of-newest-learning-lab-2",
+   "title": "Dupaco Credit Union celebrates completion of newest learning lab",
+   "fetched_at": "2026-05-12T19:56:38.363Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-community-credit-union-celebrates-completion-of-newest-learning-lab-3-820323.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-community-credit-union-celebrates-completion-of-newest-learning-lab-3",
+   "title": "Dupaco Credit Union celebrates completion of newest learning lab",
+   "fetched_at": "2026-05-12T19:56:24.057Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-community-credit-union-celebrates-east-washington-avenue-branch-ribbon-cut-c4fb44.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-community-credit-union-celebrates-east-washington-avenue-branch-ribbon-cutting",
+   "title": "Dupaco celebrates East Washington Avenue branch ribbon cutting",
+   "fetched_at": "2026-05-12T19:56:34.370Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-community-credit-union-celebrates-mineral-point-branch-ribbon-cutting-c51d5d.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-community-credit-union-celebrates-mineral-point-branch-ribbon-cutting",
+   "title": "Dupaco Credit Union celebrates Mineral Point branch ribbon cutting",
+   "fetched_at": "2026-05-12T19:56:32.175Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-community-credit-union-completes-acquisition-of-home-savings-bank-716ae5.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-community-credit-union-completes-acquisition-of-home-savings-bank",
+   "title": "Dupaco Credit Union completes acquisition of Home Savings Bank",
+   "fetched_at": "2026-05-12T19:56:33.377Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-community-credit-union-plans-learning-lab-branch-in-grimes-6d8130.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-community-credit-union-plans-learning-lab-branch-in-grimes",
+   "title": "Dupaco Community Credit Union plans learning lab branch in Grimes",
+   "fetched_at": "2026-05-12T19:56:26.795Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-community-credit-union-plans-learning-lab-branch-in-waukee-a9b9aa.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-community-credit-union-plans-learning-lab-branch-in-waukee",
+   "title": "Dupaco Community Credit Union plans learning lab branch in Waukee",
+   "fetched_at": "2026-05-12T19:56:29.017Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-community-credit-union-plans-learning-lab-branch-in-waukee-2-a7297f.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-community-credit-union-plans-learning-lab-branch-in-waukee-2",
+   "title": "Dupaco Community Credit Union plans learning lab branch in Waukee",
+   "fetched_at": "2026-05-12T19:56:32.797Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-community-credit-union-to-acquire-home-savings-bank-bfb57a.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-community-credit-union-to-acquire-home-savings-bank",
+   "title": "Dupaco Community Credit Union to acquire Home Savings Bank",
+   "fetched_at": "2026-05-12T19:56:35.769Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-completes-sycamore-street-branch-renovation-4bfb3e.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-completes-sycamore-street-branch-renovation",
+   "title": "Dupaco completes Sycamore Street branch renovation",
+   "fetched_at": "2026-05-12T19:56:25.103Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-credit-union-named-a-2023-iowa-top-workplace-b00c7b.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-credit-union-named-a-2023-iowa-top-workplace",
+   "title": "Dupaco Credit Union named a 2023 Iowa Top Workplace",
+   "fetched_at": "2026-05-12T19:56:36.776Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-declares-4-5-million-bonus-dividend-4e3043.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-declares-4-5-million-bonus-dividend",
+   "title": "Dupaco declares $4.5 million bonus dividend",
+   "fetched_at": "2026-05-12T19:56:26.289Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-declares-more-than-3-7-million-bonus-dividend-2d4fd2.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-declares-more-than-3-7-million-bonus-dividend",
+   "title": "Dupaco declares more than $3.7 million bonus dividend",
+   "fetched_at": "2026-05-12T19:56:38.951Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-earns-1-82-million-dollar-grant-for-ongoing-pandemic-relief-efforts-81e7ff.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-earns-1-82-million-dollar-grant-for-ongoing-pandemic-relief-efforts",
+   "title": "Dupaco earns $1.82 million dollar grant for pandemic relief efforts",
+   "fetched_at": "2026-05-12T19:56:32.646Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-empowers-members-with-bright-track-financial-wellness-hub-3dd01f.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-empowers-members-with-bright-track-financial-wellness-hub",
+   "title": "Dupaco empowers members with Bright Track Financial Wellness Hub",
+   "fetched_at": "2026-05-12T19:56:36.586Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-evolves-with-purpose-and-member-needs-plans-hy-vee-branch-closure-122d4f.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-evolves-with-purpose-and-member-needs-plans-hy-vee-branch-closure",
+   "title": "Dupaco's purpose and member needs evolve, plans Hy-Vee branch closure",
+   "fetched_at": "2026-05-12T19:56:22.812Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-expands-access-to-affordable-homeownership-through-fhlb-partnership-3ded02.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-expands-access-to-affordable-homeownership-through-fhlb-partnership",
+   "title": "Dupaco expands access to homeownership through FHLB partnership",
+   "fetched_at": "2026-05-12T19:56:24.376Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-foundation-awards-250000-in-grants-to-nonprofit-organizations-3673da.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-foundation-awards-250000-in-grants-to-nonprofit-organizations",
+   "title": "Dupaco Foundation awards $250,000 in grants to nonprofit organizations",
+   "fetched_at": "2026-05-12T19:56:33.889Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-foundation-awards-250k-in-grants-to-nonprofit-organizations-4d7d29.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-foundation-awards-250k-in-grants-to-nonprofit-organizations",
+   "title": "Dupaco Foundation awards $250,000 in grants to nonprofit organizations",
+   "fetched_at": "2026-05-12T19:56:30.371Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-foundation-awards-60000-in-college-scholarship-money-cbd4d4.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-foundation-awards-60000-in-college-scholarship-money",
+   "title": "Dupaco foundation awards $60,000 in college scholarship money",
+   "fetched_at": "2026-05-12T19:56:26.840Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-foundation-awards-60000-in-college-scholarship-money-2-a4a3f4.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-foundation-awards-60000-in-college-scholarship-money-2",
+   "title": "Dupaco Foundation awards $60,000 in college scholarship money",
+   "fetched_at": "2026-05-12T19:56:28.246Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-foundation-awards-60000-in-renewable-college-scholarships-09973f.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-foundation-awards-60000-in-renewable-college-scholarships",
+   "title": "Dupaco Foundation awards $60,000 in renewable college scholarships",
+   "fetched_at": "2026-05-12T19:56:27.246Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-foundation-awards-60000-in-renewable-college-scholarships-1-42592a.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-foundation-awards-60000-in-renewable-college-scholarships-1",
+   "title": "Dupaco Foundation awards $60,000 in renewable college scholarships",
+   "fetched_at": "2026-05-12T19:56:34.459Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-foundation-launches-renewable-college-scholarship-program-5c495c.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-foundation-launches-renewable-college-scholarship-program",
+   "title": "Dupaco Foundation launches renewable college scholarship program",
+   "fetched_at": "2026-05-12T19:56:33.108Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-foundation-to-award-250000-in-grants-to-nonprofit-organizations-3ebd58.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-foundation-to-award-250000-in-grants-to-nonprofit-organizations",
+   "title": "Dupaco Foundation to award $250,000 in grants to nonprofits",
+   "fetched_at": "2026-05-12T19:56:34.591Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-foundation-to-award-250000-in-grants-to-nonprofit-organizations-2-223085.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-foundation-to-award-250000-in-grants-to-nonprofit-organizations-2",
+   "title": "Dupaco Foundation to award $250,000 in grants to nonprofits",
+   "fetched_at": "2026-05-12T19:56:25.352Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-foundation-to-award-60000-in-college-scholarship-money-6542dc.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-foundation-to-award-60000-in-college-scholarship-money",
+   "title": "Dupaco foundation to award $60,000 in college scholarship money",
+   "fetched_at": "2026-05-12T19:56:24.919Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-foundation-to-award-60000-in-college-scholarship-money-2-841e26.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-foundation-to-award-60000-in-college-scholarship-money-2",
+   "title": "Dupaco foundation to award $60,000 in college scholarship money",
+   "fetched_at": "2026-05-12T19:56:28.038Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-foundation-to-award-60000-in-college-scholarship-money-3-611562.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-foundation-to-award-60000-in-college-scholarship-money-3",
+   "title": "Dupaco Foundation to award $60,000 in college scholarship money",
+   "fetched_at": "2026-05-12T19:56:23.610Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-helping-homebuyers-navigate-todays-market-266b5e.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-helping-homebuyers-navigate-todays-market",
+   "title": "How Dupaco is helping homebuyers navigate today\u2019s market | Dupaco",
+   "fetched_at": "2026-05-12T19:56:37.010Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-honored-with-mastercard-doing-well-by-doing-good-award-84852a.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-honored-with-mastercard-doing-well-by-doing-good-award",
+   "title": "Dupaco honored with Mastercard\u00ae \u201cDoing Well by Doing Good\u201d award",
+   "fetched_at": "2026-05-12T19:56:28.536Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-launches-new-grant-program-to-boost-nonprofit-innovation-79a313.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-launches-new-grant-program-to-boost-nonprofit-innovation",
+   "title": "Dupaco launches new grant program to boost nonprofit innovation",
+   "fetched_at": "2026-05-12T19:56:36.989Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-making-homeownership-more-affordable-with-special-down-payment-assistance--ac0af2.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-making-homeownership-more-affordable-with-special-down-payment-assistance-program",
+   "title": "Dupaco makes homeownership more affordable with down payment program",
+   "fetched_at": "2026-05-12T19:56:32.248Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-making-homeownership-more-affordable-with-special-fhlb-mortgage-rate-relie-54805a.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-making-homeownership-more-affordable-with-special-fhlb-mortgage-rate-relief-program",
+   "title": "Dupaco making homeownership more affordable with FHLB program",
+   "fetched_at": "2026-05-12T19:56:24.584Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-making-homeownership-more-affordable-with-special-fhlb-mortgage-rate-relie-99f265.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-making-homeownership-more-affordable-with-special-fhlb-mortgage-rate-relief-program-2",
+   "title": "https://www.dupaco.com/newsroom/dupaco-making-homeownership-more-affordable-with-special-fhlb-mortgage-rate-relief-program-2",
+   "fetched_at": "2026-05-12T19:56:27.199Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-maximizes-mortgage-rate-relief-program-to-support-homebuyers-ad7b27.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-maximizes-mortgage-rate-relief-program-to-support-homebuyers",
+   "title": "Dupaco maximizes mortgage rate relief program to support homebuyers",
+   "fetched_at": "2026-05-12T19:56:38.586Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-members-collect-more-than-9-million-in-october-c480ff.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-members-collect-more-than-9-million-in-october",
+   "title": "Dupaco members collect more than $9 million in October",
+   "fetched_at": "2026-05-12T19:56:38.930Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-members-collect-nearly-10-3-million-in-october-3a3f1c.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-members-collect-nearly-10-3-million-in-october",
+   "title": "Dupaco members collect nearly $10.3 million in October",
+   "fetched_at": "2026-05-12T19:56:37.272Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-members-collect-nearly-10-million-in-october-b4a4eb.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-members-collect-nearly-10-million-in-october",
+   "title": "Dupaco members collect nearly $10 million in October",
+   "fetched_at": "2026-05-12T19:56:31.844Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-members-collect-nearly-9-7-million-in-october-2ebd0d.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-members-collect-nearly-9-7-million-in-october",
+   "title": "Dupaco members collect nearly $9.7 million in October",
+   "fetched_at": "2026-05-12T19:56:30.237Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-named-best-place-to-work-e2ae4e.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-named-best-place-to-work",
+   "title": "Dupaco named Best Place to Work",
+   "fetched_at": "2026-05-12T19:56:30.954Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-partners-for-new-innovation-laboratory-programming-in-cascade-95581c.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-partners-for-new-innovation-laboratory-programming-in-cascade",
+   "title": "Dupaco partners for new innovation laboratory, programming in Cascade",
+   "fetched_at": "2026-05-12T19:56:30.773Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-partners-for-new-innovation-laboratory-programming-in-dyersville-3b313b.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-partners-for-new-innovation-laboratory-programming-in-dyersville",
+   "title": "Dupaco partners for new innovation lab, programming in Dyersville",
+   "fetched_at": "2026-05-12T19:56:36.817Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-partners-for-new-innovation-laboratory-programming-in-monticello-2501d4.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-partners-for-new-innovation-laboratory-programming-in-monticello",
+   "title": "Dupaco partners for new innovation lab, programming in Monticello",
+   "fetched_at": "2026-05-12T19:56:37.752Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-partners-with-voices-productions-in-new-telepoem-booth-bd98f7.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-partners-with-voices-productions-in-new-telepoem-booth",
+   "title": "Dupaco partners with Voices Productions in new Telepoem Booth",
+   "fetched_at": "2026-05-12T19:56:33.962Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-president-ceo-joe-hearn-named-cues-outstanding-chief-executive-cb0aa1.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-president-ceo-joe-hearn-named-cues-outstanding-chief-executive",
+   "title": "Dupaco President, CEO Joe Hearn named CUES Outstanding Chief Executive",
+   "fetched_at": "2026-05-12T19:56:24.012Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-r-w-hoefer-foundation-awards-60000-in-college-scholarship-money-5eacf5.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-r-w-hoefer-foundation-awards-60000-in-college-scholarship-money",
+   "title": "Dupaco R.W. Hoefer Foundation awards $60,000 in college scholarships",
+   "fetched_at": "2026-05-12T19:56:33.399Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-ranked-top-5-large-workplace-in-iowa-98674b.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-ranked-top-5-large-workplace-in-iowa",
+   "title": "Dupaco ranked top 5 large workplace in Iowa",
+   "fetched_at": "2026-05-12T19:56:23.043Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-ranked-top-workplace-usa-5f2414.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-ranked-top-workplace-usa",
+   "title": "Dupaco ranked Top Workplace USA",
+   "fetched_at": "2026-05-12T19:56:35.811Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-receives-best-place-to-work-recognition-8f7bac.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-receives-best-place-to-work-recognition",
+   "title": "Dupaco receives Best Place to Work recognition",
+   "fetched_at": "2026-05-12T19:56:35.541Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-receives-employ-humanity-excellence-award-b77e26.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-receives-employ-humanity-excellence-award",
+   "title": "Dupaco receives Employ Humanity Excellence Award",
+   "fetched_at": "2026-05-12T19:56:30.604Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-recognized-as-a-bike-friendly-business-by-the-league-of-american-bicyclist-505163.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-recognized-as-a-bike-friendly-business-by-the-league-of-american-bicyclists",
+   "title": "Dupaco recognized as Bike Friendly Business by bicyclist league",
+   "fetched_at": "2026-05-12T19:56:32.867Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-secures-place-among-the-nations-top-workplaces-in-2024-c99ea6.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-secures-place-among-the-nations-top-workplaces-in-2024",
+   "title": "Dupaco secures place among the nation\u2019s Top Workplaces in 2024",
+   "fetched_at": "2026-05-12T19:56:36.607Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-shares-more-than-3-3-million-with-participating-members-d988fe.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-shares-more-than-3-3-million-with-participating-members",
+   "title": "Dupaco shares more than $3.3 million with participating members",
+   "fetched_at": "2026-05-12T19:56:30.303Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-shares-nearly-3-7-million-with-participating-members-5f5afd.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-shares-nearly-3-7-million-with-participating-members",
+   "title": "Dupaco shares nearly $3.7 million with participating members",
+   "fetched_at": "2026-05-12T19:56:28.948Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-sponsors-membership-grants-to-key-city-creative-center-1f344c.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-sponsors-membership-grants-to-key-city-creative-center",
+   "title": "Dupaco sponsors membership grants to Key City Creative Center",
+   "fetched_at": "2026-05-12T19:56:39.092Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-sponsors-membership-grants-to-key-city-creative-center-2-f7ba5b.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-sponsors-membership-grants-to-key-city-creative-center-2",
+   "title": "Dupaco sponsors membership grants to Key City Creative Center",
+   "fetched_at": "2026-05-12T19:56:31.107Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-sponsors-scholarship-program-to-key-city-creative-center-c47e7d.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-sponsors-scholarship-program-to-key-city-creative-center",
+   "title": "Dupaco sponsors scholarship program to Key City Creative Center (2020)",
+   "fetched_at": "2026-05-12T19:56:22.650Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-sponsors-scholarship-program-to-key-city-creative-center-2-ff10f6.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-sponsors-scholarship-program-to-key-city-creative-center-2",
+   "title": "Dupaco sponsors scholarship program to Key City Creative Center",
+   "fetched_at": "2026-05-12T19:56:33.913Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-supports-local-creators-and-entrepreneurs-with-grants-to-key-city-creative-50c176.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-supports-local-creators-and-entrepreneurs-with-grants-to-key-city-creative-center",
+   "title": "Dupaco supports local creators with grants to Key City Creative Center",
+   "fetched_at": "2026-05-12T19:56:39.132Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-supports-local-creators-and-entrepreneurs-with-key-city-creative-center-me-37b896.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-supports-local-creators-and-entrepreneurs-with-key-city-creative-center-membership-grants",
+   "title": "Dupaco supports creators with Key City Creative Center memberships",
+   "fetched_at": "2026-05-12T19:56:32.344Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-to-close-asbury-branch-dupaco-4fbdcf.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-to-close-asbury-branch-dupaco",
+   "title": "Dupaco closing Asbury branch to reduce surplus of tri-state locations",
+   "fetched_at": "2026-05-12T19:56:36.686Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-voices-building-honored-for-excellence-in-historic-preservation-c5e87e.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-voices-building-honored-for-excellence-in-historic-preservation",
+   "title": "Dupaco Voices Building honored for excellence in historic preservation",
+   "fetched_at": "2026-05-12T19:56:32.623Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-warns-consumers-about-new-wave-of-irs-impersonation-scams-0aaf68.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-warns-consumers-about-new-wave-of-irs-impersonation-scams",
+   "title": "Dupaco warns consumers about new wave of IRS impersonation scams",
+   "fetched_at": "2026-05-12T19:56:25.150Z"
+  },
+  {
+   "file": "pages/newsroom-dupaco-welcomes-greg-rehmke-svp-legal-compliance-and-risk-4089cb.md",
+   "url": "https://www.dupaco.com/newsroom/dupaco-welcomes-greg-rehmke-svp-legal-compliance-and-risk",
+   "title": "Dupaco welcomes Greg Rehmke, SVP Legal Compliance and Risk",
+   "fetched_at": "2026-05-12T19:56:31.824Z"
+  },
+  {
+   "file": "pages/newsroom-dupacos-21-day-sprint-to-savings-challenge-wraps-up-with-big-wins-and-bigger-habi-8bff87.md",
+   "url": "https://www.dupaco.com/newsroom/dupacos-21-day-sprint-to-savings-challenge-wraps-up-with-big-wins-and-bigger-habits",
+   "title": "Dupaco's Sprint-to-Savings Challenge wraps up with winning habits",
+   "fetched_at": "2026-05-12T19:56:25.449Z"
+  },
+  {
+   "file": "pages/newsroom-dupacos-77th-annual-board-election-45c81b.md",
+   "url": "https://www.dupaco.com/newsroom/dupacos-77th-annual-board-election",
+   "title": "Dupaco's 77th Annual Board Election",
+   "fetched_at": "2026-05-12T19:56:36.519Z"
+  },
+  {
+   "file": "pages/newsroom-dupacos-77th-annual-membership-meeting-b4ee26.md",
+   "url": "https://www.dupaco.com/newsroom/dupacos-77th-annual-membership-meeting",
+   "title": "Dupaco's 77th Annual Membership Meeting",
+   "fetched_at": "2026-05-12T19:56:26.971Z"
+  },
+  {
+   "file": "pages/newsroom-dupacos-commitment-to-workplace-excellence-earns-statewide-honor-4cfd83.md",
+   "url": "https://www.dupaco.com/newsroom/dupacos-commitment-to-workplace-excellence-earns-statewide-honor",
+   "title": "Dupaco\u2019s commitment to workplace excellence earns statewide honor",
+   "fetched_at": "2026-05-12T19:56:33.703Z"
+  },
+  {
+   "file": "pages/newsroom-dupacos-fraud-prevention-efforts-save-members-millions-in-2025-ecf0e5.md",
+   "url": "https://www.dupaco.com/newsroom/dupacos-fraud-prevention-efforts-save-members-millions-in-2025",
+   "title": "Dupaco\u2019s fraud prevention efforts save members millions in 2025",
+   "fetched_at": "2026-05-12T19:56:34.186Z"
+  },
+  {
+   "file": "pages/newsroom-dupacos-gift-of-innovation-awards-sessions-to-fuel-nonprofit-growth-7b42bc.md",
+   "url": "https://www.dupaco.com/newsroom/dupacos-gift-of-innovation-awards-sessions-to-fuel-nonprofit-growth",
+   "title": "Dupaco\u2019s Gift of Innovation awards sessions to fuel nonprofit growth",
+   "fetched_at": "2026-05-12T19:56:32.129Z"
+  },
+  {
+   "file": "pages/newsroom-dupacos-gift-of-innovation-grant-empowers-nonprofits-to-grow-and-thrive-0587cd.md",
+   "url": "https://www.dupaco.com/newsroom/dupacos-gift-of-innovation-grant-empowers-nonprofits-to-grow-and-thrive",
+   "title": "Applications open: Dupaco's Gift of Innovation grants for nonprofits",
+   "fetched_at": "2026-05-12T19:56:31.588Z"
+  },
+  {
+   "file": "pages/newsroom-dupacos-holiday-club-helps-members-save-year-round-and-spend-smarter-this-season-68eb07.md",
+   "url": "https://www.dupaco.com/newsroom/dupacos-holiday-club-helps-members-save-year-round-and-spend-smarter-this-season",
+   "title": "Dupaco\u2019s Holiday Club helps members save and spend smarter this season",
+   "fetched_at": "2026-05-12T19:56:24.455Z"
+  },
+  {
+   "file": "pages/newsroom-dupacos-holiday-club-pays-off-participating-members-systematically-save-more-than-f32f8a.md",
+   "url": "https://www.dupaco.com/newsroom/dupacos-holiday-club-pays-off-participating-members-systematically-save-more-than-5-9-million",
+   "title": "Dupaco\u2019s Holiday Club pays off: Members save more than $5.9 million",
+   "fetched_at": "2026-05-12T19:56:24.180Z"
+  },
+  {
+   "file": "pages/newsroom-ellen-goodmann-miller-joins-dupaco-community-credit-union-board-of-directors-e7d0fa.md",
+   "url": "https://www.dupaco.com/newsroom/ellen-goodmann-miller-joins-dupaco-community-credit-union-board-of-directors",
+   "title": "Ellen Goodmann Miller joins Dupaco Credit Union Board of Directors",
+   "fetched_at": "2026-05-12T19:56:34.844Z"
+  },
+  {
+   "file": "pages/newsroom-expect-the-unexpected-dupaco-shares-tips-to-build-emergency-fund-33f419.md",
+   "url": "https://www.dupaco.com/newsroom/expect-the-unexpected-dupaco-shares-tips-to-build-emergency-fund",
+   "title": "Expect the unexpected: Dupaco shares tips to build emergency fund",
+   "fetched_at": "2026-05-12T19:56:38.972Z"
+  },
+  {
+   "file": "pages/newsroom-financial-skills-college-student-athletes-77f2cf.md",
+   "url": "https://www.dupaco.com/newsroom/financial-skills-college-student-athletes",
+   "title": "Helping Student-Athletes Manage Financial Stress | Dupaco",
+   "fetched_at": "2026-05-12T19:56:33.207Z"
+  },
+  {
+   "file": "pages/newsroom-financial-wellness-programs-on-the-rise-dupaco-leads-the-way-617780.md",
+   "url": "https://www.dupaco.com/newsroom/financial-wellness-programs-on-the-rise-dupaco-leads-the-way",
+   "title": "Financial wellness programs on the rise: Dupaco leads the way",
+   "fetched_at": "2026-05-12T19:56:34.144Z"
+  },
+  {
+   "file": "pages/newsroom-first-time-homebuyers-get-a-boost-dupaco-offers-fhlb-hometart-grants-ec654a.md",
+   "url": "https://www.dupaco.com/newsroom/first-time-homebuyers-get-a-boost-dupaco-offers-fhlb-hometart-grants",
+   "title": "First-time homebuyers get a boost: Dupaco offers FHLB Home$tart grants",
+   "fetched_at": "2026-05-12T19:56:32.197Z"
+  },
+  {
+   "file": "pages/newsroom-forbes-ranks-dupaco-a-top-small-employer-in-america-c06316.md",
+   "url": "https://www.dupaco.com/newsroom/forbes-ranks-dupaco-a-top-small-employer-in-america",
+   "title": "Forbes ranks Dupaco a top small employer in America",
+   "fetched_at": "2026-05-12T19:56:37.775Z"
+  },
+  {
+   "file": "pages/newsroom-forbes-ranks-dupaco-as-a-top-credit-union-in-america-fd4ed1.md",
+   "url": "https://www.dupaco.com/newsroom/forbes-ranks-dupaco-as-a-top-credit-union-in-america",
+   "title": "Forbes ranks Dupaco as a top credit union in America",
+   "fetched_at": "2026-05-12T19:56:26.993Z"
+  },
+  {
+   "file": "pages/newsroom-forbes-ranks-dupaco-as-a-top-credit-union-in-america-2-1bb5f6.md",
+   "url": "https://www.dupaco.com/newsroom/forbes-ranks-dupaco-as-a-top-credit-union-in-america-2",
+   "title": "Forbes ranks Dupaco as a top credit union in America",
+   "fetched_at": "2026-05-12T19:56:35.521Z"
+  },
+  {
+   "file": "pages/newsroom-forbes-ranks-dupaco-as-a-top-credit-union-in-america-3-d8d28f.md",
+   "url": "https://www.dupaco.com/newsroom/forbes-ranks-dupaco-as-a-top-credit-union-in-america-3",
+   "title": "Forbes Ranks Dupaco as a Top Credit Union in America",
+   "fetched_at": "2026-05-12T19:56:31.158Z"
+  },
+  {
+   "file": "pages/newsroom-from-solar-eclipses-to-savings-accounts-dupacos-journey-to-build-a-brighter-commu-fdb81f.md",
+   "url": "https://www.dupaco.com/newsroom/from-solar-eclipses-to-savings-accounts-dupacos-journey-to-build-a-brighter-community-for-all",
+   "title": "From solar eclipses to savings: Dupaco's vision for a brighter future",
+   "fetched_at": "2026-05-12T19:56:27.101Z"
+  },
+  {
+   "file": "pages/newsroom-homebuying-made-simple-dupaco-helps-navigate-the-homebuying-process-bb586f.md",
+   "url": "https://www.dupaco.com/newsroom/homebuying-made-simple-dupaco-helps-navigate-the-homebuying-process",
+   "title": "Homebuying made simple: Dupaco helps navigate the homebuying process",
+   "fetched_at": "2026-05-12T19:56:26.925Z"
+  },
+  {
+   "file": "pages/newsroom-national-news-segment-highlights-dupacos-proactive-approach-to-fraud-prevention-6f099b.md",
+   "url": "https://www.dupaco.com/newsroom/national-news-segment-highlights-dupacos-proactive-approach-to-fraud-prevention",
+   "title": "National news segment highlights Dupaco\u2019s proactive fraud prevention",
+   "fetched_at": "2026-05-12T19:56:38.746Z"
+  },
+  {
+   "file": "pages/newsroom-newsweek-names-dupaco-community-credit-union-one-of-americas-best-regional-credit-b42fc1.md",
+   "url": "https://www.dupaco.com/newsroom/newsweek-names-dupaco-community-credit-union-one-of-americas-best-regional-credit-unions-in-the-u-s",
+   "title": "Newsweek names Dupaco one of America\u2019s Best Regional Credit Unions",
+   "fetched_at": "2026-05-12T19:56:39.175Z"
+  },
+  {
+   "file": "pages/newsroom-newsweek-names-dupaco-community-credit-union-to-list-of-top-250-regional-credit-u-024c8d.md",
+   "url": "https://www.dupaco.com/newsroom/newsweek-names-dupaco-community-credit-union-to-list-of-top-250-regional-credit-unions-in-the-u-s",
+   "title": "Newsweek names Dupaco to list of top 250 U.S. regional credit unions",
+   "fetched_at": "2026-05-12T19:56:37.523Z"
+  },
+  {
+   "file": "pages/newsroom-nonprofit-grant-program-opens-2026-f52dd3.md",
+   "url": "https://www.dupaco.com/newsroom/nonprofit-grant-program-opens-2026",
+   "title": "Dupaco Foundation to award $250K to nonprofits | Dupaco",
+   "fetched_at": "2026-05-12T19:56:22.988Z"
+  },
+  {
+   "file": "pages/newsroom-ready-set-save-registration-is-now-open-for-dupacos-21-day-sprint-to-savings-chal-66d02b.md",
+   "url": "https://www.dupaco.com/newsroom/ready-set-save-registration-is-now-open-for-dupacos-21-day-sprint-to-savings-challenge",
+   "title": "Ready, set, save! Join Dupaco's 21-Day Sprint to Savings Challenge",
+   "fetched_at": "2026-05-12T19:56:26.014Z"
+  },
+  {
+   "file": "pages/newsroom-sp-global-ranks-dupaco-a-top-performing-u-s-credit-union-eecc14.md",
+   "url": "https://www.dupaco.com/newsroom/sp-global-ranks-dupaco-a-top-performing-u-s-credit-union",
+   "title": "S&P Global ranks Dupaco a top-performing U.S. credit union",
+   "fetched_at": "2026-05-12T19:56:38.725Z"
+  },
+  {
+   "file": "pages/newsroom-start-young-save-smart-dupaco-empowers-families-on-teach-children-to-save-day-958946.md",
+   "url": "https://www.dupaco.com/newsroom/start-young-save-smart-dupaco-empowers-families-on-teach-children-to-save-day",
+   "title": "Dupaco empowers families on Teach Children to Save Day",
+   "fetched_at": "2026-05-12T19:56:35.499Z"
+  },
+  {
+   "file": "pages/newsroom-supporting-workforce-well-being-dupaco-leads-the-way-in-financial-education-f6d4e2.md",
+   "url": "https://www.dupaco.com/newsroom/supporting-workforce-well-being-dupaco-leads-the-way-in-financial-education",
+   "title": "Supporting workforce well-being: Dupaco leads with financial education",
+   "fetched_at": "2026-05-12T19:56:32.755Z"
+  },
+  {
+   "file": "pages/newsroom-tag-alerts-a0eae8.md",
+   "url": "https://www.dupaco.com/newsroom/tag/alerts",
+   "title": "Dupaco News | Alerts",
+   "fetched_at": "2026-05-12T19:56:25.616Z"
+  },
+  {
+   "file": "pages/newsroom-tag-award-f62884.md",
+   "url": "https://www.dupaco.com/newsroom/tag/award",
+   "title": "Dupaco News | Award",
+   "fetched_at": "2026-05-12T19:56:23.860Z"
+  },
+  {
+   "file": "pages/newsroom-tag-awards-recognition-f9fa3d.md",
+   "url": "https://www.dupaco.com/newsroom/tag/awards-recognition",
+   "title": "Dupaco News | Awards & Recognition",
+   "fetched_at": "2026-05-12T19:56:23.143Z"
+  },
+  {
+   "file": "pages/newsroom-tag-board-11a063.md",
+   "url": "https://www.dupaco.com/newsroom/tag/board",
+   "title": "Dupaco News | Board",
+   "fetched_at": "2026-05-12T19:56:39.383Z"
+  },
+  {
+   "file": "pages/newsroom-tag-borrowing-credit-7055cc.md",
+   "url": "https://www.dupaco.com/newsroom/tag/borrowing-credit",
+   "title": "Dupaco News | Borrowing & Credit",
+   "fetched_at": "2026-05-12T19:56:36.904Z"
+  },
+  {
+   "file": "pages/newsroom-tag-branch-8dd854.md",
+   "url": "https://www.dupaco.com/newsroom/tag/branch",
+   "title": "Dupaco News | Branch",
+   "fetched_at": "2026-05-12T19:56:29.905Z"
+  },
+  {
+   "file": "pages/newsroom-tag-branch-announcements-f77253.md",
+   "url": "https://www.dupaco.com/newsroom/tag/branch-announcements",
+   "title": "Dupaco News | Branch Announcements",
+   "fetched_at": "2026-05-12T19:56:23.162Z"
+  },
+  {
+   "file": "pages/newsroom-tag-budgeting-c24f13.md",
+   "url": "https://www.dupaco.com/newsroom/tag/budgeting",
+   "title": "Dupaco News | Budgeting",
+   "fetched_at": "2026-05-12T19:56:36.667Z"
+  },
+  {
+   "file": "pages/newsroom-tag-business-member-updates-347046.md",
+   "url": "https://www.dupaco.com/newsroom/tag/business-member-updates",
+   "title": "Dupaco News | Business Member Updates",
+   "fetched_at": "2026-05-12T19:56:32.944Z"
+  },
+  {
+   "file": "pages/newsroom-tag-buy-a-home-94b26b.md",
+   "url": "https://www.dupaco.com/newsroom/tag/buy-a-home",
+   "title": "Dupaco News | Buy a Home",
+   "fetched_at": "2026-05-12T19:56:28.516Z"
+  },
+  {
+   "file": "pages/newsroom-tag-career-income-49897f.md",
+   "url": "https://www.dupaco.com/newsroom/tag/career-income",
+   "title": "Dupaco News | Career & Income",
+   "fetched_at": "2026-05-12T19:56:26.509Z"
+  },
+  {
+   "file": "pages/newsroom-tag-community-giving-afec4b.md",
+   "url": "https://www.dupaco.com/newsroom/tag/community-giving",
+   "title": "Dupaco News | Community & Giving",
+   "fetched_at": "2026-05-12T19:56:32.270Z"
+  },
+  {
+   "file": "pages/newsroom-tag-community-partnerships-77499b.md",
+   "url": "https://www.dupaco.com/newsroom/tag/community-partnerships",
+   "title": "Dupaco News | Community Partnerships",
+   "fetched_at": "2026-05-12T19:56:32.776Z"
+  },
+  {
+   "file": "pages/newsroom-tag-construction-dd37cf.md",
+   "url": "https://www.dupaco.com/newsroom/tag/construction",
+   "title": "Dupaco News | Construction",
+   "fetched_at": "2026-05-12T19:56:36.648Z"
+  },
+  {
+   "file": "pages/newsroom-tag-dupaco-updates-0d1f30.md",
+   "url": "https://www.dupaco.com/newsroom/tag/dupaco-updates",
+   "title": "Dupaco News | Dupaco Updates",
+   "fetched_at": "2026-05-12T19:56:34.416Z"
+  },
+  {
+   "file": "pages/newsroom-tag-first-home-8452c5.md",
+   "url": "https://www.dupaco.com/newsroom/tag/first-home",
+   "title": "Dupaco News | First Home",
+   "fetched_at": "2026-05-12T19:56:24.287Z"
+  },
+  {
+   "file": "pages/newsroom-tag-foundation-fc279b.md",
+   "url": "https://www.dupaco.com/newsroom/tag/foundation",
+   "title": "Dupaco News | Foundation",
+   "fetched_at": "2026-05-12T19:56:35.289Z"
+  },
+  {
+   "file": "pages/newsroom-tag-fraud-security-505a43.md",
+   "url": "https://www.dupaco.com/newsroom/tag/fraud-security",
+   "title": "Dupaco News | Fraud & Security",
+   "fetched_at": "2026-05-12T19:56:26.864Z"
+  },
+  {
+   "file": "pages/newsroom-tag-holidays-45d3ce.md",
+   "url": "https://www.dupaco.com/newsroom/tag/holidays",
+   "title": "Dupaco News | Holidays",
+   "fetched_at": "2026-05-12T19:56:25.402Z"
+  },
+  {
+   "file": "pages/newsroom-tag-home-13b052.md",
+   "url": "https://www.dupaco.com/newsroom/tag/home",
+   "title": "Dupaco News | Home",
+   "fetched_at": "2026-05-12T19:56:27.889Z"
+  },
+  {
+   "file": "pages/newsroom-tag-homeownership-029684.md",
+   "url": "https://www.dupaco.com/newsroom/tag/homeownership",
+   "title": "Dupaco News | Homeownership",
+   "fetched_at": "2026-05-12T19:56:31.538Z"
+  },
+  {
+   "file": "pages/newsroom-tag-in-the-news-mentions-094200.md",
+   "url": "https://www.dupaco.com/newsroom/tag/in-the-news-mentions",
+   "title": "Dupaco News | In the News (Mentions)",
+   "fetched_at": "2026-05-12T19:56:35.948Z"
+  },
+  {
+   "file": "pages/newsroom-tag-job-search-182876.md",
+   "url": "https://www.dupaco.com/newsroom/tag/job-search",
+   "title": "Dupaco News | Job Search",
+   "fetched_at": "2026-05-12T19:56:38.342Z"
+  },
+  {
+   "file": "pages/newsroom-tag-member-impact-a6f6c9.md",
+   "url": "https://www.dupaco.com/newsroom/tag/member-impact",
+   "title": "Dupaco News | Member Impact",
+   "fetched_at": "2026-05-12T19:56:36.727Z"
+  },
+  {
+   "file": "pages/newsroom-tag-member-vote-f1c887.md",
+   "url": "https://www.dupaco.com/newsroom/tag/member-vote",
+   "title": "Dupaco News | Member Vote",
+   "fetched_at": "2026-05-12T19:56:36.708Z"
+  },
+  {
+   "file": "pages/newsroom-tag-press-releases-2fec42.md",
+   "url": "https://www.dupaco.com/newsroom/tag/press-releases",
+   "title": "Dupaco News | Press Releases",
+   "fetched_at": "2026-05-12T19:56:30.684Z"
+  },
+  {
+   "file": "pages/newsroom-tag-saving-e2a3fa.md",
+   "url": "https://www.dupaco.com/newsroom/tag/saving",
+   "title": "Dupaco News | Saving",
+   "fetched_at": "2026-05-12T19:56:34.348Z"
+  },
+  {
+   "file": "pages/newsroom-tag-scam-691c44.md",
+   "url": "https://www.dupaco.com/newsroom/tag/scam",
+   "title": "Dupaco News | Scam",
+   "fetched_at": "2026-05-12T19:56:36.540Z"
+  },
+  {
+   "file": "pages/newsroom-tag-scholarship-09f555.md",
+   "url": "https://www.dupaco.com/newsroom/tag/scholarship",
+   "title": "Dupaco News | Scholarship",
+   "fetched_at": "2026-05-12T19:56:26.486Z"
+  },
+  {
+   "file": "pages/newsroom-tag-scholarships-b78e30.md",
+   "url": "https://www.dupaco.com/newsroom/tag/scholarships",
+   "title": "Dupaco News | Scholarships",
+   "fetched_at": "2026-05-12T19:56:35.478Z"
+  },
+  {
+   "file": "pages/newsroom-tag-small-business-155709.md",
+   "url": "https://www.dupaco.com/newsroom/tag/small-business",
+   "title": "Dupaco News | Small Business",
+   "fetched_at": "2026-05-12T19:56:32.735Z"
+  },
+  {
+   "file": "pages/newsroom-tag-staff-updates-4b0888.md",
+   "url": "https://www.dupaco.com/newsroom/tag/staff-updates",
+   "title": "Dupaco News | Staff Updates",
+   "fetched_at": "2026-05-12T19:56:34.225Z"
+  },
+  {
+   "file": "pages/newsroom-tag-thank-use-2c3d3b.md",
+   "url": "https://www.dupaco.com/newsroom/tag/thank-use",
+   "title": "Dupaco News | Thank Use",
+   "fetched_at": "2026-05-12T19:56:27.493Z"
+  },
+  {
+   "file": "pages/newsroom-u-s-representative-ashley-hinson-visits-dupaco-voices-building-0804ef.md",
+   "url": "https://www.dupaco.com/newsroom/u-s-representative-ashley-hinson-visits-dupaco-voices-building",
+   "title": "U.S. Representative Ashley Hinson visits Dupaco Voices Building",
+   "fetched_at": "2026-05-12T19:56:35.563Z"
+  },
+  {
+   "file": "pages/newsroom-u-s-small-business-administration-recognizes-dupaco-as-top-paycheck-protection-pr-63425c.md",
+   "url": "https://www.dupaco.com/newsroom/u-s-small-business-administration-recognizes-dupaco-as-top-paycheck-protection-program-lender",
+   "title": "SBA recognizes Dupaco as top Paycheck Protection Program lender",
+   "fetched_at": "2026-05-12T19:56:32.461Z"
+  },
+  {
+   "file": "pages/newsroom-volunteering-pays-off-dupaco-credit-union-employees-reap-the-benefits-of-giving-b-62f656.md",
+   "url": "https://www.dupaco.com/newsroom/volunteering-pays-off-dupaco-credit-union-employees-reap-the-benefits-of-giving-back",
+   "title": "Volunteering pays off: Dupaco employees reap benefits of giving back",
+   "fetched_at": "2026-05-12T19:56:32.579Z"
+  },
+  {
+   "file": "pages/newsroom-volunteering-pays-off-dupaco-credit-union-employees-reap-the-benefits-of-giving-b-bbbfc4.md",
+   "url": "https://www.dupaco.com/newsroom/volunteering-pays-off-dupaco-credit-union-employees-reap-the-benefits-of-giving-back-2",
+   "title": "Volunteering pays off: Dupaco employees reap benefits of giving back",
+   "fetched_at": "2026-05-12T19:56:35.204Z"
+  },
+  {
+   "file": "pages/newsroom-winners-awarded-memberships-to-key-city-creative-center-6e86a1.md",
+   "url": "https://www.dupaco.com/newsroom/winners-awarded-memberships-to-key-city-creative-center",
+   "title": "Winners awarded memberships to Key City Creative Center (2020)",
+   "fetched_at": "2026-05-12T19:56:38.028Z"
+  },
+  {
+   "file": "pages/newsroom-winners-awarded-memberships-to-key-city-creative-center-2-8585e2.md",
+   "url": "https://www.dupaco.com/newsroom/winners-awarded-memberships-to-key-city-creative-center-2",
+   "title": "Winners awarded memberships to Key City Creative Center",
+   "fetched_at": "2026-05-12T19:56:33.066Z"
+  },
+  {
+   "file": "pages/newsroom-winners-awarded-memberships-to-key-city-creative-center-3-47e215.md",
+   "url": "https://www.dupaco.com/newsroom/winners-awarded-memberships-to-key-city-creative-center-3",
+   "title": "Winners awarded memberships to Key City Creative Center",
+   "fetched_at": "2026-05-12T19:56:24.776Z"
+  },
+  {
+   "file": "pages/non-profit-grant-8d385b.md",
+   "url": "https://www.dupaco.com/non-profit-grant",
+   "title": "Nonprofit Grant: Creating a Brighter Community for All | Dupaco",
+   "fetched_at": "2026-05-12T19:56:28.302Z"
+  },
+  {
+   "file": "pages/offer-expired-86466c.md",
+   "url": "https://www.dupaco.com/offer-expired",
+   "title": "Oops ... This Offer Has Expired | Dupaco",
+   "fetched_at": "2026-05-12T19:56:27.910Z"
+  },
+  {
+   "file": "pages/online-and-mobile-banking-mobile-payments-063485.md",
+   "url": "https://www.dupaco.com/online-and-mobile-banking/mobile-payments",
+   "title": "Mobile Payments | Dupaco",
+   "fetched_at": "2026-05-12T19:56:27.809Z"
+  },
+  {
+   "file": "pages/personal-186a0e.md",
+   "url": "https://www.dupaco.com/personal",
+   "title": "Your Life, Fully Funded: Personal Banking | Dupaco",
+   "fetched_at": "2026-05-12T19:56:23.568Z"
+  },
+  {
+   "file": "pages/personal-loans-623823.md",
+   "url": "https://www.dupaco.com/personal-loans",
+   "title": "Personal Loan Options to Reach Your Goals | Dupaco",
+   "fetched_at": "2026-05-12T19:56:27.276Z"
+  },
+  {
+   "file": "pages/personal-checking-accounts-b29d89.md",
+   "url": "https://www.dupaco.com/personal/checking-accounts",
+   "title": "Checking Accounts For Everyday Spending | Dupaco",
+   "fetched_at": "2026-05-12T19:56:30.133Z"
+  },
+  {
+   "file": "pages/personal-credit-cards-8b78fb.md",
+   "url": "https://www.dupaco.com/personal/credit-cards",
+   "title": "Find Your Perfect Credit Card | Dupaco",
+   "fetched_at": "2026-05-12T19:56:29.722Z"
+  },
+  {
+   "file": "pages/personal-insurance-b78ea7.md",
+   "url": "https://www.dupaco.com/personal/insurance",
+   "title": "Personal Insurance  | Dupaco",
+   "fetched_at": "2026-05-12T19:56:25.817Z"
+  },
+  {
+   "file": "pages/personal-loans-auto-motorcycle-loans-1c94b6.md",
+   "url": "https://www.dupaco.com/personal/loans/auto-motorcycle-loans",
+   "title": "Auto & Motorcycle Loans and Sales | Dupaco",
+   "fetched_at": "2026-05-12T19:56:27.632Z"
+  },
+  {
+   "file": "pages/personal-loans-debt-consolidation-f4aae5.md",
+   "url": "https://www.dupaco.com/personal/loans/debt-consolidation",
+   "title": "Debt Consolidation Options | Dupaco",
+   "fetched_at": "2026-05-12T19:56:24.101Z"
+  },
+  {
+   "file": "pages/personal-loans-home-equity-bb3422.md",
+   "url": "https://www.dupaco.com/personal/loans/home-equity",
+   "title": "Home Equity | Dupaco",
+   "fetched_at": "2026-05-12T19:56:35.667Z"
+  },
+  {
+   "file": "pages/personal-loans-home-loans-a5183f.md",
+   "url": "https://www.dupaco.com/personal/loans/home-loans",
+   "title": "Home Loans: Apply for Your Dream Home Online Today | Dupaco",
+   "fetched_at": "2026-05-12T19:56:24.211Z"
+  },
+  {
+   "file": "pages/personal-loans-loan-protection-e905e3.md",
+   "url": "https://www.dupaco.com/personal/loans/loan-protection",
+   "title": "Loan Protection | Dupaco",
+   "fetched_at": "2026-05-12T19:56:28.618Z"
+  },
+  {
+   "file": "pages/personal-loans-personal-loans-0e781c.md",
+   "url": "https://www.dupaco.com/personal/loans/personal-loans",
+   "title": "Personal Loans for Any Purpose: Flexible Options & Low Rates | Dupaco",
+   "fetched_at": "2026-05-12T19:56:29.574Z"
+  },
+  {
+   "file": "pages/personal-loans-recreational-loans-876e17.md",
+   "url": "https://www.dupaco.com/personal/loans/recreational-loans",
+   "title": "Recreational Loans | Dupaco",
+   "fetched_at": "2026-05-12T19:56:29.489Z"
+  },
+  {
+   "file": "pages/personal-loans-student-loans-337fb8.md",
+   "url": "https://www.dupaco.com/personal/loans/student-loans",
+   "title": "Student Loans | Dupaco",
+   "fetched_at": "2026-05-12T19:56:23.539Z"
+  },
+  {
+   "file": "pages/personal-retirement-e090f4.md",
+   "url": "https://www.dupaco.com/personal/retirement",
+   "title": "Retirement Savings and IRA Options | Dupaco",
+   "fetched_at": "2026-05-12T19:56:31.971Z"
+  },
+  {
+   "file": "pages/personal-savings-account-7ef72e.md",
+   "url": "https://www.dupaco.com/personal/savings-account",
+   "title": "Best Ways to Save Money: Flexible Savings Options | Dupaco",
+   "fetched_at": "2026-05-12T19:56:26.038Z"
+  },
+  {
+   "file": "pages/photo-release-form-a1df4f.md",
+   "url": "https://www.dupaco.com/photo-release-form",
+   "title": "Photo Release Form | Dupaco",
+   "fetched_at": "2026-05-12T19:56:39.153Z"
+  },
+  {
+   "file": "pages/privacy-policy-ef4fe3.md",
+   "url": "https://www.dupaco.com/privacy-policy",
+   "title": "Privacy Policy | Dupaco",
+   "fetched_at": "2026-05-12T19:56:25.757Z"
+  },
+  {
+   "file": "pages/rates-59a9e6.md",
+   "url": "https://www.dupaco.com/rates",
+   "title": "Deposit and Loan Rates: Earn More, Pay Less | Dupaco",
+   "fetched_at": "2026-05-12T19:56:24.330Z"
+  },
+  {
+   "file": "pages/resources-8a4ec6.md",
+   "url": "https://www.dupaco.com/resources",
+   "title": "Your Financial Resource Center: Tools and Insights | Dupaco",
+   "fetched_at": "2026-05-12T19:56:32.319Z"
+  },
+  {
+   "file": "pages/resources-business-resources-dae173.md",
+   "url": "https://www.dupaco.com/resources/business-resources",
+   "title": "Business Insights & Resources | Dupaco",
+   "fetched_at": "2026-05-12T19:56:29.100Z"
+  },
+  {
+   "file": "pages/resources-dupaco-news-74aff7.md",
+   "url": "https://www.dupaco.com/resources/dupaco-news",
+   "title": "Dupaco Newsroom | Press Releases, Alerts & Community Updates",
+   "fetched_at": "2026-05-12T19:56:37.464Z"
+  },
+  {
+   "file": "pages/resources-personal-resources-c1fd16.md",
+   "url": "https://www.dupaco.com/resources/personal-resources",
+   "title": "Financial Wellness Resources | Dupaco",
+   "fetched_at": "2026-05-12T19:56:25.872Z"
+  },
+  {
+   "file": "pages/savings-account-online-savings-account-8ad278.md",
+   "url": "https://www.dupaco.com/savings-account/online-savings-account",
+   "title": "Online Savings Account  | Dupaco",
+   "fetched_at": "2026-05-12T19:56:24.611Z"
+  },
+  {
+   "file": "pages/savings-bright-savings-ec7c7e.md",
+   "url": "https://www.dupaco.com/savings/bright-savings",
+   "title": "Online Savings Account  | Dupaco",
+   "fetched_at": "2026-05-12T19:56:24.505Z"
+  },
+  {
+   "file": "pages/scholarships-1466d4.md",
+   "url": "https://www.dupaco.com/scholarships",
+   "title": "Scholarships | Dupaco",
+   "fetched_at": "2026-05-12T19:56:31.279Z"
+  },
+  {
+   "file": "pages/shine-326194.md",
+   "url": "https://www.dupaco.com/shine",
+   "title": "Shine | Dupaco",
+   "fetched_at": "2026-05-12T19:56:28.647Z"
+  },
+  {
+   "file": "pages/subscription-preferences-82f8c7.md",
+   "url": "https://www.dupaco.com/subscription-preferences",
+   "title": "Subscription Preferences | Dupaco",
+   "fetched_at": "2026-05-12T19:56:31.049Z"
+  },
+  {
+   "file": "pages/switch-and-earn-784cd2.md",
+   "url": "https://www.dupaco.com/switch-and-earn",
+   "title": "Refinance Your Loan & Earn Cash Back | Dupaco",
+   "fetched_at": "2026-05-12T19:56:31.736Z"
+  }
+ ]
+}

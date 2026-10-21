@@ -1,0 +1,111 @@
+1 min read
+
+
+
+[Emily Kittle](https://www.dupaco.com/learn/blog/author/emily-kittle)
+March 11, 2020
+
+
+# How to host a successful garage sale
+
+[Community](https://www.dupaco.com/learn/blog/tag/community)
+
+![How to host a successful garage sale](https://www.dupaco.com/hubfs/wordpress-migration/DupacoGargaeSalesMay2019-4-web-676x338-1-1.jpg)
+
+If you’re in declutter mode at your home, consider turning your unused stuff into extra money by hosting a garage sale.
+
+Try these tips to help you make your sale stand out—and potentially earn more cash:
+
+## **\|1\| Advertise your garage sale**
+
+You can’t have too many signs directing shoppers to your home. Remember, some shoppers rely solely on signs to find the sales.
+
+There could be two or three ways to get to your house, so make sure your sale is well marked.
+
+Consider publicizing your sale on Facebook as well. Just make sure you’re clear about when your event begins.
+
+## **\|2\| Give every sale item a price**
+
+You don’t want to confuse shoppers with an overly complicated pricing system. Rather than use a color-coded system to denote prices, take the time to put a price sticker on every item. The exception: If you have a box of DVDs or books that are all the same price, make a visible sign that clearly communicates that.
+
+Using masking tape and a Sharpie marker to price everything is the best way to go. You want the prices to be easy for people to find.
+
+[Learn how to price your garage sale items >](https://www.dupaco.com/learn/blog/how-to-price-your-garage-sale-items)
+
+## **\|3\| Make yourself available**
+
+Avoid reading a book or visiting with a friend throughout your sale. Instead, greet shoppers and make them feel comfortable.
+
+Ask if they’re looking for something special.
+![Image of Jan Herrington](https://www.dupaco.com/wp-content/uploads/2020/03/DupacoGargaeSalesMay2019-2-web-676x338-1.jpg?width=676&height=338&name=DupacoGargaeSalesMay2019-2-web-676x338-1.jpg)Jan Herrington hosts a garage sale during the Dupaco Community-Wide Garage Sales on May 11, 2019, in Cedar Rapids, Iowa. (B. Kaplan photo)
+
+## **\|4\| Have bags on hand at your garage sale**
+
+While some shoppers will buy one or two items, others might hit the jackpot at your sale—and need a way to get their purchases home.
+
+Keep some bags at your check-out table for those times.
+
+## **\|5\| Give your sale curb appeal**
+
+Attract drive-by shoppers by placing some of your best items toward the end of your driveway.
+
+Another idea: Create a table for the guys near the street. Then they have something to look at while their significant other checks out the rest of your wares.
+
+Keeping as much of your sale outside instead of in the garage helps keep it more open.
+![Dupaco Garage Sales: Tips for sellers](https://www.dupaco.com/wp-content/uploads/2020/03/Garage-Sales-CedarRapids-edited-20170513_2195-web-676x338-1.jpg?width=676&height=338&name=Garage-Sales-CedarRapids-edited-20170513_2195-web-676x338-1.jpg)(B. Kaplan photo)
+
+## **\|6\| Have cold drinks available**
+
+If it’s a hot day, consider having cold drinks on hand for shoppers to purchase. Advertise your beverage selection with a sign that’s visible to drive-by shoppers.
+
+Shoppers might come to your sale just to buy a bottle of water and end up buying something else as well.
+
+## Recent News
+
+[![How to price your garage sale items](https://www.dupaco.com/hubfs/wordpress-migration/Garage-Sales-Platteville-edited-1.png)](https://www.dupaco.com/learn/blog/how-to-price-your-garage-sale-items)
+
+April 24, 2019
+
+#### [How to price your garage sale items](https://www.dupaco.com/learn/blog/how-to-price-your-garage-sale-items)
+
+Thinking about hosting a garage sale? There’s no time like the present!
+
+[Read More](https://www.dupaco.com/learn/blog/how-to-price-your-garage-sale-items)
+
+[![How to save more money automatically](https://www.dupaco.com/hubfs/Graphics/Collage%20hero%20graphics/savings-general-email-graphic-scaled-4.jpg)](https://www.dupaco.com/learn/blog/how-to-save-more-money-automatically)
+
+November 02, 2020
+
+#### [How to save more money automatically](https://www.dupaco.com/learn/blog/how-to-save-more-money-automatically)
+
+Like going to the gym or eating a healthy diet, saving money is a simple concept to grasp but challenging to practice. We understand its benefits....
+
+[Read More](https://www.dupaco.com/learn/blog/how-to-save-more-money-automatically)
+
+[![How to save money on insurance as rates keep rising](https://www.dupaco.com/hubfs/wordpress-migration/resources-general-email-graphic-scaled-Jan-24-2026-08-10-26-3833-PM.jpg)](https://www.dupaco.com/learn/blog/why-insurance-costs-are-on-the-rise-and-what-you-can-do-about-it)
+
+September 28, 2022
+
+#### [How to save money on insurance as rates keep rising](https://www.dupaco.com/learn/blog/why-insurance-costs-are-on-the-rise-and-what-you-can-do-about-it)
+
+Updated Sept. 29, 2025 at 12:25 p.m. CT If your insurance premiums have continued to climb in recent years, you’re not alone. Rising costs,...
+
+[Read More](https://www.dupaco.com/learn/blog/why-insurance-costs-are-on-the-rise-and-what-you-can-do-about-it)
+
+✕
+
+**Heads up! This link leads to a different website.**
+
+We only do this when it's helpful for you. But we must inform you that Dupaco isn't responsible for the site's content, products, services, policies or sponsors. Also, Dupaco's Privacy Policy does not apply to third-party sites. So, if you have concerns, please look at its privacy disclosures.
+
+[Continue](https://www.dupaco.com/learn/blog/how-to-host-a-successful-garage-sale#) Cancel
+
+✕
+
+**Heads up! This link leads to a different website.**
+
+We only do this when it's helpful for you. But we must inform you that Dupaco isn't responsible for the site's content, products, services, policies or sponsors. Also, Dupaco's Privacy Policy does not apply to third-party sites. So, if you have concerns, please look at its privacy disclosures.
+
+[Continue](https://www.dupaco.com/learn/blog/how-to-host-a-successful-garage-sale#) Cancel
+
+Twitter Widget Iframe

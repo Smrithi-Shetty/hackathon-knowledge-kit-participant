@@ -1,0 +1,264 @@
+# Find your kind of card
+
+With Dupaco Visa credit cards, you have options that fit the way you spend. Apply for a low-rate card if saving money matters most, or go with rewards if you like earning cash back, travel and more. Either way, find a card that works for you.
+
+[Apply today](https://shine.dupaco.com/User/AccessLoanApp/Start?redirect=visaRewards)
+
+[Compare Cards](https://www.dupaco.com/hubfs/Visa-Comparison-Chart-202502.pdf?hsLang=en)
+
+![Amy-Meyer-2-Photo-By-ARexrode-20220616-web-676x338-1](https://www.dupaco.com/hs-fs/hubfs/Amy-Meyer-2-Photo-By-ARexrode-20220616-web-676x338-1.jpeg?width=521&height=338&name=Amy-Meyer-2-Photo-By-ARexrode-20220616-web-676x338-1.jpeg)
+
+* * *
+
+![CreditCard](https://www.dupaco.com/hubfs/icons/CreditCard.svg)
+
+### Rewards Visa
+
+If you like earning something back on what you already spend, our Dupaco Rewards Visa could be a good fit. Still deciding? Our [guide](https://www.dupaco.com/learn/blog/how-to-choose-the-best-rewards-card-for-you?hsLang=en) can help you choose the right rewards card.
+
+- APR1: 15.50%–21.00%
+- Earn 1 point for every $1 spent
+- Redeem points for cash back, travel, merchandise and more
+
+[Apply for Rewards Visa](https://shine.dupaco.com/User/AccessLoanApp/Start?redirect=visaRewards)
+
+![CreditCard](https://www.dupaco.com/hubfs/icons/CreditCard.svg)
+
+### Platinum Visa
+
+Prefer to keep things simple and save on interest? Our Dupaco Platinum Visa offers a low, competitive rate to help make everyday borrowing more manageable.
+
+- APR2: 12.50%–19.50%
+- New cardmember offer\*: 2.90% APR on transferred balances for 6 months (after that, your rate will be 12.50%–19.50% APR)
+- This card’s designed to help you save on interest costs.
+
+[Apply for a Platinum Visa](https://shine.dupaco.com/User/AccessLoanApp/Start?redirect=visa)
+
+![Nut](https://www.dupaco.com/hubfs/icons/Nut.svg)
+
+### Smart Tools
+
+Both Visa credit cards come with helpful perks that don’t cost a thing—just smart tools to help you manage your account wherever you are.
+
+- Manage your card anytime, anywhere through [mobile banking](https://www.dupaco.com/shine?hsLang=en).
+- Add your card to a [mobile wallet](https://www.dupaco.com/connect/online-and-mobile-banking/mobile-payments/?hsLang=en) and make tap-and-go purchases.
+- Set up automatic payments and account alerts to stay organized.
+
+[Apply today](https://shine.dupaco.com/loan-application-personal/credit-card)
+
+![Shield](https://www.dupaco.com/hubfs/icons/Shield.svg)
+
+### Card Security
+
+Your peace of mind matters. That’s why both Visa cards include built-in protection and monitoring tools to help keep your account—and your identity—safer.
+
+- You’re protected by Visa’s [Zero Liability Policy](https://usa.visa.com/pay-with-visa/visa-chip-technology-consumers/zero-liability-policy.html) for unauthorized transactions.
+
+- Enjoy no-cost fraud monitoring to make sure you’re the only “you” out there.
+
+- See how your card impacts your credit with [free credit score monitoring](https://www.dupaco.com/personal/services/bright-track/?hsLang=en).
+
+
+[Apply today](https://shine.dupaco.com/User/AccessLoanApp/Start?redirect=visaRewards)
+
+##### CREDIT-BUILDING
+
+## Give yourself some credit
+
+Opening a Dupaco Visa Credit Card (and using it correctly) can be a great credit-building tool. So whether you’re trying to establish your credit, improve your score or understand the complex world of credit, we’re here to help.
+
+[Learn more](https://www.dupaco.com/about/member-services?hsLang=en)
+
+## Handpicked for You
+
+[Facing a financial hardship? Here are steps you can take](https://www.dupaco.com/learn/blog/facing-a-financial-hardship-here-are-steps-you-can-take?hsLang=en)
+
+[**Facing a financial hardship? Here are steps you can take**](https://www.dupaco.com/learn/blog/facing-a-financial-hardship-here-are-steps-you-can-take?hsLang=en)
+
+Nov 7, 2025
+
+Whether it’s a job loss or unplanned expense, financial hardship can strike when we least expect it. When the unexpected happens,...
+
+
+[How live video tellers work and what they can do for you](https://www.dupaco.com/learn/blog/make-live-remote-transactions?hsLang=en)
+
+[**How live video tellers work and what they can do for you**](https://www.dupaco.com/learn/blog/make-live-remote-transactions?hsLang=en)
+
+Oct 8, 2025
+
+You may not always have time to visit a credit union branch during open hours. Maybe you’re running errands before work or need...
+
+
+[What is debt consolidation? How and when it works](https://www.dupaco.com/learn/blog/debt-consolidation-is-it-right-for-you?hsLang=en)
+
+[**What is debt consolidation? How and when it works**](https://www.dupaco.com/learn/blog/debt-consolidation-is-it-right-for-you?hsLang=en)
+
+Sep 15, 2025
+
+When you’re struggling to get out from under debt, it can feel overwhelming. Multiple bills, due dates and interest rates can...
+
+
+[Call to Action](https://www.dupaco.com/resources/personal-resources?hsLang=en)
+
+## Frequently Asked Questions
+
+- [What should I do if my Dupaco Visa credit card is lost or stolen?](https://www.dupaco.com/personal/credit-cards#)
+
+
+
+
+Turn your card off right away using your Card Security controls in [Shine Online and Mobile Banking](https://shine.dupaco.com/). If you think someone is using your card without your permission, please call us immediately at 800-373-7600, ext. 201 so we can help protect your account.
+
+- [Where are Dupaco’s Visa credit cards accepted?](https://www.dupaco.com/personal/credit-cards#)
+
+
+
+
+Visa credit cards are widely accepted at most retailers, restaurants, airlines and hotels—in the United States and around the world.
+
+- [Can I get a cash advance with my Dupaco Visa credit card?](https://www.dupaco.com/personal/credit-cards#)
+
+
+
+
+Yes. You can get a cash advance where Visa is accepted for cash services. [The fee for advances is $10.00 or 3.00% of the amount of each cash advance, whichever is greater](https://www.dupaco.com/personal/rates/?hsLang=en#credit-card-rates), and finance charges apply. Cash advances show up on your monthly statement along with your purchases.
+
+
+
+If you want to get cash at an ATM, look for ATMs that display the Visa network symbol. You’ll need a Personal Identification Number (PIN). To set one up, call 888-891-2435 from the phone number you have on file at Dupaco and follow the prompts. (If there are two cardholders with the same card number, each person will need to call separately to set up their own PIN).
+
+- [How do I transfer a balance to a Dupaco Visa credit card?](https://www.dupaco.com/personal/credit-cards#)
+
+
+
+
+You can move balances from higher-rate credit cards to your Dupaco Visa to save on finance charges—with no balance transfer fees. Just give us a call at 800-373-7600, ext. 201, or [get started in Shine](https://shine.dupaco.com/User/AccessSignin/Set?promo=balanceTransfer). Heads up: Balance transfers don’t earn rewards points.
+
+- [Can my Dupaco Platinum Visa credit card be used for overdraft protection?](https://www.dupaco.com/personal/credit-cards#)
+
+
+
+
+No. Visa credit card accounts can’t be linked for overdraft protection. Our standard share account overdraft sequence and Overdraft Privilege\* still apply. Please check your membership materials or contact us to learn more.
+
+
+
+
+
+
+
+_\*_ _The Overdraft Privilege service fee is $30 per overdraft, with a maximum of one fee per day. An overdraft fee may be imposed for covering overdrafts made by various transactions—such as ATM withdrawals, everyday card transactions, checks, ACH automatic bill payments, recurring debit card payments, and any other transactions using your checking account number. These overdrafts will be covered automatically, and you will need to repay the fees within 30 days of the account going negative. If your account is overdrawn for longer than 45 days, it will be closed. However, please note that the decision to pay the overdrafts is at our discretion, and we may choose not to pay if your account is not in good standing, you are not making regular deposits, or if you have too many overdrafts._
+
+- [My credit score isn’t great. Can I still qualify for a Dupaco Visa credit card?](https://www.dupaco.com/personal/credit-cards#)
+
+
+
+
+We look at your full financial picture—not just your credit score—when reviewing applications. You might start with a lower credit limit, which could increase over time as your credit score improves.
+
+
+
+You could also consider a share-secured credit card, where the amount of your credit limit is held in your savings as collateral. It gives you the benefit of the credit card and could help you build credit with responsible use.
+
+
+
+Still unsure? Our Consumer Lending team is happy to help when you call 800-373-7600, ext. 305 or email [loans@dupaco.com.](mailto:loans@dupaco.com)
+
+- [What benefits come with a Dupaco Visa credit card?](https://www.dupaco.com/personal/credit-cards#)
+
+
+
+
+Our Visa card cards include several benefits at no extra cost, including:
+
+
+
+  - Auto Rental Insurance
+  - $500,000 Travel Accident Life Insurance Coverage
+  - Warranty Manager Service
+  - Travel and Emergency Assistance
+  - Added protection when shopping online through Verified By Visa
+
+Policy terms and conditions apply.
+
+- [How do I check my points balance on my Dupaco Rewards Visa card?](https://www.dupaco.com/personal/credit-cards#)
+
+
+
+
+You’ll see your available points on your monthly statement and within your account in [Shine Online or Mobile Banking](https://shine.dupaco.com/).
+
+- [How do I redeem my rewards points on my Dupaco Rewards Visa card?](https://www.dupaco.com/personal/credit-cards#)
+
+
+
+
+Log in to [Shine Online and Mobile Banking](https://shine.dupaco.com/), open your Reward Visa account and select the Details & Settings tab to access the rewards website.
+
+
+
+Explore rewards like cash back, gift cards and travel. Hint: Some merchandise items may require additional shipping costs. After selecting an item, add it to your cart and follow the prompts.
+
+
+
+Don’t have internet access? You can call 800-513-9415 for help redeeming your points.
+
+- [Do my points expire?](https://www.dupaco.com/personal/credit-cards#)
+
+
+
+
+Yes. Points expire two years after they’re earned. When you redeem, the oldest points are used first.
+
+- [What’s a rewards point worth?](https://www.dupaco.com/personal/credit-cards#)
+
+
+
+
+Generally, 1 point equates to $0.01 with a Dupaco Rewards Visa card. So 5,000 points is about $50 in value.
+
+- [Is there a minimum or maximum for redeeming points?](https://www.dupaco.com/personal/credit-cards#)
+
+
+
+
+Minimums vary by reward category. And your maximum is limited to your available points balance. Cash-back redemptions start at $50 and go up to $500 per redemption.
+
+- [What happens to points if I return a purchase?](https://www.dupaco.com/personal/credit-cards#)
+
+
+
+
+If you return all or part of a purchase made on your Dupaco Rewards Visa, the points you originally earned will be deducted accordingly. That may result in a negative point balance.
+
+- [What if there’s a problem with my reward redemption?](https://www.dupaco.com/personal/credit-cards#)
+
+
+
+
+All of Dupaco’s Rewards Visa redemptions are handled by our redemption partner, RAZR. If an item doesn’t arrive, arrives damaged or you have another concern, you can contact RAZR by calling 800-513-9415 or by emailing [RewardsHelp@Reward-Headquarters.com](mailto:RewardsHelp@Reward-Headquarters.com). Their contact info’s also listed on the rewards site under Contact Us.
+
+
+## Disclosures
+
+_1Visa Rewards Rate: Annual percentage rate (APR) subject to change and may vary during the term of credit. The rate will be the Prime Rate as published in The Wall Street Journal on the last business day of each calendar quarter, plus margin. Margin to be determined by credit score at time of application. There is a grace period before interest is charged on purchases. There is no annual fee and no balance transfer fee. Other fees include: cash advance fee-$10.00 or 3.00% of the amount of each cash advance, whichever is greater; foreign transaction fee-1.00% of each transaction in US dollars; late payment fee is $15.00 or the minimum due, whichever is less if you are four (4) or more days late; returned payment fee-up to $25. Rewards Visa Terms and Conditions._
+
+_2Platinum Visa Rate: Annual percentage rate (APR) subject to change and may vary during the term of credit. The rate will be the Prime Rate as published in The Wall Street Journal on the last business day of each calendar quarter, plus margin. Margin to be determined by credit score at the time of application. There is a grace period before interest is charged on purchases. There is no annual fee and no balance transfer fee. Other fees include: cash advance fee-$10.00 or 3.00% of the amount of each cash advance, whichever is greater; foreign transaction fee-1.00% of each transaction in US dollars; late payment fee is $15.00 or the minimum due, whichever is less if you are four (4) or more days late; returned payment fee-up to $25._
+
+_\*Platinum Visa Introductory Balance Transfer Rate: The 2.90% annual percentage rate (APR) balance transfer introductory rate is valid for new cardholders’ balance transfers that post to your Dupaco Platinum Visa during the first 90 days following the opening of Dupaco Platinum Visa. The 2.90% introductory annual percentage rate (APR) expires six months from the date of your first balance transfer, at which time the APR will revert back to the current standard APR, which effective 10/1/2025 is a variable rate from 13.00% APR to 20.00% APR based on your creditworthiness. All Visa APRs will vary with the market based on the Prime Rate. There is a grace period on purchases, and no annual fees or participation fees. Other fees include: cash advance fee—$10.00 or 3.00% of the amount of each cash advance, whichever is greater; foreign transaction fee—1.00% of each transaction in US dollars; late payment fee is $15.00 or the minimum due, whichever is less if you are four (4) or more days late; returned payment fee—up to $25. Offer valid only on Dupaco Platinum Visa._
+
+✕
+
+**Heads up! This link leads to a different website.**
+
+We only do this when it's helpful for you. But we must inform you that Dupaco isn't responsible for the site's content, products, services, policies or sponsors. Also, Dupaco's Privacy Policy does not apply to third-party sites. So, if you have concerns, please look at its privacy disclosures.
+
+[Continue](https://www.dupaco.com/personal/credit-cards#) Cancel
+
+✕
+
+**Heads up! This link leads to a different website.**
+
+We only do this when it's helpful for you. But we must inform you that Dupaco isn't responsible for the site's content, products, services, policies or sponsors. Also, Dupaco's Privacy Policy does not apply to third-party sites. So, if you have concerns, please look at its privacy disclosures.
+
+[Continue](https://www.dupaco.com/personal/credit-cards#) Cancel
