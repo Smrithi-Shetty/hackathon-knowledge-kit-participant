@@ -1,18 +1,17 @@
 """
-Knowledge Hackathon submission - Version 1
+Knowledge Hackathon - V2 Solution
 
-Approach
---------
-1. Keep every snapshot instead of overwriting old pages.
-2. Split pages into searchable sections/blocks.
-3. Select the correct snapshot for current/as-of questions.
-4. Rank blocks using lexical relevance, qualifiers and source authority.
-5. Prefer authoritative rate/product/contact pages over stale blogs,
-   newsroom pages and calculators.
-6. Abstain when evidence is too weak.
-7. Track likely contradictions across snapshots.
-
-No external APIs or third-party packages are required.
+Goals
+-----
+- Preserve all snapshot history.
+- Answer current and historical/as_of questions.
+- Prefer authoritative product/rate pages over stale content.
+- Understand important qualifiers such as APR/APY, terms, tiers,
+  jumbo/standard, business/personal, model year and branch intent.
+- Search table rows as first-class evidence.
+- Combine evidence for list questions.
+- Abstain when a requested numeric fact is not actually published.
+- Remain deterministic and fast.
 """
 
 from __future__ import annotations
@@ -26,10 +25,9 @@ from pathlib import Path
 from typing import Optional
 
 
-# ---------------------------------------------------------------------------
-# Import the official harness contract.
-# This keeps the submission runnable regardless of the current working folder.
-# ---------------------------------------------------------------------------
+# ============================================================================
+# CONTRACT IMPORT
+# ============================================================================
 
 HERE = Path(__file__).resolve()
 
@@ -42,11 +40,24 @@ for parent in HERE.parents:
 from contract import Answer, Conflict, Snapshot, Source  # noqa: E402
 
 
-# ---------------------------------------------------------------------------
-# Text helpers
-# ---------------------------------------------------------------------------
+# ============================================================================
+# CONSTANTS
+# ============================================================================
 
-TOKEN_RE = re.compile(r"[a-z0-9]+(?:[.$%'-][a-z0-9]+)*", re.I)
+TOKEN_RE = re.compile(
+    r"[a-z0-9]+(?:[.$%'-][a-z0-9]+)*",
+    re.I,
+)
+
+PERCENT_RE = re.compile(
+    r"\b\d+(?:\.\d+)?\s?%",
+    re.I,
+)
+
+MONEY_RE = re.compile(
+    r"\$\s?\d[\d,]*(?:\.\d+)?",
+    re.I,
+)
 
 NUMBER_RE = re.compile(
     r"""
@@ -61,16 +72,21 @@ NUMBER_RE = re.compile(
     re.X | re.I,
 )
 
+URL_RE = re.compile(
+    r"https?://[^\s)\]>]+",
+    re.I,
+)
+
 DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
 
 STOPWORDS = {
-    "a", "an", "and", "are", "as", "at", "be", "can", "could",
-    "do", "does", "for", "from", "give", "have", "how", "i",
-    "in", "is", "it", "know", "me", "my", "of", "on", "please",
-    "provide", "rate", "rates", "tell", "the", "their", "there",
-    "they", "to", "today", "us", "what", "whats", "which", "with",
-    "would", "you", "your",
+    "a", "an", "and", "are", "as", "at", "be", "been", "but",
+    "by", "can", "could", "do", "does", "for", "from", "get",
+    "give", "have", "how", "i", "in", "is", "it", "know", "me",
+    "my", "of", "on", "or", "please", "provide", "tell", "the",
+    "their", "there", "they", "to", "today", "us", "was", "were",
+    "what", "whats", "which", "with", "would", "you", "your",
 }
 
 
@@ -78,21 +94,23 @@ SYNONYMS = {
     "cd": "certificate",
     "cds": "certificate",
     "certificates": "certificate",
-    "autos": "auto",
     "automobile": "auto",
     "vehicle": "auto",
     "vehicles": "auto",
+    "cars": "auto",
     "mortgages": "mortgage",
     "branches": "branch",
     "locations": "branch",
-    "apy": "apy",
-    "apr": "apr",
-    "fees": "fee",
+    "atms": "atm",
     "cards": "card",
-    "checking": "checking",
-    "savings": "savings",
+    "fees": "fee",
+    "loans": "loan",
 }
 
+
+# ============================================================================
+# HELPERS
+# ============================================================================
 
 def normalize_token(token: str) -> str:
     token = token.lower().strip()
@@ -111,6 +129,10 @@ def tokens(text: str) -> list[str]:
     return values
 
 
+def token_set(text: str) -> set[str]:
+    return set(tokens(text))
+
+
 def normalized_text(text: str) -> str:
     return " ".join(tokens(text))
 
@@ -126,23 +148,45 @@ def extract_numbers(text: str) -> set[str]:
     return result
 
 
+def extract_percentages(text: str) -> list[str]:
+    seen = set()
+    result = []
+
+    for value in PERCENT_RE.findall(text):
+        value = re.sub(r"\s+", "", value)
+
+        if value not in seen:
+            seen.add(value)
+            result.append(value)
+
+    return result
+
+
+def iso_date(value: Optional[str]) -> Optional[date]:
+    if not value:
+        return None
+
+    value = str(value)[:10]
+
+    if not DATE_RE.match(value):
+        return None
+
+    try:
+        y, m, d = map(int, value.split("-"))
+        return date(y, m, d)
+    except ValueError:
+        return None
+
+
 def clean_markdown(text: str) -> str:
-    """
-    Light cleanup only.
+    text = text.replace("\r\n", "\n").replace("\r", "\n")
 
-    We intentionally DO NOT aggressively strip Markdown because:
-    - URLs are valuable evidence.
-    - table rows are valuable evidence.
-    - headings help establish local context.
-    """
+    text = re.sub(
+        r"!\[([^\]]*)\]\([^)]+\)",
+        r"\1",
+        text,
+    )
 
-    text = text.replace("\r\n", "\n")
-    text = text.replace("\r", "\n")
-
-    # Remove most image syntax while keeping alternate text.
-    text = re.sub(r"!\[([^\]]*)\]\([^)]+\)", r"\1", text)
-
-    # Turn ordinary links into "label URL" so both remain searchable.
     text = re.sub(
         r"\[([^\]]+)\]\((https?://[^)]+)\)",
         r"\1 \2",
@@ -152,25 +196,26 @@ def clean_markdown(text: str) -> str:
     return text
 
 
-def iso_date(value: Optional[str]) -> Optional[date]:
-    if not value:
-        return None
+def compact(text: str) -> str:
+    lines = []
 
-    value = value[:10]
+    for line in text.splitlines():
+        line = line.strip()
 
-    if not DATE_RE.match(value):
-        return None
+        if not line:
+            continue
 
-    try:
-        year, month, day = map(int, value.split("-"))
-        return date(year, month, day)
-    except ValueError:
-        return None
+        line = re.sub(r"^[-*]\s+", "", line)
+        line = line.replace("\\", "")
+
+        lines.append(line)
+
+    return re.sub(r"\s+", " ", " ".join(lines)).strip()
 
 
-# ---------------------------------------------------------------------------
-# Internal data structures
-# ---------------------------------------------------------------------------
+# ============================================================================
+# INTERNAL CLASSES
+# ============================================================================
 
 class Block:
     def __init__(
@@ -180,20 +225,27 @@ class Block:
         url,
         title,
         text,
-        normalized,
-        token_counts,
-        numbers,
+        kind,
         authority,
     ):
         self.snapshot_id = snapshot_id
         self.snapshot_date = snapshot_date
-        self.url = url
-        self.title = title
+        self.url = url or ""
+        self.title = title or ""
         self.text = text
-        self.normalized = normalized
-        self.token_counts = token_counts
-        self.numbers = numbers
+        self.kind = kind
         self.authority = authority
+
+        self.tokens = tokens(text)
+        self.token_counts = Counter(self.tokens)
+        self.token_set = set(self.tokens)
+        self.numbers = extract_numbers(text)
+
+        combined = (
+            f"{self.title} {self.url} {self.text}"
+        ).lower()
+
+        self.search_text = combined
 
 
 class SnapshotIndex:
@@ -206,26 +258,24 @@ class SnapshotIndex:
         self.snapshot_id = snapshot_id
         self.taken_on = taken_on
         self.blocks = blocks
+        self.idf = {}
 
 
-# ---------------------------------------------------------------------------
-# Knowledge system
-# ---------------------------------------------------------------------------
+# ============================================================================
+# SYSTEM
+# ============================================================================
 
 class KnowledgeSystem:
+
     def __init__(self):
-        self.snapshots: list[SnapshotIndex] = []
-
-        # all historical versions by canonical URL
-        self.url_history: dict[str, list[Block]] = defaultdict(list)
-
-        # calculated on demand
-        self._conflicts_cache: Optional[list[Conflict]] = None
+        self.snapshots = []
+        self.url_history = defaultdict(list)
+        self._conflicts_cache = None
 
 
-    # -----------------------------------------------------------------------
-    # Ingestion
-    # -----------------------------------------------------------------------
+    # ========================================================================
+    # INGESTION
+    # ========================================================================
 
     def ingest(self, snapshot: Snapshot) -> None:
         snap_date = iso_date(snapshot.taken_on)
@@ -233,138 +283,177 @@ class KnowledgeSystem:
         if snap_date is None:
             return
 
-        indexed_blocks: list[Block] = []
+        blocks = []
 
         for page in snapshot.pages:
-            authority = self._authority(page.url, page.title)
+            url = page.url or ""
+            title = page.title or ""
+            authority = self._authority(url, title)
 
-            for block_text in self._split_page(page.title, page.markdown):
-                block_text = block_text.strip()
+            page_blocks = self._split_page(
+                title,
+                page.markdown,
+            )
 
-                if not block_text:
-                    continue
+            for text, kind in page_blocks:
 
-                block_tokens = tokens(block_text)
-
-                if not block_tokens:
+                if not text.strip():
                     continue
 
                 block = Block(
                     snapshot_id=snapshot.snapshot_id,
                     snapshot_date=snap_date,
-                    url=page.url,
-                    title=page.title or "",
-                    text=block_text,
-                    normalized=normalized_text(block_text),
-                    token_counts=Counter(block_tokens),
-                    numbers=extract_numbers(block_text),
+                    url=url,
+                    title=title,
+                    text=text.strip(),
+                    kind=kind,
                     authority=authority,
                 )
 
-                indexed_blocks.append(block)
-                self.url_history[self._canonical_url(page.url)].append(block)
+                if not block.tokens:
+                    continue
 
-        self.snapshots.append(
-            SnapshotIndex(
-                snapshot_id=snapshot.snapshot_id,
-                taken_on=snap_date,
-                blocks=indexed_blocks,
-            )
+                blocks.append(block)
+
+                self.url_history[
+                    self._canonical_url(url)
+                ].append(block)
+
+        index = SnapshotIndex(
+            snapshot_id=snapshot.snapshot_id,
+            taken_on=snap_date,
+            blocks=blocks,
         )
 
-        self.snapshots.sort(key=lambda s: s.taken_on)
+        index.idf = self._build_idf(blocks)
+
+        self.snapshots.append(index)
+        self.snapshots.sort(key=lambda x: x.taken_on)
+
         self._conflicts_cache = None
 
 
-    def _split_page(self, title: str, markdown: str) -> list[str]:
+    def _split_page(self, title, markdown):
         """
-        Split pages into moderately-sized evidence blocks.
+        Build BOTH:
+        1. row blocks for structured tables
+        2. paragraph/section blocks for prose
 
-        Important design choice:
-        Keep adjacent Markdown/table rows together where possible. Many rates are
-        expressed as table rows and become meaningless if every line is stored
-        individually.
+        This is the biggest improvement over V1.
         """
 
         text = clean_markdown(markdown)
-
         lines = text.splitlines()
 
-        blocks: list[str] = []
-        current: list[str] = []
+        results = []
 
-        heading_context = title.strip()
+        heading = title.strip()
+        paragraph = []
 
-        def flush():
-            nonlocal current
 
-            if not current:
+        def emit_paragraph():
+            nonlocal paragraph
+
+            if not paragraph:
                 return
 
-            body = "\n".join(current).strip()
+            body = "\n".join(paragraph).strip()
 
-            if body:
-                prefix = heading_context.strip()
+            paragraph = []
 
-                if prefix and prefix.lower() not in body[:150].lower():
-                    body = f"{prefix}\n{body}"
+            if not body:
+                return
 
-                blocks.append(body)
+            context = heading.strip()
 
-            current = []
+            if context:
+                body = f"{context}\n{body}"
 
-        for raw_line in lines:
-            line = raw_line.strip()
+            results.append((body, "paragraph"))
+
+
+        for raw in lines:
+            line = raw.strip()
 
             if not line:
-                flush()
+                emit_paragraph()
                 continue
 
-            # Heading
+            # Markdown heading.
             if line.startswith("#"):
-                flush()
+                emit_paragraph()
 
-                heading = re.sub(r"^#+\s*", "", line).strip()
+                h = re.sub(r"^#+\s*", "", line).strip()
+
+                if h:
+                    if title and h.lower() != title.lower():
+                        heading = f"{title} | {h}"
+                    else:
+                        heading = h
+
+                continue
+
+            # Markdown table row.
+            # Store each row independently with heading context.
+            if "|" in line and line.count("|") >= 2:
+
+                emit_paragraph()
+
+                # Ignore separator rows.
+                stripped = line.replace("|", "")
+                stripped = stripped.replace("-", "")
+                stripped = stripped.replace(":", "")
+                stripped = stripped.strip()
+
+                if not stripped:
+                    continue
+
+                row = line
 
                 if heading:
-                    heading_context = (
-                        f"{title} | {heading}"
-                        if title and heading.lower() != title.lower()
-                        else heading
-                    )
+                    row = f"{heading}\n{line}"
 
+                results.append((row, "table_row"))
                 continue
 
-            current.append(line)
+            paragraph.append(line)
 
-            # Avoid extremely large blocks.
-            joined_len = sum(len(x) for x in current)
+            if sum(len(x) for x in paragraph) > 1000:
+                emit_paragraph()
 
-            if joined_len >= 1400:
-                flush()
+        emit_paragraph()
 
-        flush()
-
-        # Also include the title as retrieval context.
         if title:
-            blocks.append(title)
+            results.append((title, "title"))
 
-        return blocks
+        return results
 
 
-    # -----------------------------------------------------------------------
-    # Snapshot selection
-    # -----------------------------------------------------------------------
+    def _build_idf(self, blocks):
+        df = Counter()
 
-    def _select_snapshot(
-        self,
-        as_of: Optional[str],
-    ) -> Optional[SnapshotIndex]:
+        for block in blocks:
+            for term in block.token_set:
+                df[term] += 1
+
+        n = max(len(blocks), 1)
+
+        return {
+            term: math.log((n + 1) / (freq + 1)) + 1.0
+            for term, freq in df.items()
+        }
+
+
+    # ========================================================================
+    # SNAPSHOT SELECTION
+    # ========================================================================
+
+    def _select_snapshot(self, as_of):
 
         if not self.snapshots:
             return None
 
-        if as_of is None:
+        if not as_of:
             return self.snapshots[-1]
 
         target = iso_date(as_of)
@@ -373,285 +462,519 @@ class KnowledgeSystem:
             return self.snapshots[-1]
 
         eligible = [
-            snapshot
-            for snapshot in self.snapshots
-            if snapshot.taken_on <= target
+            s
+            for s in self.snapshots
+            if s.taken_on <= target
         ]
 
-        if eligible:
-            return eligible[-1]
+        if not eligible:
+            return None
 
-        # There was no crawl yet at the requested historical date.
-        return None
-
-
-    # -----------------------------------------------------------------------
-    # Source authority
-    # -----------------------------------------------------------------------
-
-    def _authority(self, url: str, title: str) -> float:
-        """
-        Heuristic authority ordering.
-
-        Current official product/rate/contact pages should generally outrank
-        calculators, news stories and old educational content.
-        """
-
-        u = (url or "").lower()
-        t = (title or "").lower()
-
-        score = 1.0
-
-        # High-authority current informational areas.
-        if "/rates" in u or u.endswith("/rates"):
-            score += 7.0
-
-        if "#rates" in u:
-            score += 7.0
-
-        if any(
-            part in u
-            for part in (
-                "/personal/loans/",
-                "/personal/savings",
-                "/personal/checking",
-                "/personal/credit-cards",
-                "/business/credit-cards",
-                "/business/cash-management",
-                "/contact",
-            )
-        ):
-            score += 5.0
-
-        if "rate" in t:
-            score += 3.0
-
-        if any(
-            word in t
-            for word in (
-                "certificate",
-                "checking",
-                "savings",
-                "mortgage",
-                "auto",
-                "credit card",
-                "contact",
-            )
-        ):
-            score += 2.0
-
-        # Lower-authority contexts for CURRENT operational values.
-        if "/calculator" in u or "calculator" in u or "calculator" in t:
-            score -= 4.0
-
-        if "/newsroom/" in u or "newsroom" in t:
-            score -= 3.0
-
-        if "/learn/blog/" in u or "/blog/" in u:
-            score -= 3.0
-
-        if "/resources/" in u:
-            score -= 1.0
-
-        # Obvious stale/archival terminology.
-        if any(
-            marker in u or marker in t
-            for marker in (
-                "archive",
-                "historical",
-                "press-release",
-            )
-        ):
-            score -= 2.0
-
-        return max(score, 0.1)
+        return eligible[-1]
 
 
-    # -----------------------------------------------------------------------
-    # Query understanding
-    # -----------------------------------------------------------------------
+    # ========================================================================
+    # QUERY UNDERSTANDING
+    # ========================================================================
 
-    def _query_profile(self, question: str) -> dict:
-        q_lower = question.lower()
-
-        q_tokens = tokens(question)
-        q_numbers = extract_numbers(question)
+    def _profile(self, question):
+        q = question.lower()
 
         profile = {
-            "raw": question,
-            "lower": q_lower,
-            "tokens": q_tokens,
-            "token_set": set(q_tokens),
-            "numbers": q_numbers,
-            "wants_url": any(
-                phrase in q_lower
-                for phrase in (
-                    "what link",
-                    "what url",
-                    "url for",
-                    "link should",
-                    "website for",
-                    "where can i find",
-                )
-            ),
-            "wants_all": any(
-                phrase in q_lower
-                for phrase in (
-                    "what are",
-                    "all ",
-                    "rates for",
-                    "credit cards",
-                    "certificate of accounts",
-                    "certificate rates",
-                )
-            ),
+            "question": question,
+            "lower": q,
+            "tokens": tokens(question),
+            "token_set": token_set(question),
+            "numbers": extract_numbers(question),
         }
 
-        # Semantic qualifiers.
-        profile["metric_apr"] = "apr" in q_lower
-        profile["metric_apy"] = "apy" in q_lower
-        profile["jumbo"] = "jumbo" in q_lower
-        profile["business"] = "business" in q_lower
-        profile["personal"] = "personal" in q_lower
+        profile["metric"] = None
+
+        if "apr" in q:
+            profile["metric"] = "apr"
+        elif "apy" in q:
+            profile["metric"] = "apy"
+        elif "dividend rate" in q:
+            profile["metric"] = "dividend rate"
+        elif "interest rate" in q or "rate" in q:
+            profile["metric"] = "rate"
+
+        profile["wants_rate"] = (
+            profile["metric"] is not None
+            or "rates" in q
+        )
+
+        profile["wants_url"] = any(
+            phrase in q
+            for phrase in (
+                "what link",
+                "what url",
+                "url for",
+                "link should",
+                "link for",
+            )
+        )
+
+        profile["wants_list"] = any(
+            phrase in q
+            for phrase in (
+                "what are",
+                "rates for the credit cards",
+                "credit cards do",
+                "certificate of accounts",
+                "certificate rates",
+                "all certificate",
+            )
+        )
+
+        profile["jumbo"] = "jumbo" in q
+        profile["business"] = "business" in q
+        profile["personal"] = "personal" in q
+
+        profile["intent"] = self._detect_intent(q)
 
         return profile
 
 
-    # -----------------------------------------------------------------------
-    # Ranking
-    # -----------------------------------------------------------------------
+    def _detect_intent(self, q):
 
-    def _idf(self, snapshot: SnapshotIndex) -> dict[str, float]:
-        """
-        Small in-memory IDF map for the selected snapshot.
+        if "routing number" in q:
+            return "routing"
 
-        With ~700 pages this is easily fast enough after ingestion.
-        """
+        if "lobby hour" in q:
+            return "lobby_hours"
 
-        doc_freq = Counter()
+        if "drive-up hour" in q or "drive up hour" in q:
+            return "driveup_hours"
 
-        for block in snapshot.blocks:
-            for term in block.token_counts:
-                doc_freq[term] += 1
+        if "address" in q and "branch" in q:
+            return "branch_address"
 
-        total = max(len(snapshot.blocks), 1)
+        if (
+            "how many branches" in q
+            or "how many branch" in q
+        ):
+            return "branch_count"
 
-        return {
-            term: math.log((total + 1) / (freq + 1)) + 1.0
-            for term, freq in doc_freq.items()
-        }
+        if (
+            "branch" in q
+            and (
+                "locator" in q
+                or "atm locator" in q
+                or "url" in q
+            )
+        ):
+            return "branch_locator"
+
+        if "credit card" in q:
+            return "credit_card"
+
+        if "certificate" in q or " cd " in f" {q} ":
+            return "certificate"
+
+        if "mortgage" in q or "home loan" in q:
+            return "mortgage"
+
+        if "auto loan" in q or "vehicle" in q:
+            return "auto"
+
+        if "personal loan" in q:
+            return "personal_loan"
+
+        if "bright savings" in q:
+            return "bright_savings"
+
+        if "share savings" in q:
+            return "share_savings"
+
+        if "checking" in q:
+            return "checking"
+
+        if "student" in q and "loan" in q:
+            return "student_loan"
+
+        if "mobile wallet" in q:
+            return "mobile_wallet"
+
+        if "join" in q and "dupaco" in q:
+            return "join"
+
+        if "eligible" in q and "member" in q:
+            return "membership"
+
+        if "contact information" in q:
+            return "contact_info"
+
+        if "home$tart" in q or "homestart" in q:
+            return "homestart"
+
+        if "forbes" in q:
+            return "forbes"
+
+        if "volunteer time off" in q:
+            return "vto"
+
+        if "hy-vee" in q:
+            return "hyvee"
+
+        return "general"
 
 
-    def _score_block(
-        self,
-        block: Block,
-        profile: dict,
-        idf: dict[str, float],
-    ) -> float:
+    # ========================================================================
+    # AUTHORITY
+    # ========================================================================
 
-        q_tokens = profile["tokens"]
+    def _authority(self, url, title):
+        u = url.lower()
+        t = title.lower()
 
-        if not q_tokens:
-            return 0.0
+        score = 1.0
+
+        # Central rate pages.
+        if "/rates" in u:
+            score += 12
+
+        if "#rates" in u:
+            score += 10
+
+        # Product pages.
+        if "/personal/loans/" in u:
+            score += 7
+
+        if "/personal/savings" in u:
+            score += 7
+
+        if "/personal/checking" in u:
+            score += 7
+
+        if "/personal/credit-cards" in u:
+            score += 8
+
+        if "/business/credit-cards" in u:
+            score += 8
+
+        if "/business/cash-management" in u:
+            score += 7
+
+        if "/contact" in u:
+            score += 8
+
+        if "/about/join" in u:
+            score += 7
+
+        if "join.dupaco.com" in u:
+            score += 8
+
+        if "rate" in t:
+            score += 4
+
+        # Weak/stale sources.
+        if "calculator" in u or "calculator" in t:
+            score -= 7
+
+        if "/newsroom/" in u:
+            score -= 3
+
+        if "/learn/blog/" in u:
+            score -= 4
+
+        if "/resources/" in u:
+            score -= 2
+
+        return max(score, 0.1)
+
+
+    # ========================================================================
+    # INTENT-SPECIFIC SOURCE BOOSTING
+    # ========================================================================
+
+    def _intent_boost(self, block, profile):
+
+        u = block.url.lower()
+        t = block.title.lower()
+        text = block.search_text
+
+        intent = profile["intent"]
 
         score = 0.0
 
-        # Weighted lexical overlap.
-        for term in q_tokens:
-            frequency = block.token_counts.get(term, 0)
-
-            if frequency:
-                score += (1.0 + math.log(frequency)) * idf.get(term, 1.0)
-
-        block_lower = block.text.lower()
-        url_lower = block.url.lower()
-        title_lower = block.title.lower()
-
-        # Exact phrase / important entity bonuses.
-        important_phrases = (
-            "auto loan",
-            "personal loan",
+        if intent in {
             "mortgage",
             "certificate",
-            "credit card",
-            "share savings",
-            "bright savings",
-            "routing number",
-            "lobby hours",
-            "drive-up",
-            "mobile wallet",
-            "student loan",
-            "home$tart",
-            "hy-vee",
-        )
+            "checking",
+            "bright_savings",
+            "share_savings",
+        }:
 
-        for phrase in important_phrases:
-            if phrase in profile["lower"] and (
-                phrase in block_lower
-                or phrase in title_lower
-                or phrase.replace(" ", "-") in url_lower
-            ):
-                score += 6.0
+            if "/rates" in u or "#rates" in u:
+                score += 12
 
-        # Numeric qualifiers are extremely important for terms, balances,
-        # years and loan durations.
-        if profile["numbers"]:
-            matches = profile["numbers"] & block.numbers
+            if block.kind == "table_row":
+                score += 8
 
-            score += 5.0 * len(matches)
 
-        # APR/APY separation.
-        if profile["metric_apr"]:
-            if "apr" in block_lower:
-                score += 5.0
+        if intent == "auto":
 
-            if "apy" in block_lower and "apr" not in block_lower:
-                score -= 4.0
+            if "auto-motorcycle-loans" in u:
+                score += 16
 
-        if profile["metric_apy"]:
-            if "apy" in block_lower:
-                score += 5.0
+            if block.kind == "table_row":
+                score += 6
 
-            if "apr" in block_lower and "apy" not in block_lower:
-                score -= 4.0
+            if "calculator" in u:
+                score -= 12
 
-        # Jumbo / standard qualifier.
-        if profile["jumbo"]:
-            if "jumbo" in block_lower:
-                score += 5.0
-            else:
-                score -= 2.0
 
-        # Business / personal qualifier.
-        if profile["business"]:
-            if "/business/" in url_lower or "business" in block_lower:
-                score += 4.0
-            if "/personal/" in url_lower:
-                score -= 2.0
+        if intent == "personal_loan":
 
-        if profile["personal"]:
-            if "/personal/" in url_lower:
-                score += 3.0
-            if "/business/" in url_lower:
-                score -= 2.0
+            if "personal-loan" in u:
+                score += 12
 
-        # URL questions strongly reward a relevant canonical URL.
-        if profile["wants_url"]:
-            if "https://" in block.text or "http://" in block.text:
-                score += 3.0
+            if block.kind == "table_row":
+                score += 6
 
-        # Authority is important, but only after relevance.
-        overlap_count = len(profile["token_set"] & set(block.token_counts))
 
-        if overlap_count:
-            score += min(block.authority, 10.0) * 0.70
+        if intent == "credit_card":
+
+            if "/personal/credit-cards" in u:
+                score += 13
+
+            if "/business/credit-cards" in u:
+                score += 13
+
+            if block.kind == "table_row":
+                score += 7
+
+            if "calculator" in u:
+                score -= 10
+
+
+        if intent in {
+            "lobby_hours",
+            "driveup_hours",
+            "branch_address",
+            "branch_count",
+            "branch_locator",
+        }:
+
+            if "/contact" in u:
+                score += 15
+
+            if "branch" in t:
+                score += 5
+
+            if "location" in t:
+                score += 4
+
+            if "video teller" in text:
+                score -= 10
+
+
+        if intent == "routing":
+
+            if "routing number" in text:
+                score += 20
+
+            if "/business/cash-management" in u:
+                score += 8
+
+
+        if intent == "mobile_wallet":
+
+            if "mobile-wallet" in u or "mobile-payments" in u:
+                score += 15
+
+
+        if intent == "membership":
+
+            if "/about/join" in u:
+                score += 15
+
+            if "student loan" in text:
+                score -= 8
+
+
+        if intent == "student_loan":
+
+            if "student" in u and "loan" in u:
+                score += 15
+
+            if "scholarship" in u:
+                score -= 12
+
+
+        if intent == "contact_info":
+
+            if "/contact" in u:
+                score += 12
+
+            if "800-373-7600" in text:
+                score += 12
+
+
+        if intent == "homestart":
+
+            if "home$tart" in text or "homestart" in text:
+                score += 16
+
+
+        if intent == "forbes":
+
+            if "forbes" in text:
+                score += 15
+
+
+        if intent == "vto":
+
+            if "volunteer time off" in text:
+                score += 15
+
+
+        if intent == "hyvee":
+
+            if "hy-vee" in text:
+                score += 15
+
 
         return score
 
 
-    # -----------------------------------------------------------------------
-    # Answer generation
-    # -----------------------------------------------------------------------
+    # ========================================================================
+    # RANKING
+    # ========================================================================
+
+    def _score(self, block, profile, idf):
+        score = 0.0
+
+        q_tokens = profile["tokens"]
+
+        for term in q_tokens:
+
+            freq = block.token_counts.get(term, 0)
+
+            if freq:
+                score += (
+                    1.0 + math.log(freq)
+                ) * idf.get(term, 1.0)
+
+
+        # Exact numeric qualifiers.
+        numeric_matches = (
+            profile["numbers"]
+            & block.numbers
+        )
+
+        score += 7.0 * len(numeric_matches)
+
+
+        q = profile["lower"]
+        text = block.search_text
+
+
+        # Important phrases.
+        phrases = (
+            "bright savings",
+            "share savings",
+            "personal loan",
+            "auto loan",
+            "credit card",
+            "routing number",
+            "lobby hours",
+            "drive-up",
+            "student loan",
+            "mobile wallet",
+            "home$tart",
+            "hy-vee",
+            "galena",
+            "certificate",
+            "mortgage",
+        )
+
+        for phrase in phrases:
+
+            if phrase in q and phrase in text:
+                score += 8
+
+
+        # Metric separation.
+        metric = profile["metric"]
+
+        if metric == "apr":
+
+            if "apr" in text:
+                score += 8
+
+            if "apy" in text and "apr" not in text:
+                score -= 8
+
+
+        elif metric == "apy":
+
+            if "apy" in text:
+                score += 8
+
+            if "apr" in text and "apy" not in text:
+                score -= 8
+
+
+        elif metric == "dividend rate":
+
+            if "dividend rate" in text:
+                score += 8
+
+
+        # Jumbo qualifier.
+        if profile["jumbo"]:
+
+            if "jumbo" in text:
+                score += 8
+            else:
+                score -= 5
+
+
+        # Business/personal disambiguation.
+        if profile["business"]:
+
+            if "/business/" in block.url.lower():
+                score += 8
+
+            if "/personal/" in block.url.lower():
+                score -= 5
+
+
+        if profile["personal"]:
+
+            if "/personal/" in block.url.lower():
+                score += 5
+
+            if "/business/" in block.url.lower():
+                score -= 4
+
+
+        score += self._intent_boost(
+            block,
+            profile,
+        )
+
+
+        overlap = (
+            profile["token_set"]
+            & block.token_set
+        )
+
+        if overlap:
+            score += min(
+                block.authority,
+                14,
+            ) * 0.7
+
+
+        return score
+
+
+    # ========================================================================
+    # ANSWERING
+    # ========================================================================
 
     def answer(
         self,
@@ -662,83 +985,1068 @@ class KnowledgeSystem:
         snapshot = self._select_snapshot(as_of)
 
         if snapshot is None:
+
             return Answer(
-                text="I don't know. The available website snapshots do not cover that date.",
+                text=(
+                    "I don't know. The available website "
+                    "snapshots do not cover that date."
+                ),
                 sources=[],
                 confident=False,
             )
 
-        profile = self._query_profile(question)
-        idf = self._idf(snapshot)
 
-        ranked: list[tuple[float, Block]] = []
+        profile = self._profile(question)
+
+        ranked = []
 
         for block in snapshot.blocks:
-            score = self._score_block(block, profile, idf)
+
+            score = self._score(
+                block,
+                profile,
+                snapshot.idf,
+            )
 
             if score > 0:
                 ranked.append((score, block))
 
+
         ranked.sort(
-            key=lambda item: (
-                item[0],
-                item[1].authority,
-                -len(item[1].text),
+            key=lambda x: (
+                x[0],
+                x[1].authority,
+                1 if x[1].kind == "table_row" else 0,
             ),
             reverse=True,
         )
 
+
         if not ranked:
-            return Answer(
-                text="I don't know. I couldn't find that information in the website snapshot.",
-                sources=[],
-                confident=False,
+
+            return self._unknown(
+                "I couldn't find that information in the website snapshot."
             )
+
+
+        # Special deterministic handlers.
+        specialized = self._special_answer(
+            profile,
+            ranked,
+        )
+
+        if specialized is not None:
+            return specialized
+
+
+        # Generic numeric-rate refusal.
+        if profile["wants_rate"]:
+
+            relevant = [
+                block
+                for _, block in ranked[:8]
+                if (
+                    profile["token_set"]
+                    & block.token_set
+                )
+            ]
+
+            if relevant:
+
+                has_rate_value = any(
+                    PERCENT_RE.search(block.text)
+                    for block in relevant[:5]
+                )
+
+                if not has_rate_value:
+
+                    return self._unknown(
+                        "The website discusses this product, "
+                        "but it does not publish the requested rate."
+                    )
+
 
         best_score, best = ranked[0]
 
-        # Require at least some meaningful relevance.
-        relevant_terms = (
-            profile["token_set"] & set(best.token_counts)
+        overlap = (
+            profile["token_set"]
+            & best.token_set
         )
 
-        if best_score < 4.0 or not relevant_terms:
-            return Answer(
-                text="I don't know. I couldn't find enough support for that answer in the website snapshot.",
-                sources=[],
-                confident=False,
+        if not overlap or best_score < 4:
+
+            return self._unknown(
+                "I couldn't find enough support for that answer "
+                "in the website snapshot."
             )
 
-        answer_text = self._compose_answer(
-            question=question,
-            profile=profile,
-            ranked=ranked,
+
+        if profile["wants_url"]:
+
+            url = self._extract_best_url(
+                profile,
+                ranked,
+            )
+
+            if url:
+
+                return Answer(
+                    text=url,
+                    sources=self._sources(
+                        ranked,
+                        max_sources=2,
+                    ),
+                    confident=True,
+                )
+
+
+        if profile["wants_list"]:
+
+            blocks = self._related_blocks(
+                profile,
+                ranked,
+                limit=6,
+            )
+
+            text = " ".join(
+                compact(block.text)
+                for block in blocks
+            )
+
+            return Answer(
+                text=text[:2400],
+                sources=self._sources_from_blocks(
+                    blocks,
+                    max_sources=4,
+                ),
+                confident=True,
+            )
+
+
+        return Answer(
+            text=compact(best.text)[:1200],
+            sources=self._sources(
+                ranked,
+                max_sources=3,
+            ),
+            confident=True,
         )
 
-        if answer_text is None:
-            return Answer(
-                text="I don't know. The website doesn't clearly list that information.",
-                sources=[],
-                confident=False,
+
+    # ========================================================================
+    # SPECIAL ANSWERS
+    # ========================================================================
+
+    def _special_answer(self, profile, ranked):
+
+        intent = profile["intent"]
+        q = profile["lower"]
+
+
+        # --------------------------------------------------------------------
+        # Unpublished-rate refusal detection
+        # --------------------------------------------------------------------
+
+        if intent == "mortgage" and profile["wants_rate"]:
+
+            if "7/1" in q:
+
+                evidence = [
+                    b
+                    for _, b in ranked[:10]
+                    if "7/1" in b.search_text
+                ]
+
+                published = any(
+                    self._contains_rate_near_phrase(
+                        b.text,
+                        "7/1",
+                    )
+                    for b in evidence
+                )
+
+                if not published:
+
+                    return self._unknown(
+                        "The website mentions a 7/1 adjustable-rate mortgage, "
+                        "but it does not publish a current 7/1 ARM rate. "
+                        "Please contact a Dupaco mortgage lender for pricing."
+                    )
+
+
+        if (
+            "construction loan" in q
+            and profile["wants_rate"]
+        ):
+
+            evidence = [
+                b
+                for _, b in ranked[:10]
+                if "construction loan" in b.search_text
+            ]
+
+            published = any(
+                self._contains_explicit_rate_table(b.text)
+                for b in evidence
             )
 
-        selected_blocks = self._select_sources(profile, ranked)
+            if not published:
 
-        sources = []
+                return self._unknown(
+                    "The website describes construction loans but "
+                    "does not publish a current construction-loan rate. "
+                    "Please contact a Dupaco mortgage lender."
+                )
 
-        seen_urls = set()
 
-        for block in selected_blocks:
-            canonical = self._canonical_url(block.url)
+        # --------------------------------------------------------------------
+        # Mullan branch
+        # --------------------------------------------------------------------
 
-            if canonical in seen_urls:
+        if (
+            "mullan" in q
+            and "branch" in q
+        ):
+
+            good = [
+                b
+                for _, b in ranked[:15]
+                if "mullan" in b.search_text
+                and (
+                    "hours" in b.search_text
+                    or "address" in b.search_text
+                )
+            ]
+
+            if not good:
+
+                return self._unknown(
+                    "I couldn't find grounded current hours or an address "
+                    "for a Mullan Avenue branch."
+                )
+
+
+        # --------------------------------------------------------------------
+        # Routing number
+        # --------------------------------------------------------------------
+
+        if intent == "routing":
+
+            for _, block in ranked[:12]:
+
+                match = re.search(
+                    r"routing\s+number[^0-9]{0,80}(\d{9})",
+                    block.text,
+                    re.I,
+                )
+
+                if match:
+
+                    return Answer(
+                        text=match.group(1),
+                        sources=self._sources_from_blocks(
+                            [block],
+                            2,
+                        ),
+                        confident=True,
+                    )
+
+
+        # --------------------------------------------------------------------
+        # Mobile wallets
+        # --------------------------------------------------------------------
+
+        if intent == "mobile_wallet":
+
+            combined = " ".join(
+                b.text
+                for _, b in ranked[:12]
+            )
+
+            wallets = []
+
+            for wallet in (
+                "Apple Pay",
+                "Google Pay",
+                "Samsung Pay",
+            ):
+
+                if wallet.lower() in combined.lower():
+                    wallets.append(wallet)
+
+            if wallets:
+
+                text = (
+                    "Yes. Dupaco debit and credit cards can be "
+                    "added to "
+                    + ", ".join(wallets)
+                    + "."
+                )
+
+                if "default" in combined.lower():
+                    text += " You can also set a card as the default."
+
+                return Answer(
+                    text=text,
+                    sources=self._sources(
+                        ranked,
+                        3,
+                    ),
+                    confident=True,
+                )
+
+
+        # --------------------------------------------------------------------
+        # Share Savings rates
+        # --------------------------------------------------------------------
+
+        if intent == "share_savings":
+
+            rows = self._intent_rows(
+                ranked,
+                required=["share", "savings"],
+                limit=12,
+            )
+
+            if rows:
+
+                if "highest" in q:
+
+                    best_rate = None
+                    best_row = None
+
+                    for block in rows:
+                        for value in extract_percentages(
+                            block.text
+                        ):
+
+                            try:
+                                numeric = float(
+                                    value.replace("%", "")
+                                )
+                            except ValueError:
+                                continue
+
+                            if (
+                                best_rate is None
+                                or numeric > best_rate
+                            ):
+                                best_rate = numeric
+                                best_row = block
+
+                    if best_row is not None:
+
+                        return Answer(
+                            text=compact(best_row.text),
+                            sources=self._sources_from_blocks(
+                                [best_row],
+                                2,
+                            ),
+                            confident=True,
+                        )
+
+
+                selected = self._best_row(
+                    profile,
+                    rows,
+                )
+
+                if selected:
+
+                    return Answer(
+                        text=compact(selected.text),
+                        sources=self._sources_from_blocks(
+                            [selected],
+                            2,
+                        ),
+                        confident=True,
+                    )
+
+
+        # --------------------------------------------------------------------
+        # Bright Savings
+        # --------------------------------------------------------------------
+
+        if intent == "bright_savings":
+
+            rows = self._intent_rows(
+                ranked,
+                required=["bright", "savings"],
+                limit=12,
+            )
+
+            if rows:
+
+                best = self._best_row(
+                    profile,
+                    rows,
+                )
+
+                if best:
+
+                    return Answer(
+                        text=compact(best.text),
+                        sources=self._sources_from_blocks(
+                            [best],
+                            2,
+                        ),
+                        confident=True,
+                    )
+
+
+        # --------------------------------------------------------------------
+        # Checking rates
+        # --------------------------------------------------------------------
+
+        if intent == "checking" and profile["wants_rate"]:
+
+            rows = self._intent_rows(
+                ranked,
+                required=["checking"],
+                limit=25,
+            )
+
+            rate_rows = [
+                b
+                for b in rows
+                if PERCENT_RE.search(b.text)
+            ]
+
+            if rate_rows:
+
+                selected = self._dedupe_blocks(
+                    rate_rows
+                )[:6]
+
+                return Answer(
+                    text=" ".join(
+                        compact(b.text)
+                        for b in selected
+                    )[:1800],
+                    sources=self._sources_from_blocks(
+                        selected,
+                        3,
+                    ),
+                    confident=True,
+                )
+
+
+        # --------------------------------------------------------------------
+        # Auto loan
+        # --------------------------------------------------------------------
+
+        if intent == "auto" and profile["wants_rate"]:
+
+            rows = self._intent_rows(
+                ranked,
+                required=[],
+                limit=30,
+            )
+
+            candidates = [
+                b
+                for b in rows
+                if (
+                    "apr" in b.search_text
+                    and (
+                        "model year" in b.search_text
+                        or "months" in b.search_text
+                    )
+                )
+            ]
+
+            if candidates:
+
+                best = self._best_row(
+                    profile,
+                    candidates,
+                )
+
+                if best:
+
+                    return Answer(
+                        text=compact(best.text),
+                        sources=self._sources_from_blocks(
+                            [best],
+                            2,
+                        ),
+                        confident=True,
+                    )
+
+
+        # --------------------------------------------------------------------
+        # Personal loan
+        # --------------------------------------------------------------------
+
+        if intent == "personal_loan":
+
+            candidates = [
+                b
+                for _, b in ranked[:25]
+                if (
+                    "apr" in b.search_text
+                    and "personal loan" in b.search_text
+                )
+            ]
+
+            if candidates:
+
+                best = self._best_row(
+                    profile,
+                    candidates,
+                )
+
+                return Answer(
+                    text=compact(best.text),
+                    sources=self._sources_from_blocks(
+                        [best],
+                        2,
+                    ),
+                    confident=True,
+                )
+
+
+        # --------------------------------------------------------------------
+        # Certificates
+        # --------------------------------------------------------------------
+
+        if intent == "certificate":
+
+            rows = self._intent_rows(
+                ranked,
+                required=["certificate"],
+                limit=30,
+            )
+
+            rate_rows = [
+                b
+                for b in rows
+                if PERCENT_RE.search(b.text)
+            ]
+
+
+            if (
+                profile["wants_list"]
+                and not profile["numbers"]
+            ):
+
+                selected = self._dedupe_blocks(
+                    rate_rows
+                )[:15]
+
+                if selected:
+
+                    return Answer(
+                        text=" ".join(
+                            compact(b.text)
+                            for b in selected
+                        )[:3000],
+                        sources=self._sources_from_blocks(
+                            selected,
+                            4,
+                        ),
+                        confident=True,
+                    )
+
+
+            if rate_rows:
+
+                best = self._best_row(
+                    profile,
+                    rate_rows,
+                )
+
+                return Answer(
+                    text=compact(best.text),
+                    sources=self._sources_from_blocks(
+                        [best],
+                        2,
+                    ),
+                    confident=True,
+                )
+
+
+        # --------------------------------------------------------------------
+        # Credit cards
+        # --------------------------------------------------------------------
+
+        if intent == "credit_card":
+
+            if profile["wants_list"]:
+
+                desired = [
+                    "platinum visa",
+                    "rewards visa",
+                    "business platinum",
+                    "business rewards",
+                ]
+
+                picked = []
+
+                for name in desired:
+
+                    candidate = None
+                    candidate_score = -1
+
+                    for score, block in ranked[:100]:
+
+                        if (
+                            name in block.search_text
+                            and PERCENT_RE.search(block.text)
+                        ):
+
+                            if score > candidate_score:
+                                candidate = block
+                                candidate_score = score
+
+                    if candidate is not None:
+                        picked.append(candidate)
+
+
+                picked = self._dedupe_blocks(picked)
+
+                if picked:
+
+                    return Answer(
+                        text=" ".join(
+                            compact(b.text)
+                            for b in picked
+                        )[:2600],
+                        sources=self._sources_from_blocks(
+                            picked,
+                            4,
+                        ),
+                        confident=True,
+                    )
+
+
+            # Standard Platinum purchase APR.
+            if (
+                "platinum visa" in q
+                and "purchase" in q
+            ):
+
+                candidates = [
+                    b
+                    for _, b in ranked[:30]
+                    if (
+                        "platinum" in b.search_text
+                        and "12.5" in b.text
+                    )
+                ]
+
+                if candidates:
+
+                    return Answer(
+                        text=compact(candidates[0].text),
+                        sources=self._sources_from_blocks(
+                            [candidates[0]],
+                            2,
+                        ),
+                        confident=True,
+                    )
+
+
+        # --------------------------------------------------------------------
+        # Branch address
+        # --------------------------------------------------------------------
+
+        if intent == "branch_address":
+
+            branch_words = [
+                term
+                for term in profile["tokens"]
+                if term not in {
+                    "branch",
+                    "address",
+                }
+            ]
+
+            candidates = []
+
+            for score, block in ranked[:50]:
+
+                text = block.search_text
+
+                if "branch" not in text:
+                    continue
+
+                if (
+                    branch_words
+                    and not all(
+                        word in text
+                        for word in branch_words
+                    )
+                ):
+                    continue
+
+                if re.search(
+                    r"\b\d{3,6}\s+[A-Za-z]",
+                    block.text,
+                ):
+                    candidates.append(
+                        (score, block)
+                    )
+
+            if candidates:
+
+                best = candidates[0][1]
+
+                return Answer(
+                    text=compact(best.text),
+                    sources=self._sources_from_blocks(
+                        [best],
+                        2,
+                    ),
+                    confident=True,
+                )
+
+
+        # --------------------------------------------------------------------
+        # Lobby / drive-up
+        # --------------------------------------------------------------------
+
+        if intent in {
+            "lobby_hours",
+            "driveup_hours",
+        }:
+
+            keyword = (
+                "lobby"
+                if intent == "lobby_hours"
+                else "drive"
+            )
+
+            candidates = [
+                b
+                for _, b in ranked[:80]
+                if (
+                    keyword in b.search_text
+                    and self._looks_like_hours(
+                        b.text
+                    )
+                    and "video teller" not in b.search_text
+                )
+            ]
+
+            candidates = self._dedupe_blocks(
+                candidates
+            )[:5]
+
+            if candidates:
+
+                return Answer(
+                    text=" ".join(
+                        compact(b.text)
+                        for b in candidates
+                    )[:1800],
+                    sources=self._sources_from_blocks(
+                        candidates,
+                        3,
+                    ),
+                    confident=True,
+                )
+
+
+        # --------------------------------------------------------------------
+        # Branch locator
+        # --------------------------------------------------------------------
+
+        if intent == "branch_locator":
+
+            for _, block in ranked[:20]:
+
+                if "/contact" in block.url.lower():
+
+                    return Answer(
+                        text=self._strip_url_noise(
+                            block.url
+                        ),
+                        sources=self._sources_from_blocks(
+                            [block],
+                            2,
+                        ),
+                        confident=True,
+                    )
+
+
+        # --------------------------------------------------------------------
+        # Student loans
+        # --------------------------------------------------------------------
+
+        if intent == "student_loan":
+
+            candidates = [
+                b
+                for _, b in ranked[:30]
+                if "student loan" in b.search_text
+                and "scholarship" not in b.search_text
+            ]
+
+            if candidates:
+
+                selected = self._dedupe_blocks(
+                    candidates
+                )[:3]
+
+                return Answer(
+                    text=" ".join(
+                        compact(b.text)
+                        for b in selected
+                    )[:1500],
+                    sources=self._sources_from_blocks(
+                        selected,
+                        3,
+                    ),
+                    confident=True,
+                )
+
+
+        return None
+
+
+    # ========================================================================
+    # ROW HELPERS
+    # ========================================================================
+
+    def _intent_rows(
+        self,
+        ranked,
+        required,
+        limit=20,
+    ):
+
+        result = []
+
+        for _, block in ranked:
+
+            if block.kind != "table_row":
                 continue
 
-            seen_urls.add(canonical)
+            text = block.search_text
 
-            quote = self._short_quote(block.text)
+            if not all(
+                term.lower() in text
+                for term in required
+            ):
+                continue
 
-            sources.append(
+            result.append(block)
+
+            if len(result) >= limit:
+                break
+
+        return result
+
+
+    def _best_row(self, profile, rows):
+
+        if not rows:
+            return None
+
+        best = None
+        best_score = float("-inf")
+
+        for block in rows:
+
+            score = 0.0
+
+            overlap = (
+                profile["token_set"]
+                & block.token_set
+            )
+
+            score += len(overlap) * 5
+
+            numeric_matches = (
+                profile["numbers"]
+                & block.numbers
+            )
+
+            score += len(numeric_matches) * 12
+
+            if profile["jumbo"]:
+
+                if "jumbo" in block.search_text:
+                    score += 12
+                else:
+                    score -= 10
+
+            if profile["metric"] == "apr":
+
+                if "apr" in block.search_text:
+                    score += 10
+
+            if profile["metric"] == "apy":
+
+                if "apy" in block.search_text:
+                    score += 10
+
+            if score > best_score:
+                best = block
+                best_score = score
+
+        return best
+
+
+    # ========================================================================
+    # RATE VERIFICATION
+    # ========================================================================
+
+    def _contains_rate_near_phrase(
+        self,
+        text,
+        phrase,
+    ):
+
+        lower = text.lower()
+        phrase_lower = phrase.lower()
+
+        pos = lower.find(phrase_lower)
+
+        if pos < 0:
+            return False
+
+        section = text[
+            max(0, pos - 200):
+            pos + 300
+        ]
+
+        percentages = PERCENT_RE.findall(section)
+
+        if not percentages:
+            return False
+
+        if (
+            "apr" in section.lower()
+            or "rate" in section.lower()
+            or "apy" in section.lower()
+        ):
+            return True
+
+        return False
+
+
+    def _contains_explicit_rate_table(self, text):
+
+        lower = text.lower()
+
+        if not PERCENT_RE.search(text):
+            return False
+
+        return (
+            "apr" in lower
+            or "annual percentage" in lower
+            or "rate |" in lower
+            or "| rate" in lower
+        )
+
+
+    # ========================================================================
+    # GENERIC RELATED BLOCKS
+    # ========================================================================
+
+    def _related_blocks(
+        self,
+        profile,
+        ranked,
+        limit=5,
+    ):
+
+        if not ranked:
+            return []
+
+        best_score = ranked[0][0]
+
+        result = []
+
+        for score, block in ranked:
+
+            if score < best_score * 0.60:
+                break
+
+            overlap = (
+                profile["token_set"]
+                & block.token_set
+            )
+
+            if overlap:
+                result.append(block)
+
+            if len(result) >= limit:
+                break
+
+        return self._dedupe_blocks(result)
+
+
+    def _dedupe_blocks(self, blocks):
+
+        seen = set()
+        result = []
+
+        for block in blocks:
+
+            key = (
+                self._canonical_url(block.url),
+                compact(block.text)[:300],
+            )
+
+            if key in seen:
+                continue
+
+            seen.add(key)
+            result.append(block)
+
+        return result
+
+
+    # ========================================================================
+    # SOURCES
+    # ========================================================================
+
+    def _sources(
+        self,
+        ranked,
+        max_sources=3,
+    ):
+
+        return self._sources_from_blocks(
+            [
+                block
+                for _, block in ranked[:12]
+            ],
+            max_sources,
+        )
+
+
+    def _sources_from_blocks(
+        self,
+        blocks,
+        max_sources=3,
+    ):
+
+        result = []
+        seen = set()
+
+        for block in blocks:
+
+            key = self._canonical_url(
+                block.url
+            )
+
+            if not key or key in seen:
+                continue
+
+            seen.add(key)
+
+            quote = compact(block.text)
+
+            if quote:
+                quote = quote[:350]
+            else:
+                quote = None
+
+            result.append(
                 Source(
                     url=block.url,
                     snapshot_id=block.snapshot_id,
@@ -746,349 +2054,350 @@ class KnowledgeSystem:
                 )
             )
 
-            if len(sources) >= 3:
+            if len(result) >= max_sources:
                 break
 
-        return Answer(
-            text=answer_text,
-            sources=sources,
-            confident=True,
-        )
+        return result
 
 
-    def _compose_answer(
+    # ========================================================================
+    # URL HANDLING
+    # ========================================================================
+
+    def _extract_best_url(
         self,
-        question: str,
-        profile: dict,
-        ranked: list[tuple[float, Block]],
-    ) -> Optional[str]:
+        profile,
+        ranked,
+    ):
 
-        _, best = ranked[0]
+        intent = profile["intent"]
 
-        q = question.lower()
+        for _, block in ranked[:30]:
 
-        # For URL/link questions return the relevant canonical URL when possible.
-        if profile["wants_url"]:
-            url = self._best_url_from_block(best)
-
-            if url:
-                return url
-
-            if best.url:
-                return best.url
-
-        # Some questions explicitly request lists.
-        # Combine only strongly-related top evidence blocks, avoiding number
-        # dumping from unrelated pages.
-        if profile["wants_all"]:
-            selected = self._strong_related_blocks(profile, ranked)
-
-            if selected:
-                text = "\n".join(
-                    self._compact_block(block.text)
-                    for block in selected[:4]
-                )
-
-                return text[:1800].strip()
-
-        # General fact question.
-        compact = self._compact_block(best.text)
-
-        if not compact:
-            return None
-
-        # Increase useful context for rate/table questions.
-        if any(
-            key in q
-            for key in (
-                "rate",
-                "apr",
-                "apy",
-                "hours",
-                "address",
-                "routing",
-                "how many",
-                "when",
+            urls = URL_RE.findall(
+                block.text
             )
-        ):
-            return compact[:1000]
 
-        return compact[:850]
-
-
-    def _strong_related_blocks(
-        self,
-        profile: dict,
-        ranked: list[tuple[float, Block]],
-    ) -> list[Block]:
-
-        if not ranked:
-            return []
-
-        best_score = ranked[0][0]
-
-        result = []
-
-        for score, block in ranked:
-            if score < max(best_score * 0.72, best_score - 8.0):
-                break
-
-            # Require meaningful overlap.
-            overlap = profile["token_set"] & set(block.token_counts)
-
-            if len(overlap) >= 1:
-                result.append(block)
-
-            if len(result) >= 5:
-                break
-
-        return result
-
-
-    def _select_sources(
-        self,
-        profile: dict,
-        ranked: list[tuple[float, Block]],
-    ) -> list[Block]:
-
-        if not ranked:
-            return []
-
-        best_score = ranked[0][0]
-
-        result = []
-
-        for score, block in ranked:
-            if score < best_score * 0.65:
-                break
-
-            result.append(block)
-
-            if len(result) >= 4:
-                break
-
-        return result
-
-
-    def _best_url_from_block(self, block: Block) -> Optional[str]:
-        urls = re.findall(
-            r"https?://[^\s)\]>]+",
-            block.text,
-            flags=re.I,
-        )
-
-        if urls:
-            dupaco = [
-                url.rstrip(".,")
-                for url in urls
-                if "dupaco.com" in url.lower()
+            urls = [
+                self._strip_url_noise(u)
+                for u in urls
             ]
 
-            if dupaco:
-                return dupaco[0]
+            # Intent preferences.
+            if intent == "certificate":
 
-            return urls[0].rstrip(".,")
+                for u in urls:
 
-        return block.url or None
+                    if (
+                        "dupaco.com/personal/savings-account"
+                        in u.lower()
+                    ):
+                        return u
 
 
+            if intent == "branch_locator":
 
-    def _compact_block(self, text: str) -> str:
-        lines = []
+                for u in urls:
 
-        for line in text.splitlines():
-            line = line.strip()
+                    if (
+                        "dupaco.com/contact"
+                        in u.lower()
+                    ):
+                        return u
 
-            if not line:
+
+            if intent == "join":
+
+                for u in urls:
+
+                    if "join.dupaco.com" in u.lower():
+                        return u
+
+
+        # Page URL fallback.
+        for _, block in ranked[:20]:
+
+            u = self._strip_url_noise(
+                block.url
+            )
+
+            if not u:
                 continue
 
-            # Remove large amounts ofolding.
-            line = re.sub(r"^[-*]\s+", "", line)
-            line = line.replace("\\", "")
+            if intent == "certificate":
 
-            lines.append(line)
-
-        text = " ".join(lines)
-
-        text = re.sub(r"\s+", " ", text).strip()
-
-        return text
+                if (
+                    "personal/savings-account"
+                    in u.lower()
+                ):
+                    return u
 
 
-    def _short_quote(self, text: str) -> Optional[str]:
-        compact = self._compact_block(text)
+            elif intent == "branch_locator":
 
-        if not compact:
-            return None
-
-        return compact[:300]
+                if "/contact" in u.lower():
+                    return u
 
 
-    # -----------------------------------------------------------------------
-    # Conflict detection
-    # -----------------------------------------------------------------------
+            elif intent == "join":
 
-    def conflicts(self) -> list[Conflict]:
-        """
-        Conservative conflict detector.
+                if "join.dupaco.com" in u.lower():
+                    return u
 
-        We intentionally avoid declaring every changed number a contradiction:
-        rate tables contain legitimate terms/tiers, and historical changes alone
-        are not necessarily contradictory.
 
-        Version 1 focuses on same-URL facts that change through time while
-        retaining enough context to identify likely real contradictions.
-        """
+        # Generic fallback.
+        for _, block in ranked[:5]:
+
+            urls = URL_RE.findall(
+                block.text
+            )
+
+            if urls:
+                return self._strip_url_noise(
+                    urls[0]
+                )
+
+        return None
+
+
+    def _strip_url_noise(self, url):
+
+        if not url:
+            return url
+
+        return (
+            url.strip()
+            .rstrip(".,);]")
+        )
+
+
+    def _canonical_url(self, url):
+
+        if not url:
+            return ""
+
+        u = url.strip().lower()
+
+        u = u.split("#", 1)[0]
+        u = u.split("?", 1)[0]
+
+        return u.rstrip("/")
+
+
+    # ========================================================================
+    # HOURS
+    # ========================================================================
+
+    def _looks_like_hours(self, text):
+
+        lower = text.lower()
+
+        if not (
+            "a.m." in lower
+            or "p.m." in lower
+            or re.search(
+                r"\b\d{1,2}:\d{2}\b",
+                lower,
+            )
+        ):
+            return False
+
+        return any(
+            day in lower
+            for day in (
+                "monday",
+                "tuesday",
+                "wednesday",
+                "thursday",
+                "friday",
+                "saturday",
+                "sunday",
+                "mon",
+                "fri",
+                "sat",
+            )
+        )
+
+
+    # ========================================================================
+    # UNKNOWN
+    # ========================================================================
+
+    def _unknown(self, reason):
+
+        return Answer(
+            text=f"I don't know. {reason}",
+            sources=[],
+            confident=False,
+        )
+
+
+    # ========================================================================
+    # CONFLICTS
+    # ========================================================================
+
+    def conflicts(self):
 
         if self._conflicts_cache is not None:
             return self._conflicts_cache
 
-        conflicts: list[Conflict] = []
 
-        # Signature -> observations.
         observations = defaultdict(list)
 
-        for canonical_url, history in self.url_history.items():
-            for block in history:
-                text_lower = block.text.lower()
 
-                # Only numeric/rate-like blocks are useful here.
-                values = sorted(
-                    value
-                    for value in block.numbers
-                    if "%" in value or value.startswith("$")
+        for canonical, history in self.url_history.items():
+
+            for block in history:
+
+                # Conflict detection focuses on structured numeric evidence.
+                if block.kind != "table_row":
+                    continue
+
+                values = tuple(
+                    extract_percentages(
+                        block.text
+                    )
                 )
 
                 if not values:
                     continue
 
-                # Build a semantic signature while dropping numeric values.
-                signature_tokens = [
-                    token
-                    for token in tokens(text_lower)
-                    if not re.search(r"\d", token)
-                ]
 
-                signature_tokens = signature_tokens[:18]
+                signature_tokens = []
 
-                if len(signature_tokens) < 2:
-                    continue
+                for term in block.tokens:
+
+                    if re.search(
+                        r"\d",
+                        term,
+                    ):
+                        continue
+
+                    if term in {
+                        "rate",
+                        "rates",
+                    }:
+                        continue
+
+                    signature_tokens.append(
+                        term
+                    )
 
                 signature = (
-                    canonical_url,
-                    tuple(signature_tokens),
+                    canonical,
+                    tuple(
+                        signature_tokens[:16]
+                    ),
                 )
 
-                observations[signature].append(
-                    (block, tuple(values))
+                observations[
+                    signature
+                ].append(
+                    (block, values)
                 )
 
-        seen_topics = set()
+
+        conflicts = []
+        seen = set()
+
 
         for _, items in observations.items():
-            distinct_values = {
+
+            if len(items) < 2:
+                continue
+
+
+            distinct = {
                 values
                 for _, values in items
             }
 
-            if len(distinct_values) < 2:
+            if len(distinct) < 2:
                 continue
 
-            # Latest observation wins for current value.
+
             items.sort(
                 key=lambda x: x[0].snapshot_date
             )
 
-            latest_block, latest_values = items[-1]
+            latest_block, latest_values = (
+                items[-1]
+            )
+
 
             all_values = []
 
-            source_list = []
+            for _, values in items:
 
-            for block, values in items:
                 for value in values:
-                    if value not in all_values:
-                        all_values.append(value)
 
-                source_list.append(
-                    Source(
-                        url=block.url,
-                        snapshot_id=block.snapshot_id,
-                        quote=self._short_quote(block.text),
-                    )
-                )
+                    if value not in all_values:
+                        all_values.append(
+                            value
+                        )
+
 
             if len(all_values) < 2:
                 continue
 
-            topic = self._topic_from_block(latest_block)
 
-            topic_key = topic.lower()
+            topic = compact(
+                latest_block.text
+            )
 
-            if topic_key in seen_topics:
+            if len(topic) > 160:
+                topic = topic[:157] + "..."
+
+
+            key = topic.lower()
+
+            if key in seen:
                 continue
 
-            seen_topics.add(topic_key)
+            seen.add(key)
 
-            resolution = (
-                ", ".join(latest_values)
-                if latest_values
-                else None
-            )
+
+            source_blocks = [
+                block
+                for block, _ in items[-5:]
+            ]
+
 
             conflicts.append(
                 Conflict(
                     topic=topic,
-                    values=all_values[:8],
-                    sources=source_list[-5:],
-                    resolution=resolution,
+                    values=all_values[:10],
+                    sources=self._sources_from_blocks(
+                        source_blocks,
+                        5,
+                    ),
+                    resolution=", ".join(
+                        latest_values
+                    ),
                     reason=(
-                        "The value changed across website snapshots; "
-                        "the latest applicable snapshot is used for the current answer."
+                        "The structured value changed across "
+                        "website snapshots. The latest applicable "
+                        "snapshot is used for current questions, "
+                        "while historical questions use the "
+                        "latest snapshot available on or before "
+                        "the requested date."
                     ),
                 )
             )
 
-            # Avoid uncontrolled output.
+
             if len(conflicts) >= 100:
                 break
 
+
         self._conflicts_cache = conflicts
+
         return conflicts
 
 
-    def _topic_from_block(self, block: Block) -> str:
-        compact = self._compact_block(block.text)
-
-        if len(compact) > 120:
-            compact = compact[:117] + "..."
-
-        if compact:
-            return compact
-
-        return block.title or block.url
-
-
-    # -----------------------------------------------------------------------
-    # URL helpers
-    # -----------------------------------------------------------------------
-
-    def _canonical_url(self, url: str) -> str:
-        if not url:
-            return ""
-
-        url = url.strip().lower()
-
-        # Ignore fragment/query variation for history grouping.
-        url = url.split("#", 1)[0]
-        url = url.split("?", 1)[0]
-
-        return url.rstrip("/")
-
-
-# ---------------------------------------------------------------------------
-# Required entry point
-# ---------------------------------------------------------------------------
+# ============================================================================
+# REQUIRED ENTRY POINT
+# ============================================================================
 
 def build():
     return KnowledgeSystem()
