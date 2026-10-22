@@ -3,4 +3,5 @@ __pycache__/
 *.pyc
 .DS_Store
 .env
+.venv/
 snapshots/0*/

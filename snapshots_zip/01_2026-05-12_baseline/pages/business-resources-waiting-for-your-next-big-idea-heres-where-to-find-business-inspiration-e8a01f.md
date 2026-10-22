@@ -1,0 +1,144 @@
+2 min read
+
+
+
+[Emily Kittle](https://www.dupaco.com/business/resources/author/emily-kittle)
+June 07, 2022
+
+
+# Waiting for your next big idea? Here’s where to find business inspiration
+
+[Cash Flow & Management](https://www.dupaco.com/business/resources/tag/cash-flow-management)
+
+![Waiting for your next big idea? Here’s where to find business inspiration](https://www.dupaco.com/hubfs/Graphics/Collage%20hero%20graphics/Starting-idea-HGicon-676x338.jpeg)
+
+It’s great when you get that light bulb moment to create a new product or service. But business inspiration doesn’t always strike when we need it to.
+
+If you’re ever feeling short on inspiration, we’ve got you covered. Try some of these tactics to help you breathe new life into your business.
+
+## **Search online for business inspiration**
+
+Look at third-party selling sites like Amazon or Ali Express. Read through the product reviews.
+
+You might be surprised by how many ideas you can get just by reading about what products people bought—and what they liked and disliked.
+
+When you’re searching, try using phrases like “new product ideas,” “future (your industry) trends,” “new product trends” or anything related to what you do.
+
+It’s also a good idea to keep a pulse on news stories. Searching things like “trends” and “new products” in the news section of search engines will give you news articles about trends that you can use as inspiration for your product ideas.
+
+When you find helpful articles, and you have the option to do so, subscribe to these publications’ eNewsletters. Also subscribe to thought leaders or people who resonate with you if they’re commenting about your industry or technology you use.
+
+You never know what will spark your next idea!
+
+## **Check out your competition**
+
+Search for businesses like yours. Review their products and services. Then, look for ways you could improve them.
+
+The idea is not to be a copycat. Instead, see what your competitors are doing differently from you, and see if that inspires you.
+
+Look especially for businesses like yours that operate in other countries. You’ll often find a wealth of new ideas far away from your current operation.
+
+## **Attend events for new inspiration**
+
+Get in front of new ideas by attending (virtual and physical) events that highlight new ideas or research.
+
+It doesn’t always have to be in your industry, either. Many times, good ideas come from listening to experts from other disciplines!
+
+## **Visit specialist trend websites**
+
+Many websites specialize in identifying and showcasing trends. These sites focus on innovative or groundbreaking products.
+
+Here are a few sites worth checking out:
+
+- [Trend Hunter](https://www.trendhunter.com/)
+- [BestProducts.com](https://www.bestproducts.com/)
+- [Japan Trends](https://japantrends.com/)
+
+## **Use social media**
+
+Facebook, Twitter, Instagram, Pinterest and YouTube are all great resources for new product ideas.
+
+The trick is knowing how to search them and filter out the noise.
+
+For example:
+
+- **Twitter** has an advanced search option to search for phrases like “new products,” “I wish there was,” “does anyone know how to,” “is there a product” and more. You get the idea—you’re trying to find out what people want.
+- **Instagram** uses hashtags like #awesomeproducts, #amazingproducts and #trends.
+- If a photo on **Pinterest** has a lot of likes, it can be a sign that the product or service shown has market potential.
+- **YouTube** will show a series of similar videos from any search request. Keep following the trail.
+
+## **Find out what people want**
+
+Talk to as many people as possible. You want to tap into customers’ minds and passions.
+
+What new products, solutions, communications and “experiences” truly resonate?
+
+Try to find out what their pain points are. What problems need to be solved? And how can you help be part of that solution? Regularly brainstorm with staff, customers and even suppliers.
+
+Start with problems that you’re invested in. Think about what’s out there in the marketplace and what you wish was there. Talk to your family, friends and customers about products and solutions they wish they could buy.
+
+Then look outside your industry. Try to determine how other businesses are solving problems. They might be using an approach that’s routine for them but hadn’t occurred to you before. And that’s the beginning of inspiration!
+
+## **Keep track**
+
+Every time you encounter frustration with a customer experience, note it.
+
+Ask yourself: Is this a problem I could solve?
+
+Ask others if they’ve run into the same challenge. What would they like to see done about it? Could you turn that solution into a new business idea?
+
+## **Final thought**
+
+The key to gaining business inspiration is keeping an open mind.
+
+Whether you’re searching online or talking to people, use your imagination. Refine what might have been a previously odd observation into something that could be a genuine problem-solver.
+
+## Recent News
+
+[![Should you increase prices? Here’s what to consider before you do](https://www.dupaco.com/hubfs/Graphics/Collage%20hero%20graphics/certificate-email-graphic-675x338-1-4.jpg)](https://www.dupaco.com/business/resources/should-you-increase-prices-heres-what-to-consider-before-you-do)
+
+June 17, 2022
+
+#### [Should you increase prices? Here’s what to consider before you do](https://www.dupaco.com/business/resources/should-you-increase-prices-heres-what-to-consider-before-you-do)
+
+One of the best ways to get more cash coming into your business is to increase prices. It widens your margins and frees up money you might need for...
+
+[Read More](https://www.dupaco.com/business/resources/should-you-increase-prices-heres-what-to-consider-before-you-do)
+
+[![Why liquidity matters (plus ways to improve it)](https://www.dupaco.com/hubfs/Graphics/Collage%20hero%20graphics/Money-HGicon-676x338.webp)](https://www.dupaco.com/business/resources/why-liquidity-matters-plus-ways-to-improve-it)
+
+May 10, 2024
+
+#### [Why liquidity matters (plus ways to improve it)](https://www.dupaco.com/business/resources/why-liquidity-matters-plus-ways-to-improve-it)
+
+As a business owner, you’ve probably heard that cash is king. While other aspects of business ownership are important, liquidity (or cash on hand) is...
+
+[Read More](https://www.dupaco.com/business/resources/why-liquidity-matters-plus-ways-to-improve-it)
+
+[![Working capital: What is it, and how much does your business need?](https://www.dupaco.com/hubfs/wordpress-migration/dupaco-whiteloft-web-980x450-1-2.jpg)](https://www.dupaco.com/business/resources/working-capital-what-is-it-and-how-much-does-your-business-need)
+
+June 17, 2022
+
+#### [Working capital: What is it, and how much does your business need?](https://www.dupaco.com/business/resources/working-capital-what-is-it-and-how-much-does-your-business-need)
+
+Working capital is the cash you have each month to cover expenses. For example: If your overheads are $100,000 a month, and you always want three...
+
+[Read More](https://www.dupaco.com/business/resources/working-capital-what-is-it-and-how-much-does-your-business-need)
+
+✕
+
+**Heads up! This link leads to a different website.**
+
+We only do this when it's helpful for you. But we must inform you that Dupaco isn't responsible for the site's content, products, services, policies or sponsors. Also, Dupaco's Privacy Policy does not apply to third-party sites. So, if you have concerns, please look at its privacy disclosures.
+
+[Continue](https://www.dupaco.com/business/resources/waiting-for-your-next-big-idea-heres-where-to-find-business-inspiration#) Cancel
+
+✕
+
+**Heads up! This link leads to a different website.**
+
+We only do this when it's helpful for you. But we must inform you that Dupaco isn't responsible for the site's content, products, services, policies or sponsors. Also, Dupaco's Privacy Policy does not apply to third-party sites. So, if you have concerns, please look at its privacy disclosures.
+
+[Continue](https://www.dupaco.com/business/resources/waiting-for-your-next-big-idea-heres-where-to-find-business-inspiration#) Cancel
+
+Twitter Widget Iframe
