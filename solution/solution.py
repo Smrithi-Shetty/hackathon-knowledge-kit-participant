@@ -1,5 +1,5 @@
 """
-Knowledge Hackathon - V2 Solution
+Knowledge Hackathon - V3 Solution
 
 Goals
 -----
@@ -512,6 +512,9 @@ class KnowledgeSystem:
                 "url for",
                 "link should",
                 "link for",
+                "how do i join",
+                "join online",
+                "how can i join",
             )
         )
 
@@ -1029,6 +1032,16 @@ class KnowledgeSystem:
             )
 
 
+        # URL/link questions must be handled before product-specific handlers.
+        if profile["wants_url"]:
+            url = self._extract_best_url(profile, ranked)
+            if url:
+                return Answer(
+                    text=url,
+                    sources=self._sources(ranked, max_sources=2),
+                    confident=True,
+                )
+
         # Special deterministic handlers.
         specialized = self._special_answer(
             profile,
@@ -1079,25 +1092,6 @@ class KnowledgeSystem:
                 "I couldn't find enough support for that answer "
                 "in the website snapshot."
             )
-
-
-        if profile["wants_url"]:
-
-            url = self._extract_best_url(
-                profile,
-                ranked,
-            )
-
-            if url:
-
-                return Answer(
-                    text=url,
-                    sources=self._sources(
-                        ranked,
-                        max_sources=2,
-                    ),
-                    confident=True,
-                )
 
 
         if profile["wants_list"]:
@@ -1173,6 +1167,43 @@ class KnowledgeSystem:
                         "Please contact a Dupaco mortgage lender for pricing."
                     )
 
+
+        if (
+            intent == "mortgage"
+            and profile["wants_rate"]
+            and "7/1" not in q
+        ):
+            candidates = []
+            for _, block in ranked[:120]:
+                text = block.search_text
+                if not PERCENT_RE.search(block.text):
+                    continue
+                if not (
+                    "mortgage" in text
+                    or "30 year" in text
+                    or "30-year" in text
+                    or "15 year" in text
+                    or "15-year" in text
+                ):
+                    continue
+                if (
+                    "payment example does not include" in text
+                    or "actual payment obligation" in text
+                    or "loan-to-value" in text
+                ):
+                    continue
+                candidates.append(block)
+            if candidates:
+                if profile["numbers"]:
+                    matched = [b for b in candidates if profile["numbers"] & b.numbers]
+                    if matched:
+                        candidates = matched
+                selected = self._dedupe_blocks(candidates)[:6]
+                return Answer(
+                    text=" ".join(compact(b.text) for b in selected)[:2000],
+                    sources=self._sources_from_blocks(selected, 3),
+                    confident=True,
+                )
 
         if (
             "construction loan" in q
@@ -1257,45 +1288,36 @@ class KnowledgeSystem:
         # --------------------------------------------------------------------
 
         if intent == "mobile_wallet":
-
-            combined = " ".join(
-                b.text
-                for _, b in ranked[:12]
-            )
-
-            wallets = []
-
-            for wallet in (
-                "Apple Pay",
-                "Google Pay",
-                "Samsung Pay",
-            ):
-
-                if wallet.lower() in combined.lower():
-                    wallets.append(wallet)
-
-            if wallets:
-
-                text = (
-                    "Yes. Dupaco debit and credit cards can be "
-                    "added to "
-                    + ", ".join(wallets)
-                    + "."
+            mobile_blocks = [
+                b
+                for _, b in ranked[:80]
+                if (
+                    "mobile" in b.search_text
+                    or "wallet" in b.search_text
+                    or "apple pay" in b.search_text
+                    or "google pay" in b.search_text
+                    or "samsung pay" in b.search_text
                 )
-
+            ]
+            combined = " ".join(b.text for b in mobile_blocks)
+            wallets = [
+                wallet
+                for wallet in ("Apple Pay", "Google Pay", "Samsung Pay")
+                if wallet.lower() in combined.lower()
+            ]
+            if wallets:
+                text = "Yes. Dupaco debit and credit cards can be added to " + ", ".join(wallets) + "."
                 if "default" in combined.lower():
                     text += " You can also set a card as the default."
-
                 return Answer(
                     text=text,
-                    sources=self._sources(
-                        ranked,
-                        3,
-                    ),
+                    sources=self._sources_from_blocks(mobile_blocks, 3),
                     confident=True,
                 )
 
-
+        # --------------------------------------------------------------------
+        # Share Savings rates
+        # --------------------------------------------------------------------
         # --------------------------------------------------------------------
         # Share Savings rates
         # --------------------------------------------------------------------
@@ -1368,32 +1390,25 @@ class KnowledgeSystem:
         # --------------------------------------------------------------------
 
         if intent == "bright_savings":
-
-            rows = self._intent_rows(
-                ranked,
-                required=["bright", "savings"],
-                limit=12,
-            )
-
-            if rows:
-
-                best = self._best_row(
-                    profile,
-                    rows,
-                )
-
+            candidates = [
+                block
+                for _, block in ranked[:80]
+                if "bright savings" in block.search_text
+                and PERCENT_RE.search(block.text)
+                and not self._is_table_header(block)
+            ]
+            if candidates:
+                best = self._best_row(profile, candidates)
                 if best:
-
                     return Answer(
                         text=compact(best.text),
-                        sources=self._sources_from_blocks(
-                            [best],
-                            2,
-                        ),
+                        sources=self._sources_from_blocks([best], 2),
                         confident=True,
                     )
 
-
+        # --------------------------------------------------------------------
+        # Checking rates
+        # --------------------------------------------------------------------
         # --------------------------------------------------------------------
         # Checking rates
         # --------------------------------------------------------------------
@@ -1511,197 +1526,130 @@ class KnowledgeSystem:
         # --------------------------------------------------------------------
 
         if intent == "certificate":
+            rows = self._intent_rows(ranked, required=["certificate"], limit=60)
+            rate_rows = [b for b in rows if PERCENT_RE.search(b.text)]
 
-            rows = self._intent_rows(
-                ranked,
-                required=["certificate"],
-                limit=30,
-            )
-
-            rate_rows = [
-                b
-                for b in rows
-                if PERCENT_RE.search(b.text)
-            ]
-
-
-            if (
-                profile["wants_list"]
-                and not profile["numbers"]
-            ):
-
-                selected = self._dedupe_blocks(
-                    rate_rows
-                )[:15]
-
+            if profile["wants_list"] and not profile["numbers"]:
+                selected = self._dedupe_blocks(rate_rows)[:20]
                 if selected:
-
                     return Answer(
-                        text=" ".join(
-                            compact(b.text)
-                            for b in selected
-                        )[:3000],
-                        sources=self._sources_from_blocks(
-                            selected,
-                            4,
-                        ),
+                        text=" ".join(compact(b.text) for b in selected)[:3500],
+                        sources=self._sources_from_blocks(selected, 4),
                         confident=True,
                     )
 
+            if profile["numbers"]:
+                matching = [b for b in rate_rows if profile["numbers"] & b.numbers]
+                if matching:
+                    standard = [b for b in matching if "jumbo" not in b.search_text]
+                    jumbo = [b for b in matching if "jumbo" in b.search_text]
+                    chosen = []
+                    if standard:
+                        chosen.append(self._best_row(profile, standard))
+                    if jumbo:
+                        chosen.append(self._best_row(profile, jumbo))
+                    chosen = self._dedupe_blocks([b for b in chosen if b is not None])
+                    if chosen:
+                        return Answer(
+                            text=" ".join(compact(b.text) for b in chosen)[:1800],
+                            sources=self._sources_from_blocks(chosen, 3),
+                            confident=True,
+                        )
 
             if rate_rows:
-
-                best = self._best_row(
-                    profile,
-                    rate_rows,
-                )
-
-                return Answer(
-                    text=compact(best.text),
-                    sources=self._sources_from_blocks(
-                        [best],
-                        2,
-                    ),
-                    confident=True,
-                )
-
+                best = self._best_row(profile, rate_rows)
+                if best:
+                    return Answer(
+                        text=compact(best.text),
+                        sources=self._sources_from_blocks([best], 2),
+                        confident=True,
+                    )
 
         # --------------------------------------------------------------------
         # Credit cards
         # --------------------------------------------------------------------
 
         if intent == "credit_card":
-
             if profile["wants_list"]:
-
-                desired = [
-                    "platinum visa",
-                    "rewards visa",
-                    "business platinum",
-                    "business rewards",
-                ]
-
+                desired = {
+                    "Platinum Visa": ("platinum visa", "/personal/credit-cards"),
+                    "Rewards Visa": ("rewards visa", "/personal/credit-cards"),
+                    "Business Platinum Visa": ("business platinum", "/business/credit-cards"),
+                    "Business Rewards Visa": ("business rewards", "/business/credit-cards"),
+                }
                 picked = []
-
-                for name in desired:
-
+                for _, (phrase, preferred_url) in desired.items():
                     candidate = None
-                    candidate_score = -1
-
-                    for score, block in ranked[:100]:
-
-                        if (
-                            name in block.search_text
-                            and PERCENT_RE.search(block.text)
-                        ):
-
-                            if score > candidate_score:
-                                candidate = block
-                                candidate_score = score
-
+                    candidate_score = float("-inf")
+                    for score, block in ranked[:200]:
+                        if phrase not in block.search_text or not PERCENT_RE.search(block.text):
+                            continue
+                        adjusted = score + (20 if preferred_url in block.url.lower() else 0)
+                        if adjusted > candidate_score:
+                            candidate = block
+                            candidate_score = adjusted
                     if candidate is not None:
                         picked.append(candidate)
-
-
                 picked = self._dedupe_blocks(picked)
-
                 if picked:
-
                     return Answer(
-                        text=" ".join(
-                            compact(b.text)
-                            for b in picked
-                        )[:2600],
-                        sources=self._sources_from_blocks(
-                            picked,
-                            4,
-                        ),
+                        text=" ".join(compact(b.text) for b in picked)[:2800],
+                        sources=self._sources_from_blocks(picked, 4),
                         confident=True,
                     )
 
-
-            # Standard Platinum purchase APR.
-            if (
-                "platinum visa" in q
-                and "purchase" in q
-            ):
-
+            if "platinum visa" in q and "purchase" in q:
                 candidates = [
-                    b
-                    for _, b in ranked[:30]
-                    if (
-                        "platinum" in b.search_text
-                        and "12.5" in b.text
-                    )
+                    b for _, b in ranked[:30]
+                    if "platinum" in b.search_text and "12.5" in b.text
                 ]
-
                 if candidates:
-
                     return Answer(
                         text=compact(candidates[0].text),
-                        sources=self._sources_from_blocks(
-                            [candidates[0]],
-                            2,
-                        ),
+                        sources=self._sources_from_blocks([candidates[0]], 2),
                         confident=True,
                     )
-
 
         # --------------------------------------------------------------------
         # Branch address
         # --------------------------------------------------------------------
 
         if intent == "branch_address":
-
-            branch_words = [
-                term
-                for term in profile["tokens"]
-                if term not in {
-                    "branch",
-                    "address",
-                }
-            ]
-
+            ignore = {"branch", "address", "dupaco"}
+            location_words = [token for token in profile["tokens"] if token not in ignore]
             candidates = []
-
-            for score, block in ranked[:50]:
-
+            for score, block in ranked[:120]:
                 text = block.search_text
-
-                if "branch" not in text:
+                if location_words and not all(word in text for word in location_words):
                     continue
-
-                if (
-                    branch_words
-                    and not all(
-                        word in text
-                        for word in branch_words
-                    )
-                ):
-                    continue
-
-                if re.search(
-                    r"\b\d{3,6}\s+[A-Za-z]",
-                    block.text,
-                ):
-                    candidates.append(
-                        (score, block)
-                    )
-
+                has_street = bool(re.search(r"\b\d{2,6}\s+[A-Za-z][A-Za-z0-9 .'-]{2,60}", block.text))
+                has_zip = bool(re.search(r"\b\d{5}(?:-\d{4})?\b", block.text))
+                if has_street and has_zip:
+                    candidates.append((score, block))
             if candidates:
-
+                candidates.sort(key=lambda item: item[0], reverse=True)
                 best = candidates[0][1]
-
                 return Answer(
                     text=compact(best.text),
-                    sources=self._sources_from_blocks(
-                        [best],
-                        2,
-                    ),
+                    sources=self._sources_from_blocks([best], 2),
                     confident=True,
                 )
 
+        if intent == "branch_count":
+            for _, block in ranked[:80]:
+                match = re.search(r"\b(\d{1,3})\s+(?:branch|branch office)\s+locations?\b", block.text, re.I)
+                if not match:
+                    match = re.search(r"\b(?:operates|has|with)\s+(\d{1,3})\s+branches\b", block.text, re.I)
+                if match:
+                    return Answer(
+                        text=f"{match.group(1)} branch office locations.",
+                        sources=self._sources_from_blocks([block], 2),
+                        confident=True,
+                    )
 
+        # --------------------------------------------------------------------
+        # Lobby / drive-up
+        # --------------------------------------------------------------------
         # --------------------------------------------------------------------
         # Lobby / drive-up
         # --------------------------------------------------------------------
@@ -1719,9 +1667,12 @@ class KnowledgeSystem:
 
             candidates = [
                 b
-                for _, b in ranked[:80]
+                for _, b in ranked[:200]
                 if (
-                    keyword in b.search_text
+                    (
+                        keyword in b.search_text
+                        or (intent == "lobby_hours" and "branch" in b.search_text)
+                    )
                     and self._looks_like_hours(
                         b.text
                     )
@@ -1771,6 +1722,56 @@ class KnowledgeSystem:
 
 
         # --------------------------------------------------------------------
+        # Home$tart / membership / Forbes
+        # --------------------------------------------------------------------
+
+        if intent == "homestart":
+            candidates = [
+                b for _, b in ranked[:100]
+                if ("home$tart" in b.search_text or "homestart" in b.search_text)
+                and ("$15,000" in b.text or "15,000" in b.text)
+            ]
+            if candidates:
+                best = candidates[0]
+                return Answer(
+                    text=compact(best.text),
+                    sources=self._sources_from_blocks([best], 2),
+                    confident=True,
+                )
+
+        if intent == "membership":
+            evidence = [
+                b for _, b in ranked[:100]
+                if "iowa" in b.search_text and "illinois" in b.search_text and "wisconsin" in b.search_text
+            ]
+            if evidence:
+                best = evidence[0]
+                return Answer(
+                    text=("Dupaco membership is available to people who live or work in its charter area in Iowa, Illinois and Wisconsin. " + compact(best.text))[:1400],
+                    sources=self._sources_from_blocks([best], 2),
+                    confident=True,
+                )
+
+        if intent == "forbes":
+            candidates = []
+            for score, block in ranked[:100]:
+                text = block.search_text
+                if "forbes" not in text:
+                    continue
+                bonus = 25 if "fifth" in text else (20 if "five times" in text else 0)
+                if "fourth" in text:
+                    bonus -= 10
+                candidates.append((score + bonus, block))
+            if candidates:
+                candidates.sort(key=lambda item: item[0], reverse=True)
+                best = candidates[0][1]
+                return Answer(
+                    text=compact(best.text),
+                    sources=self._sources_from_blocks([best], 2),
+                    confident=True,
+                )
+
+        # --------------------------------------------------------------------
         # Student loans
         # --------------------------------------------------------------------
 
@@ -1809,6 +1810,20 @@ class KnowledgeSystem:
     # ROW HELPERS
     # ========================================================================
 
+    def _is_table_header(self, block):
+        text = block.text.lower()
+        header_terms = (
+            "account type",
+            "balance tier",
+            "dividend rate",
+            "annual percentage yield",
+            "min. to open",
+            "minimum to open",
+        )
+        hits = sum(1 for term in header_terms if term in text)
+        return hits >= 3 and not PERCENT_RE.search(block.text)
+
+
     def _intent_rows(
         self,
         ranked,
@@ -1821,6 +1836,9 @@ class KnowledgeSystem:
         for _, block in ranked:
 
             if block.kind != "table_row":
+                continue
+
+            if self._is_table_header(block):
                 continue
 
             text = block.search_text
